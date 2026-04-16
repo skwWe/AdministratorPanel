@@ -1,0 +1,15 @@
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\bin\Debug\net8.0\AdministratorPanel.Application.deps.json
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\bin\Debug\net8.0\AdministratorPanel.Application.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\bin\Debug\net8.0\AdministratorPanel.Application.pdb
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\bin\Debug\net8.0\AdministratorPanel.Core.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\bin\Debug\net8.0\AdministratorPanel.Core.pdb
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\obj\Debug\net8.0\AdministratorPanel.Application.csproj.AssemblyReference.cache
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\obj\Debug\net8.0\AdministratorPanel.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\obj\Debug\net8.0\AdministratorPanel.Application.AssemblyInfoInputs.cache
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\obj\Debug\net8.0\AdministratorPanel.Application.AssemblyInfo.cs
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\obj\Debug\net8.0\AdministratorPanel.Application.csproj.CoreCompileInputs.cache
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\obj\Debug\net8.0\Administ.89B83ABD.Up2Date
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\obj\Debug\net8.0\AdministratorPanel.Application.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\obj\Debug\net8.0\refint\AdministratorPanel.Application.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\obj\Debug\net8.0\AdministratorPanel.Application.pdb
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Application\obj\Debug\net8.0\ref\AdministratorPanel.Application.dll

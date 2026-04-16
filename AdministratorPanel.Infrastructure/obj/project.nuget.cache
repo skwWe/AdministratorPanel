@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ebyr6pomllY=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\skw\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.5\\microsoft.extensions.dependencyinjection.10.0.5.nupkg.sha512",
+    "C:\\Users\\skw\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.5\\microsoft.extensions.dependencyinjection.abstractions.10.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

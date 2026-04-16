@@ -1,0 +1,8 @@
+Сервер: nn-lsed-app09
+Дата сбора: Чт апр 16 16:07:27 MSK 2026
+
+Контейнеры:
+dotnet
+crlinstaller
+sdu
+cadvisor

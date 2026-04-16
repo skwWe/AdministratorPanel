@@ -1,0 +1,87 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:vm="using:AdministratorPanel.UI.ViewModels"
+        xmlns:logViews="using:AdministratorPanel.UI.Views.LogCollector"
+        x:Class="AdministratorPanel.UI.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        mc:Ignorable="d"
+        Width="1280"
+        Height="760"
+        MinWidth="1100"
+        MinHeight="650"
+        Title="AdministratorPanel">
+
+    <Grid ColumnDefinitions="280,*" RowDefinitions="*">
+        <Border Grid.Column="0"
+                Background="#1F2937"
+                Padding="16">
+            <Grid RowDefinitions="Auto,16,*">
+                <StackPanel>
+                    <TextBlock Text="AdministratorPanel"
+                               FontSize="24"
+                               FontWeight="Bold"
+                               Foreground="White"/>
+                    <TextBlock Text="Панель инструментов"
+                               Margin="0,6,0,0"
+                               Foreground="#D1D5DB"/>
+                </StackPanel>
+
+                <ListBox Grid.Row="2"
+                         ItemsSource="{Binding Tools}"
+                         SelectedItem="{Binding SelectedTool}"
+                         Background="Transparent"
+                         BorderThickness="0">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate x:DataType="vm:ToolItemViewModel">
+                            <Border Margin="0,0,0,10"
+                                    Padding="12"
+                                    CornerRadius="10"
+                                    Background="#334155"
+                                    BorderBrush="#475569"
+                                    BorderThickness="1">
+                                <StackPanel Spacing="4">
+                                    <TextBlock Text="{Binding Name}"
+                                               FontSize="16"
+                                               FontWeight="SemiBold"
+                                               Foreground="White"/>
+                                    <TextBlock Text="{Binding Description}"
+                                               TextWrapping="Wrap"
+                                               FontSize="12"
+                                               Foreground="#CBD5E1"/>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </Grid>
+        </Border>
+
+        <Grid Grid.Column="1"
+              Background="#F3F4F6"
+              RowDefinitions="Auto,*">
+            <Border Background="White"
+                    Padding="24"
+                    BorderBrush="#E5E7EB"
+                    BorderThickness="0,0,0,1">
+                <StackPanel>
+                    <TextBlock Text="{Binding PageTitle}"
+                               FontSize="28"
+                               FontWeight="Bold"
+                               Foreground="#111827"/>
+                    <TextBlock Text="{Binding PageDescription}"
+                               Margin="0,8,0,0"
+                               FontSize="15"
+                               Foreground="#4B5563"
+                               TextWrapping="Wrap"/>
+                </StackPanel>
+            </Border>
+
+            <Grid Grid.Row="1" Margin="24">
+                <logViews:LogCollectorView x:Name="LogCollectorHost"
+                           IsVisible="{Binding IsLogCollectorSelected}"/>
+            </Grid>
+        </Grid>
+    </Grid>
+</Window>

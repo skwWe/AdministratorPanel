@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "AdministratorPanel.Application/1.0.0": {
+        "dependencies": {
+          "AdministratorPanel.Core": "1.0.0"
+        },
+        "runtime": {
+          "AdministratorPanel.Application.dll": {}
+        }
+      },
+      "AdministratorPanel.Core/1.0.0": {
+        "runtime": {
+          "AdministratorPanel.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AdministratorPanel.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdministratorPanel.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

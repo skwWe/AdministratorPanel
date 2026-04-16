@@ -1,0 +1,17 @@
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\bin\Debug\net8.0\AdministratorPanel.Modules.LogCollector.deps.json
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\bin\Debug\net8.0\AdministratorPanel.Modules.LogCollector.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\bin\Debug\net8.0\AdministratorPanel.Modules.LogCollector.pdb
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\bin\Debug\net8.0\AdministratorPanel.Application.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\bin\Debug\net8.0\AdministratorPanel.Core.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\bin\Debug\net8.0\AdministratorPanel.Core.pdb
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\bin\Debug\net8.0\AdministratorPanel.Application.pdb
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\obj\Debug\net8.0\AdministratorPanel.Modules.LogCollector.csproj.AssemblyReference.cache
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\obj\Debug\net8.0\AdministratorPanel.Modules.LogCollector.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\obj\Debug\net8.0\AdministratorPanel.Modules.LogCollector.AssemblyInfoInputs.cache
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\obj\Debug\net8.0\AdministratorPanel.Modules.LogCollector.AssemblyInfo.cs
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\obj\Debug\net8.0\AdministratorPanel.Modules.LogCollector.csproj.CoreCompileInputs.cache
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\obj\Debug\net8.0\Administ.B09970E6.Up2Date
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\obj\Debug\net8.0\AdministratorPanel.Modules.LogCollector.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\obj\Debug\net8.0\refint\AdministratorPanel.Modules.LogCollector.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\obj\Debug\net8.0\AdministratorPanel.Modules.LogCollector.pdb
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Modules.LogCollector\obj\Debug\net8.0\ref\AdministratorPanel.Modules.LogCollector.dll

@@ -1,0 +1,37 @@
+Hostname: nn-lsed-app03.nnov.ru
+Date: Чт апр 16 16:07:13 MSK 2026
+User: uid=1011(Kuznetsov.SS) gid=1013(Kuznetsov.SS) группы=1013(Kuznetsov.SS),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),109(netdev),119(docker),333(astra-console),1001(astra-admin)
+PATH: /usr/local/bin:/usr/bin:/bin:/usr/local/sbin:/usr/sbin:/sbin
+Docker path: /usr/bin/docker
+Groups: Kuznetsov.SS cdrom floppy audio dip video plugdev netdev docker astra-console astra-admin
+
+[docker ps status]
+0
+
+[docker ps output]
+CONTAINER ID   IMAGE                                           COMMAND                  CREATED       STATUS                 PORTS                                           NAMES
+eec9f900d665   nn-lsed-mgmt.nnov.ru:5000/dotnet:8              "dotnet-monitor coll…"   4 hours ago   Up 4 hours             0.0.0.0:52326->52323/tcp, :::52326->52323/tcp   dotnet
+8e50228fb491   nn-lsed-mgmt.nnov.ru:5000/sdu-astra:111         "supervisord"            4 hours ago   Up 4 hours             0.0.0.0:54545->5050/tcp, :::54545->5050/tcp     sdu
+d12cc15418ee   nn-lsed-mgmt.nnov.ru:5000/crlinstaller:latest   "crond -f -l 8"          4 hours ago   Up 4 hours                                                             crlinstaller
+74227b5aacb6   nn-lsed-mgmt.nnov.ru:5000/cadvisor:v0.47.1      "/usr/bin/cadvisor -…"   4 hours ago   Up 4 hours (healthy)   0.0.0.0:8000->8080/tcp, :::8000->8080/tcp       cadvisor
+
+[docker ps --format status]
+0
+
+[docker ps --format output]
+dotnet
+sdu
+crlinstaller
+cadvisor
+
+[container: dotnet]
+running
+
+[container: sdu]
+running
+
+[container: crlinstaller]
+running
+
+[container: cadvisor]
+running
