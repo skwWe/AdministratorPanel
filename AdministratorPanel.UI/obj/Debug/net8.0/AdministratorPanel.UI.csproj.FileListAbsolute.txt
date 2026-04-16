@@ -88,3 +88,4 @@ C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net
 C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net8.0\AdministratorPanel.UI.pdb
 C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net8.0\AdministratorPanel.UI.genruntimeconfig.cache
 C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net8.0\ref\AdministratorPanel.UI.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net8.0\AdministratorPanel.UI.sourcelink.json

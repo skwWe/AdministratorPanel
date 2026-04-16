@@ -3,6 +3,18 @@
   "WorkspaceRootPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9A8AFCE5-A3A8-7CFB-7FF3-45C0CA197FF0}|AdministratorPanel.Tests\\AdministratorPanel.Tests.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.tests\\modules\\logcollector\\logcollectorworkspaceservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8AFCE5-A3A8-7CFB-7FF3-45C0CA197FF0}|AdministratorPanel.Tests\\AdministratorPanel.Tests.csproj|solutionrelative:administratorpanel.tests\\modules\\logcollector\\logcollectorworkspaceservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8AFCE5-A3A8-7CFB-7FF3-45C0CA197FF0}|AdministratorPanel.Tests\\AdministratorPanel.Tests.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.tests\\infrastructure\\defaultservergrouprepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8AFCE5-A3A8-7CFB-7FF3-45C0CA197FF0}|AdministratorPanel.Tests\\AdministratorPanel.Tests.csproj|solutionrelative:administratorpanel.tests\\infrastructure\\defaultservergrouprepositorytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.logcollector\\services\\logcollectorworkspaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|solutionrelative:administratorpanel.modules.logcollector\\services\\logcollectorworkspaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.logcollector\\data\\defaultservergroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|solutionrelative:administratorpanel.modules.logcollector\\data\\defaultservergroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -93,10 +105,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.logcollector\\enums\\servercollectionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|solutionrelative:administratorpanel.modules.logcollector\\enums\\servercollectionstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.logcollector\\services\\logcollectorworkspaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|solutionrelative:administratorpanel.modules.logcollector\\services\\logcollectorworkspaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.logcollector\\abstractions\\ilogcollectorworkspaceservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -222,23 +230,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "collect_app_logs.sh",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Assets\\Scripts\\collect_app_logs.sh",
-              "RelativeDocumentMoniker": "AdministratorPanel.UI\\Assets\\Scripts\\collect_app_logs.sh",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Assets\\Scripts\\collect_app_logs.sh",
-              "RelativeToolTip": "AdministratorPanel.UI\\Assets\\Scripts\\collect_app_logs.sh",
-              "ViewState": "AgIAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
-              "WhenOpened": "2026-04-15T22:42:12.374Z"
+              "DocumentIndex": 1,
+              "Title": "DefaultServerGroupRepositoryTests.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Tests\\Infrastructure\\DefaultServerGroupRepositoryTests.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Tests\\Infrastructure\\DefaultServerGroupRepositoryTests.cs",
+              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Tests\\Infrastructure\\DefaultServerGroupRepositoryTests.cs",
+              "RelativeToolTip": "AdministratorPanel.Tests\\Infrastructure\\DefaultServerGroupRepositoryTests.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAYwBwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T13:19:21.239Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 0,
+              "Title": "LogCollectorWorkspaceServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Tests\\Modules\\LogCollector\\LogCollectorWorkspaceServiceTests.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Tests\\Modules\\LogCollector\\LogCollectorWorkspaceServiceTests.cs",
+              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Tests\\Modules\\LogCollector\\LogCollectorWorkspaceServiceTests.cs",
+              "RelativeToolTip": "AdministratorPanel.Tests\\Modules\\LogCollector\\LogCollectorWorkspaceServiceTests.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAgwF0AAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T13:17:51.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "LogCollectorView.axaml.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\LogCollectorView.axaml.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\LogCollectorView.axaml.cs",
@@ -250,7 +272,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "ServerGroupItemViewModel.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\LogCollector\\ServerGroupItemViewModel.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\LogCollector\\ServerGroupItemViewModel.cs",
@@ -262,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "ServerGroupDto.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Models\\ServerGroupDto.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Models\\ServerGroupDto.cs",
@@ -274,7 +296,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "LogCollectorWorkspaceService.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Services\\LogCollectorWorkspaceService.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Services\\LogCollectorWorkspaceService.cs",
+              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Services\\LogCollectorWorkspaceService.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.LogCollector\\Services\\LogCollectorWorkspaceService.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-14T12:52:47.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "collect_app_logs.sh",
+              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Assets\\Scripts\\collect_app_logs.sh",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\Assets\\Scripts\\collect_app_logs.sh",
+              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Assets\\Scripts\\collect_app_logs.sh",
+              "RelativeToolTip": "AdministratorPanel.UI\\Assets\\Scripts\\collect_app_logs.sh",
+              "ViewState": "AgIAADQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|",
+              "WhenOpened": "2026-04-15T22:42:12.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "collect_sync_logs.sh",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Assets\\Scripts\\collect_sync_logs.sh",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Assets\\Scripts\\collect_sync_logs.sh",
@@ -286,7 +333,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "DefaultServerGroups.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Data\\DefaultServerGroups.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Data\\DefaultServerGroups.cs",
@@ -299,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "collect_convert_logs.sh",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Assets\\Scripts\\collect_convert_logs.sh",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Assets\\Scripts\\collect_convert_logs.sh",
@@ -311,7 +358,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "collect_web_logs.sh",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Assets\\Scripts\\collect_web_logs.sh",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Assets\\Scripts\\collect_web_logs.sh",
@@ -323,7 +370,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "BashLogScriptRunner.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\LogCollector\\Services\\BashLogScriptRunner.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\LogCollector\\Services\\BashLogScriptRunner.cs",
@@ -335,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "LogCollectorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\LogCollector\\LogCollectorViewModel.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\LogCollector\\LogCollectorViewModel.cs",
@@ -347,7 +394,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 11,
               "Title": "ILogScriptRunner.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Abstractions\\ILogScriptRunner.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Abstractions\\ILogScriptRunner.cs",
@@ -359,7 +406,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 12,
               "Title": "LogCollectorView.axaml",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
@@ -370,7 +417,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "RemoteServerItemViewModel.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\LogCollector\\RemoteServerItemViewModel.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\LogCollector\\RemoteServerItemViewModel.cs",
@@ -382,7 +429,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 14,
               "Title": "LogScriptProgressMessage.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Models\\LogScriptProgressMessage.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Models\\LogScriptProgressMessage.cs",
@@ -394,7 +441,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "AdministratorPanel.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj",
               "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj",
@@ -406,7 +453,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "MainWindow.axaml",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\MainWindow.axaml",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\MainWindow.axaml",
@@ -417,7 +464,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
@@ -429,7 +476,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "AdministratorPanel.UI.csproj",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\AdministratorPanel.UI.csproj",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\AdministratorPanel.UI.csproj",
@@ -441,7 +488,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "AdministratorPanel.Modules.LogCollector.csproj",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj",
@@ -453,7 +500,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "App.axaml.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\App.axaml.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\App.axaml.cs",
@@ -465,7 +512,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "LogScriptExecutionResult.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Models\\LogScriptExecutionResult.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Models\\LogScriptExecutionResult.cs",
@@ -477,7 +524,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "LogCollectionGroupType.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Enums\\LogCollectionGroupType.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Enums\\LogCollectionGroupType.cs",
@@ -489,19 +536,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LogCollectorWorkspaceService.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Services\\LogCollectorWorkspaceService.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Services\\LogCollectorWorkspaceService.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Services\\LogCollectorWorkspaceService.cs",
-              "RelativeToolTip": "AdministratorPanel.Modules.LogCollector\\Services\\LogCollectorWorkspaceService.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAzwAoAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-14T12:52:47.154Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "ILogCollectorWorkspaceService.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Abstractions\\ILogCollectorWorkspaceService.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Abstractions\\ILogCollectorWorkspaceService.cs",
@@ -513,7 +548,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "DefaultServerGroupRepository.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\LogCollector\\Repositories\\DefaultServerGroupRepository.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\LogCollector\\Repositories\\DefaultServerGroupRepository.cs",
@@ -525,7 +560,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "ServerCollectionStatus.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Enums\\ServerCollectionStatus.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Enums\\ServerCollectionStatus.cs",
@@ -537,7 +572,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "IServerGroupRepository.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Abstractions\\IServerGroupRepository.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Abstractions\\IServerGroupRepository.cs",
@@ -549,7 +584,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "RemoteServerDto.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Models\\RemoteServerDto.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Models\\RemoteServerDto.cs",
@@ -561,7 +596,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "MainWindowViewModel.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\MainWindowViewModel.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\MainWindowViewModel.cs",
@@ -573,7 +608,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "App.axaml",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\App.axaml",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\App.axaml",
@@ -584,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "MainWindow.axaml.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\MainWindow.axaml.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\MainWindow.axaml.cs",
@@ -596,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "AdministratorPanel.Application.csproj",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj",
               "RelativeDocumentMoniker": "AdministratorPanel.Application\\AdministratorPanel.Application.csproj",
@@ -608,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "ToolItemViewModel.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\ToolItemViewModel.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\ToolItemViewModel.cs",
@@ -620,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "ViewModelBase.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\ViewModelBase.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\ViewModelBase.cs",
@@ -632,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "InMemoryToolProvider.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Services\\InMemoryToolProvider.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\Services\\InMemoryToolProvider.cs",
@@ -644,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Program.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Program.cs",
@@ -656,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "ModuleBootstrapper.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Services\\ModuleBootstrapper.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\Services\\ModuleBootstrapper.cs",
@@ -668,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "LogCollectorModule.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Modules\\LogCollectorModule.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Modules\\LogCollectorModule.cs",
@@ -680,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "ServerCollectionResult.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Entities\\ServerCollectionResult.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Entities\\ServerCollectionResult.cs",
@@ -692,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "LogCollectionSession.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Entities\\LogCollectionSession.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Entities\\LogCollectionSession.cs",
@@ -704,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "ServerGroup.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Entities\\ServerGroup.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Entities\\ServerGroup.cs",
@@ -716,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "RemoteServer.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Entities\\RemoteServer.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Entities\\RemoteServer.cs",
@@ -728,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "ToolRegistry.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\Services\\ToolRegistry.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Application\\Services\\ToolRegistry.cs",
@@ -740,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "ToolRegistrationResult.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\Models\\ToolRegistrationResult.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Application\\Models\\ToolRegistrationResult.cs",
@@ -752,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "IToolRegistry.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\Abstractions\\IToolRegistry.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Application\\Abstractions\\IToolRegistry.cs",
@@ -764,7 +799,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "IToolProvider.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\Abstractions\\IToolProvider.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Application\\Abstractions\\IToolProvider.cs",
@@ -776,7 +811,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 53,
               "Title": "NavigationItem.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\Entities\\NavigationItem.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Core\\Entities\\NavigationItem.cs",
@@ -788,7 +823,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "IToolModule.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\Abstractions\\IToolModule.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Core\\Abstractions\\IToolModule.cs",
@@ -800,7 +835,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 49,
               "Title": "ToolAvailabilityStatus.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\Enums\\ToolAvailabilityStatus.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Core\\Enums\\ToolAvailabilityStatus.cs",
@@ -812,7 +847,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 54,
               "Title": "ToolType.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\Enums\\ToolType.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Core\\Enums\\ToolType.cs",
@@ -824,7 +859,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 52,
               "Title": "AdminTool.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\Entities\\AdminTool.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Core\\Entities\\AdminTool.cs",
@@ -836,7 +871,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 50,
               "Title": "ToolCategory.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\Entities\\ToolCategory.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Core\\Entities\\ToolCategory.cs",
@@ -848,7 +883,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 51,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Core\\Entities\\BaseEntity.cs",
