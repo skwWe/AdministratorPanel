@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\AdministratorPanel.UI.csproj": {}
+    "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\AdministratorPanel.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj": {
+    "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj",
+        "projectUniqueName": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj",
         "projectName": "AdministratorPanel.Application",
-        "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj",
-        "packagesPath": "C:\\Users\\skw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\obj\\",
+        "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj",
+        "packagesPath": "C:\\Users\\kss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\skw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kss\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,8 +32,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj": {
-                "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj"
+              "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj": {
+                "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj"
               }
             }
           }
@@ -48,7 +48,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -69,24 +69,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj": {
+    "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj",
+        "projectUniqueName": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj",
         "projectName": "AdministratorPanel.Core",
-        "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj",
-        "packagesPath": "C:\\Users\\skw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\obj\\",
+        "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj",
+        "packagesPath": "C:\\Users\\kss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\skw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kss\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -113,7 +113,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -134,24 +134,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj": {
+    "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj",
         "projectName": "AdministratorPanel.Infrastructure",
-        "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\skw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\kss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\skw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kss\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -166,14 +166,14 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj": {
-                "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj"
+              "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj": {
+                "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj"
               },
-              "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj": {
-                "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj"
+              "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj": {
+                "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj"
               },
-              "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj": {
-                "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj"
+              "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj": {
+                "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj"
               }
             }
           }
@@ -188,7 +188,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -197,6 +197,10 @@
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.5, )"
+            },
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2025.1.0, )"
             }
           },
           "imports": [
@@ -215,24 +219,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj": {
+    "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj",
+        "projectUniqueName": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj",
         "projectName": "AdministratorPanel.Modules.LogCollector",
-        "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj",
-        "packagesPath": "C:\\Users\\skw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\obj\\",
+        "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj",
+        "packagesPath": "C:\\Users\\kss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\skw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kss\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -247,11 +251,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj": {
-                "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj"
+              "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj": {
+                "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj"
               },
-              "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj": {
-                "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj"
+              "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj": {
+                "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj"
               }
             }
           }
@@ -266,11 +270,17 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2025.1.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -287,24 +297,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\AdministratorPanel.UI.csproj": {
+    "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\AdministratorPanel.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\AdministratorPanel.UI.csproj",
+        "projectUniqueName": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\AdministratorPanel.UI.csproj",
         "projectName": "AdministratorPanel.UI",
-        "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\AdministratorPanel.UI.csproj",
-        "packagesPath": "C:\\Users\\skw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\obj\\",
+        "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\AdministratorPanel.UI.csproj",
+        "packagesPath": "C:\\Users\\kss\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\skw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\kss\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -319,17 +329,17 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj": {
-                "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj"
+              "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj": {
+                "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Application\\AdministratorPanel.Application.csproj"
               },
-              "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj": {
-                "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj"
+              "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj": {
+                "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj"
               },
-              "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj"
+              "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj"
               },
-              "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj": {
-                "projectPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj"
+              "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj": {
+                "projectPath": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj"
               }
             }
           }
@@ -344,7 +354,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "10.0.200"
       },
       "frameworks": {
         "net8.0": {
@@ -395,7 +405,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.201/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

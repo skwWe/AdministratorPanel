@@ -1,9 +1,4 @@
 ﻿using AdministratorPanel.Modules.LogCollector.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AdministratorPanel.Modules.LogCollector.Abstractions
 {
@@ -12,5 +7,21 @@ namespace AdministratorPanel.Modules.LogCollector.Abstractions
         IReadOnlyCollection<ServerGroup> GetAll();
 
         ServerGroup? GetByName(string groupName);
+
+        RemoteServer? GetServerById(Guid serverId);
+
+        RemoteServer AddServer(
+            Guid groupId,
+            string displayName,
+            string ipAddress,
+            bool isEnabled);
+
+        bool UpdateServer(
+            Guid serverId,
+            string displayName,
+            string ipAddress,
+            bool isEnabled);
+
+        bool DeleteServer(Guid serverId);
     }
 }

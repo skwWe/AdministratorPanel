@@ -2,6 +2,7 @@
 using AdministratorPanel.Application.Services;
 using AdministratorPanel.Infrastructure.LogCollector.Repositories;
 using AdministratorPanel.Infrastructure.LogCollector.Services;
+using AdministratorPanel.Infrastructure.LogCollector.Ssh;
 using AdministratorPanel.Infrastructure.Services;
 using AdministratorPanel.Modules.LogCollector.Abstractions;
 using AdministratorPanel.Modules.LogCollector.Services;
@@ -15,12 +16,15 @@ public static class ServiceCollectionExtensions
     {
         ArgumentNullException.ThrowIfNull(services);
 
+
         services.AddSingleton<IToolRegistry, ToolRegistry>();
         services.AddSingleton<IToolProvider, InMemoryToolProvider>();
 
-        services.AddSingleton<IServerGroupRepository, DefaultServerGroupRepository>();
+        services.AddSingleton<IServerGroupRepository, JsonServerGroupRepository>();
         services.AddSingleton<ILogCollectorWorkspaceService, LogCollectorWorkspaceService>();
-        services.AddSingleton<ILogScriptRunner, BashLogScriptRunner>();
+        services.AddSingleton<ILogScriptRunner, SshNetLogScriptRunner>();
+        services.AddSingleton<ISshCommandRunner, SshNetCommandRunner>();
+        services.AddSingleton<IServerDiscoveryService, SshServerDiscoveryService>();
 
         services.AddSingleton<ModuleBootstrapper>();
 

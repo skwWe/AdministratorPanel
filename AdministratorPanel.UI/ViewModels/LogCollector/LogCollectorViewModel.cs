@@ -14,6 +14,8 @@ public partial class LogCollectorViewModel : ViewModelBase
 {
     private readonly ILogCollectorWorkspaceService _workspaceService;
     private readonly ILogScriptRunner _logScriptRunner;
+    private readonly ISshCommandRunner _sshCommandRunner;
+    private readonly IServerDiscoveryService _serverDiscoveryService;
 
     [ObservableProperty]
     private ServerGroupItemViewModel? _selectedGroup;
@@ -45,6 +47,15 @@ public partial class LogCollectorViewModel : ViewModelBase
     [ObservableProperty]
     private string _sshUserName = "Kuznetsov.SS";
 
+    [ObservableProperty]
+    private string _serverDisplayName = string.Empty;
+
+    [ObservableProperty]
+    private string _serverIpAddress = string.Empty;
+
+    [ObservableProperty]
+    private bool _serverIsEnabled = true;
+
     private bool _isWslMissing;
 
     public bool IsWslMissing
@@ -55,15 +66,18 @@ public partial class LogCollectorViewModel : ViewModelBase
 
     public LogCollectorViewModel(
         ILogCollectorWorkspaceService workspaceService,
-        ILogScriptRunner logScriptRunner)
+        ILogScriptRunner logScriptRunner,
+        ISshCommandRunner sshCommandRunner,
+        IServerDiscoveryService serverDiscoveryService)
     {
         _workspaceService = workspaceService;
         _logScriptRunner = logScriptRunner;
+        _sshCommandRunner = sshCommandRunner;
+        _serverDiscoveryService = serverDiscoveryService;
 
         Groups = new ObservableCollection<ServerGroupItemViewModel>();
         Servers = new ObservableCollection<RemoteServerItemViewModel>();
 
-        CheckWslAvailability();
         Load();
     }
 
@@ -71,7 +85,7 @@ public partial class LogCollectorViewModel : ViewModelBase
 
     public ObservableCollection<RemoteServerItemViewModel> Servers { get; }
 
-    public bool CanRun => SelectedGroup is not null && !IsRunning && IsWslAvailable;
+    public bool CanRun => SelectedGroup is not null && !IsRunning;
 
     partial void OnSelectedGroupChanged(ServerGroupItemViewModel? value)
     {
@@ -110,11 +124,6 @@ public partial class LogCollectorViewModel : ViewModelBase
     [RelayCommand(CanExecute = nameof(GetCanRunCollection))]
     private async Task RunCollectionAsync()
     {
-        if (!IsWslAvailable)
-        {
-            StatusMessage = "WSL не установлен или не настроен.";
-            return;
-        }
 
         if (SelectedGroup is null)
         {
@@ -227,7 +236,7 @@ public partial class LogCollectorViewModel : ViewModelBase
 
     private bool GetCanRunCollection()
     {
-        return SelectedGroup is not null && !IsRunning && IsWslAvailable;
+        return SelectedGroup is not null && !IsRunning;
     }
 
     private void Load()
@@ -320,5 +329,306 @@ public partial class LogCollectorViewModel : ViewModelBase
             "web" => LogCollectionGroupType.Web,
             _ => throw new InvalidOperationException($"Неизвестная группа серверов: {groupName}")
         };
+    }
+
+    partial void OnSelectedServerChanged(RemoteServerItemViewModel? value)
+    {
+        if (value is null)
+        {
+            ServerDisplayName = string.Empty;
+            ServerIpAddress = string.Empty;
+            ServerIsEnabled = true;
+            return;
+        }
+
+        ServerDisplayName = value.DisplayName;
+        ServerIpAddress = value.IpAddress;
+        ServerIsEnabled = value.IsEnabled;
+    }
+
+    [RelayCommand]
+    private void AddServer()
+    {
+        if (SelectedGroup is null)
+        {
+            StatusMessage = "Сначала выбери группу серверов.";
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(ServerDisplayName))
+        {
+            StatusMessage = "Укажи имя сервера.";
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(ServerIpAddress))
+        {
+            StatusMessage = "Укажи IP-адрес сервера.";
+            return;
+        }
+
+        var server = _workspaceService.AddServer(
+            SelectedGroup.Id,
+            ServerDisplayName,
+            ServerIpAddress,
+            ServerIsEnabled);
+
+        var item = new RemoteServerItemViewModel
+        {
+            Id = server.Id,
+            DisplayName = server.DisplayName,
+            IpAddress = server.IpAddress,
+            IsEnabled = server.IsEnabled
+        };
+
+        SelectedGroup.Servers.Add(item);
+        Servers.Add(item);
+        SelectedServer = item;
+
+        OnPropertyChanged(nameof(SelectedGroup.ServerCount));
+
+        StatusMessage = $"Сервер {server.DisplayName} добавлен.";
+    }
+
+    [RelayCommand]
+    private void UpdateServer()
+    {
+        if (SelectedServer is null)
+        {
+            StatusMessage = "Выбери сервер для редактирования.";
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(ServerDisplayName))
+        {
+            StatusMessage = "Укажи имя сервера.";
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(ServerIpAddress))
+        {
+            StatusMessage = "Укажи IP-адрес сервера.";
+            return;
+        }
+
+        var updated = _workspaceService.UpdateServer(
+            SelectedServer.Id,
+            ServerDisplayName,
+            ServerIpAddress,
+            ServerIsEnabled);
+
+        if (!updated)
+        {
+            StatusMessage = "Сервер не найден.";
+            return;
+        }
+
+        SelectedServer.DisplayName = ServerDisplayName.Trim();
+        SelectedServer.IpAddress = ServerIpAddress.Trim();
+        SelectedServer.IsEnabled = ServerIsEnabled;
+
+        StatusMessage = $"Сервер {SelectedServer.DisplayName} обновлён.";
+    }
+
+    [RelayCommand]
+    private void DeleteServer()
+    {
+        if (SelectedServer is null)
+        {
+            StatusMessage = "Выбери сервер для удаления.";
+            return;
+        }
+
+        var deletedServer = SelectedServer;
+
+        var deleted = _workspaceService.DeleteServer(deletedServer.Id);
+
+        if (!deleted)
+        {
+            StatusMessage = "Сервер не найден.";
+            return;
+        }
+
+        Servers.Remove(deletedServer);
+        SelectedGroup?.Servers.Remove(deletedServer);
+
+        SelectedServer = Servers.FirstOrDefault();
+
+        if (SelectedGroup is not null)
+        {
+            OnPropertyChanged(nameof(SelectedGroup.ServerCount));
+        }
+
+        StatusMessage = $"Сервер {deletedServer.DisplayName} удалён.";
+    }
+
+    [RelayCommand]
+    private void ClearServerForm()
+    {
+        SelectedServer = null;
+        ServerDisplayName = string.Empty;
+        ServerIpAddress = string.Empty;
+        ServerIsEnabled = true;
+    }
+
+    [RelayCommand]
+    private async Task TestSshConnectionAsync()
+    {
+        if (SelectedServer is null)
+        {
+            StatusMessage = "Выбери сервер.";
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(SshUserName))
+        {
+            StatusMessage = "Укажи SSH-пользователя.";
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(Password))
+        {
+            StatusMessage = "Укажи пароль.";
+            return;
+        }
+
+        IsRunning = true;
+        ExecutionOutput = string.Empty;
+        ExecutionError = string.Empty;
+        StatusMessage = $"Проверка SSH-подключения к {SelectedServer.DisplayName}...";
+
+        try
+        {
+            var result = await _sshCommandRunner.RunAsync(
+                SelectedServer.IpAddress,
+                SshUserName,
+                Password,
+                "hostname");
+
+            ExecutionOutput = result.Output;
+            ExecutionError = result.Error;
+
+            StatusMessage = result.IsSuccess
+                ? "SSH-подключение успешно."
+                : $"SSH-команда завершилась с ошибкой. Код: {result.ExitCode}";
+        }
+        catch (Exception ex)
+        {
+            ExecutionError = ex.ToString();
+            StatusMessage = "Не удалось выполнить SSH-подключение.";
+        }
+        finally
+        {
+            IsRunning = false;
+        }
+    }
+
+    [RelayCommand]
+    private async Task DiscoverServersAsync()
+    {
+        if (SelectedGroup is null)
+        {
+            StatusMessage = "Сначала выбери группу серверов.";
+            return;
+        }
+
+        var groupName = SelectedGroup.Name.Trim().ToLowerInvariant();
+
+        var prefix = groupName switch
+        {
+            "app" => "nn-lsed-app",
+            "convert" => "nn-lsed-convert",
+            "sync" => "nn-lsed-sync",
+            "web" => "nn-lsed-web",
+            _ => string.Empty
+        };
+
+        if (string.IsNullOrWhiteSpace(prefix))
+        {
+            StatusMessage = $"Для группы {SelectedGroup.Name} не задан шаблон поиска.";
+            return;
+        }
+
+        var maxNumber = groupName == "web" ? 50 : 30;
+
+        IsRunning = true;
+        StatusMessage = $"Поиск серверов: {prefix}01...{prefix}{maxNumber:00}";
+
+        try
+        {
+            var discoveredServers = await _serverDiscoveryService.DiscoverAsync(
+                prefix,
+                1,
+                maxNumber,
+                SshUserName,
+                Password);
+
+            if (string.IsNullOrWhiteSpace(Password))
+            {
+                StatusMessage = "Введи пароль для автопоиска серверов";
+                return;
+            }
+
+            var addedCount = 0;
+            var updatedCount = 0;
+
+            foreach (var discoveredServer in discoveredServers)
+            {
+                if (!discoveredServer.DisplayName.Contains($"-{groupName}", StringComparison.OrdinalIgnoreCase))
+                {
+                    continue;
+                }
+                var existingServer = SelectedGroup.Servers.FirstOrDefault(x =>
+                    string.Equals(x.DisplayName, discoveredServer.DisplayName, StringComparison.OrdinalIgnoreCase));
+
+                if (existingServer is not null)
+                {
+                    if (!string.Equals(existingServer.IpAddress, discoveredServer.IpAdress, StringComparison.OrdinalIgnoreCase))
+                    {
+                        _workspaceService.UpdateServer(
+                            existingServer.Id,
+                            existingServer.DisplayName,
+                            discoveredServer.IpAdress,
+                            existingServer.IsEnabled);
+
+                        existingServer.IpAddress = discoveredServer.IpAdress;
+                        updatedCount++;
+                    }
+
+                    continue;
+                }
+
+                var savedServer = _workspaceService.AddServer(
+                    SelectedGroup.Id,
+                    discoveredServer.DisplayName,
+                    discoveredServer.IpAdress,
+                    true);
+
+                var item = new RemoteServerItemViewModel
+                {
+                    Id = savedServer.Id,
+                    DisplayName = savedServer.DisplayName,
+                    IpAddress = savedServer.IpAddress,
+                    IsEnabled = savedServer.IsEnabled
+                };
+
+                SelectedGroup.Servers.Add(item);
+                Servers.Add(item);
+                addedCount++;
+            }
+
+            OnPropertyChanged(nameof(SelectedGroup.ServerCount));
+
+            StatusMessage = $"Поиск завершён. Найдено: {discoveredServers.Count}. Добавлено: {addedCount}. Обновлено: {updatedCount}.";
+        }
+        catch (Exception ex)
+        {
+            ExecutionError = ex.ToString();
+            StatusMessage = "Ошибка поиска серверов.";
+        }
+        finally
+        {
+            IsRunning = false;
+        }
     }
 }

@@ -1,0 +1,3 @@
+nn-lsed-app09
+Чт апр 30 10:19:23 MSK 2026
+uid=1014(Kuznetsov.SS) gid=1016(Kuznetsov.SS) группы=1016(Kuznetsov.SS),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),109(netdev),124(docker),333(astra-console),1001(astra-admin)

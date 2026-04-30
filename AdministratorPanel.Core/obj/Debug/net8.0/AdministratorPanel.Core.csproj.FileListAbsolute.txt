@@ -9,3 +9,15 @@ C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\n
 C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\refint\AdministratorPanel.Core.dll
 C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\AdministratorPanel.Core.pdb
 C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\ref\AdministratorPanel.Core.dll
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Core\bin\Debug\net8.0\AdministratorPanel.Core.deps.json
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Core\bin\Debug\net8.0\AdministratorPanel.Core.dll
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Core\bin\Debug\net8.0\AdministratorPanel.Core.pdb
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\AdministratorPanel.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\AdministratorPanel.Core.AssemblyInfoInputs.cache
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\AdministratorPanel.Core.AssemblyInfo.cs
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\AdministratorPanel.Core.csproj.CoreCompileInputs.cache
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\AdministratorPanel.Core.sourcelink.json
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\AdministratorPanel.Core.dll
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\refint\AdministratorPanel.Core.dll
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\AdministratorPanel.Core.pdb
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\ref\AdministratorPanel.Core.dll

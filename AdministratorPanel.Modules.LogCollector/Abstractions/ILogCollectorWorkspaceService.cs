@@ -1,14 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AdministratorPanel.Modules.LogCollector.Models;
+﻿using AdministratorPanel.Modules.LogCollector.Models;
 
 namespace AdministratorPanel.Modules.LogCollector.Abstractions
 {
     public interface ILogCollectorWorkspaceService
     {
         IReadOnlyCollection<ServerGroupDto> GetServerGroups();
+
+        RemoteServerDto AddServer(
+            Guid groupId,
+            string displayName,
+            string ipAddress,
+            bool isEnabled);
+
+        bool UpdateServer(
+            Guid serverId,
+            string displayName,
+            string ipAddress,
+            bool isEnabled);
+
+        bool DeleteServer(Guid serverId);
     }
 }

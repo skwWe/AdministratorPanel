@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="SSH.NET" Version="2025.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\AdministratorPanel.Core\AdministratorPanel.Core.csproj" />
     <ProjectReference Include="..\AdministratorPanel.Application\AdministratorPanel.Application.csproj" />
   </ItemGroup>

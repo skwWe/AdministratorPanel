@@ -1,8 +1,0 @@
-Сервер: nn-lsed-app04.nnov.ru
-Дата сбора: Чт апр 16 16:07:12 MSK 2026
-
-Контейнеры:
-dotnet
-sdu
-crlinstaller
-cadvisor

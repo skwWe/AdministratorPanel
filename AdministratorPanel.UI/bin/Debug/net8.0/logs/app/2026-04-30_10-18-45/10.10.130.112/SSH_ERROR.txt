@@ -1,0 +1,9 @@
+System.Net.Sockets.SocketException (10053): Программа на вашем хост-компьютере разорвала установленное подключение.
+   at System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   at Renci.SshNet.Abstractions.SocketAbstraction.Read(Socket socket, Byte[] buffer, Int32 offset, Int32 size, TimeSpan readTimeout)
+   at Renci.SshNet.Connection.ProtocolVersionExchange.SocketReadLine(Socket socket, TimeSpan timeout, List`1 buffer)
+   at Renci.SshNet.Connection.ProtocolVersionExchange.Start(String clientVersion, Socket socket, TimeSpan timeout)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at AdministratorPanel.Infrastructure.LogCollector.Services.SshNetLogScriptRunner.<>c__DisplayClass2_0.<RunAsync>b__0() in C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Infrastructure\LogCollector\Services\SshNetLogScriptRunner.cs:line 86

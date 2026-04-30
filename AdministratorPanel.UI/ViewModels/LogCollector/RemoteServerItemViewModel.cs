@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,14 +7,17 @@ using System.Threading.Tasks;
 
 namespace AdministratorPanel.UI.ViewModels.LogCollector
 {
-    public sealed class RemoteServerItemViewModel : ViewModelBase
+    public partial class RemoteServerItemViewModel : ObservableObject
     {
         public Guid Id { get; init; }
 
-        public string DisplayName { get; init; } = string.Empty;
+        [ObservableProperty]
+        private string _displayName = string.Empty;
 
-        public string IpAddress { get; init; } = string.Empty;
+        [ObservableProperty]
+        private string _ipAddress = string.Empty;
 
-        public bool IsEnabled { get; init; }
+        [ObservableProperty]
+        private bool _isEnabled;
     }
 }
