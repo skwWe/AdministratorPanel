@@ -8,199 +8,471 @@
              mc:Ignorable="d">
 
     <UserControl.Styles>
+        <!-- Фон -->
+        <Style Selector="UserControl">
+            <Setter Property="Background" Value="#F5F7FB"/>
+        </Style>
+
+        <!-- Карточки -->
         <Style Selector="Border.card">
             <Setter Property="Background" Value="#FFFFFF"/>
-            <Setter Property="CornerRadius" Value="14"/>
-            <Setter Property="Padding" Value="18"/>
+            <Setter Property="BorderBrush" Value="#E5E7EB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="16"/>
+            <Setter Property="Padding" Value="20"/>
+        </Style>
+
+        <!-- Заголовки -->
+        <Style Selector="TextBlock.pageTitle">
+            <Setter Property="FontSize" Value="28"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#0F172A"/>
         </Style>
 
         <Style Selector="TextBlock.h1">
-            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="FontSize" Value="18"/>
             <Setter Property="FontWeight" Value="SemiBold"/>
-            <Setter Property="Foreground" Value="#1F2937"/>
+            <Setter Property="Foreground" Value="#0F172A"/>
         </Style>
 
         <Style Selector="TextBlock.h2">
-            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontSize" Value="14"/>
             <Setter Property="FontWeight" Value="SemiBold"/>
             <Setter Property="Foreground" Value="#111827"/>
         </Style>
 
         <Style Selector="TextBlock.muted">
-            <Setter Property="Foreground" Value="#4B5563"/>
-            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="Foreground" Value="#6B7280"/>
         </Style>
 
+        <Style Selector="TextBlock.label">
+            <Setter Property="FontSize" Value="13"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#374151"/>
+            <Setter Property="Margin" Value="0,0,0,6"/>
+        </Style>
+
+        <!-- Поля ввода -->
+        <Style Selector="TextBox.input">
+            <Setter Property="MinHeight" Value="42"/>
+            <Setter Property="Padding" Value="12,10"/>
+            <Setter Property="Background" Value="#F9FAFB"/>
+            <Setter Property="Foreground" Value="#111827"/>
+            <Setter Property="BorderBrush" Value="#D1D5DB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+
+        <!-- Вывод -->
         <Style Selector="TextBox.output">
+            <Setter Property="Background" Value="#0F172A"/>
+            <Setter Property="Foreground" Value="#E5E7EB"/>
+            <Setter Property="BorderBrush" Value="#1F2937"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding" Value="14"/>
+            <Setter Property="FontFamily" Value="Consolas"/>
+            <Setter Property="FontSize" Value="13"/>
             <Setter Property="IsReadOnly" Value="True"/>
             <Setter Property="AcceptsReturn" Value="True"/>
-            <Setter Property="FontFamily" Value="Consolas"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
         </Style>
 
-        <Style Selector="TextBox.input">
-            <Setter Property="MinWidth" Value="240"/>
-        </Style>
-
+        <!-- Кнопки -->
         <Style Selector="Button.primary">
             <Setter Property="Background" Value="#2563EB"/>
             <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#2563EB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Padding" Value="14,10"/>
+            <Setter Property="MinWidth" Value="150"/>
         </Style>
 
         <Style Selector="Button.secondary">
-            <Setter Property="Background" Value="#FFFFFF"/>
+            <Setter Property="Background" Value="#F3F4F6"/>
+            <Setter Property="Foreground" Value="#111827"/>
+            <Setter Property="BorderBrush" Value="#D1D5DB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Padding" Value="14,10"/>
+            <Setter Property="MinWidth" Value="150"/>
+        </Style>
+
+        <Style Selector="Button.success">
+            <Setter Property="Background" Value="#ECFDF5"/>
+            <Setter Property="Foreground" Value="#065F46"/>
+            <Setter Property="BorderBrush" Value="#A7F3D0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Padding" Value="14,10"/>
+            <Setter Property="MinWidth" Value="150"/>
         </Style>
 
         <Style Selector="Button.danger">
-            <Setter Property="Background" Value="#DC2626"/>
-            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Background" Value="#FEF2F2"/>
+            <Setter Property="Foreground" Value="#991B1B"/>
+            <Setter Property="BorderBrush" Value="#FECACA"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Padding" Value="14,10"/>
+            <Setter Property="MinWidth" Value="150"/>
+        </Style>
+
+        <Style Selector="Button.warning">
+            <Setter Property="Background" Value="#FFFBEB"/>
+            <Setter Property="Foreground" Value="#92400E"/>
+            <Setter Property="BorderBrush" Value="#FDE68A"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="Padding" Value="14,10"/>
+            <Setter Property="MinWidth" Value="170"/>
+        </Style>
+
+        <!-- Группы -->
+        <Style Selector="Border.groupCard">
+            <Setter Property="Background" Value="#F8FAFC"/>
+            <Setter Property="BorderBrush" Value="#E5E7EB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding" Value="14"/>
+        </Style>
+
+        <Style Selector="ListBox.groupList">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+
+        <Style Selector="ListBox.groupList ListBoxItem">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Margin" Value="0,0,0,10"/>
+        </Style>
+
+        <Style Selector="ListBox.groupList ListBoxItem:selected /template/ ContentPresenter">
+            <Setter Property="Background" Value="#DBEAFE"/>
+        </Style>
+
+        <!-- Серверы -->
+        <Style Selector="ListBox.serverList">
+            <Setter Property="Background" Value="#F9FAFB"/>
+            <Setter Property="BorderBrush" Value="#E5E7EB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="12"/>
+        </Style>
+
+        <Style Selector="ListBox.serverList ListBoxItem">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Margin" Value="0"/>
+        </Style>
+
+        <Style Selector="ListBox.serverList ListBoxItem:selected /template/ ContentPresenter">
+            <Setter Property="Background" Value="#E0F2FE"/>
+        </Style>
+
+        <Style Selector="Border.serverRow">
+            <Setter Property="Padding" Value="12"/>
+            <Setter Property="BorderBrush" Value="#E5E7EB"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+        </Style>
+
+        <Style Selector="Border.formPanel">
+            <Setter Property="Background" Value="#F9FAFB"/>
+            <Setter Property="BorderBrush" Value="#E5E7EB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding" Value="16"/>
+        </Style>
+
+        <!-- Информационный статус -->
+        <Style Selector="Border.infoBox">
+            <Setter Property="Background" Value="#F8FAFC"/>
+            <Setter Property="BorderBrush" Value="#E5E7EB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding" Value="12"/>
         </Style>
     </UserControl.Styles>
 
-    <Grid>
-        <Grid ColumnDefinitions="320,*">
+    <Grid Margin="20"
+          ColumnDefinitions="320,20,*"
+          RowDefinitions="Auto,20,*">
 
-            <!-- Левая панель -->
-            <Border Grid.Column="0"
-                    Classes="card"
-                    Margin="0,0,20,0">
+        <!-- Заголовок -->
+        <Grid Grid.Row="0"
+              Grid.ColumnSpan="3"
+              ColumnDefinitions="*,Auto">
+            <StackPanel Spacing="4">
+                <TextBlock Classes="pageTitle" Text="Сбор логов Docker"/>
+                <TextBlock Classes="muted"
+                           Text="Централизованный сбор, просмотр и диагностика логов удалённых серверов."/>
+            </StackPanel>
+        </Grid>
 
-                <StackPanel Spacing="10">
+        <!-- Левая колонка -->
+        <Border Grid.Row="2"
+                Grid.Column="0"
+                Classes="card">
+            <StackPanel Spacing="14">
+                <StackPanel Spacing="4">
                     <TextBlock Classes="h1" Text="Группы серверов"/>
-
-                    <ListBox ItemsSource="{Binding Groups}"
-                             SelectedItem="{Binding SelectedGroup}">
-                        <ListBox.ItemTemplate>
-                            <DataTemplate x:DataType="vm:ServerGroupItemViewModel">
-                                <Border Padding="10">
-                                    <StackPanel>
-                                        <TextBlock Text="{Binding Name}"
-                                                   FontWeight="Bold"/>
-                                        <TextBlock Text="{Binding Description}"
-                                                   FontSize="12"/>
-                                    </StackPanel>
-                                </Border>
-                            </DataTemplate>
-                        </ListBox.ItemTemplate>
-                    </ListBox>
+                    <TextBlock Classes="muted"
+                               Text="Выбери группу для просмотра серверов и запуска операций."/>
                 </StackPanel>
-            </Border>
 
-            <!-- Правая часть -->
-            <ScrollViewer Grid.Column="1">
-                <StackPanel Spacing="16">
+                <ListBox Classes="groupList"
+                         ItemsSource="{Binding Groups}"
+                         SelectedItem="{Binding SelectedGroup}">
+                    <ListBox.ItemTemplate>
+                        <DataTemplate x:DataType="vm:ServerGroupItemViewModel">
+                            <Border Classes="groupCard">
+                                <StackPanel Spacing="6">
+                                    <TextBlock Text="{Binding Name}"
+                                               FontWeight="Bold"
+                                               FontSize="17"
+                                               Foreground="#111827"/>
+                                    <TextBlock Text="{Binding Description}"
+                                               Classes="muted"
+                                               TextWrapping="Wrap"/>
+                                    <TextBlock Text="{Binding ServerCount, StringFormat='Серверов: {0}'}"
+                                               FontSize="12"
+                                               Foreground="#6B7280"/>
+                                </StackPanel>
+                            </Border>
+                        </DataTemplate>
+                    </ListBox.ItemTemplate>
+                </ListBox>
+            </StackPanel>
+        </Border>
 
-                    <!-- SSH -->
-                    <Border Classes="card">
-                        <StackPanel Spacing="10">
+        <!-- Правая колонка -->
+        <ScrollViewer Grid.Row="2"
+                      Grid.Column="2"
+                      HorizontalScrollBarVisibility="Disabled"
+                      VerticalScrollBarVisibility="Auto">
 
-                            <TextBlock Classes="h1" Text="SSH"/>
+            <StackPanel Spacing="18">
 
-                            <TextBox Classes="input"
-                                     Text="{Binding SshUserName}"
-                                     Watermark="Пользователь"/>
+                <!-- SSH -->
+                <Border Classes="card">
+                    <StackPanel Spacing="14">
 
-                            <TextBox Classes="input"
-                                     Text="{Binding Password}"
-                                     PasswordChar="*"
-                                     Watermark="Пароль"/>
+                        <StackPanel Spacing="4">
+                            <TextBlock Classes="h1" Text="SSH доступ"/>
+                            <TextBlock Classes="muted"
+                                       Text="Укажи учётные данные для проверки подключения и выполнения команд."/>
+                        </StackPanel>
 
-                            <StackPanel Orientation="Horizontal" Spacing="10">
-                                <Button Classes="secondary"
-                                        Content="Проверить SSH"
-                                        Command="{Binding TestSshConnectionCommand}"/>
+                        <Grid ColumnDefinitions="*,16,*">
+                            <StackPanel Grid.Column="0">
+                                <TextBlock Classes="label" Text="Пользователь"/>
+                                <TextBox Classes="input"
+                                         Text="{Binding SshUserName}"
+                                         Watermark="Например, Kuznetsov.SS"/>
                             </StackPanel>
 
-                            <TextBlock Text="{Binding StatusMessage}"/>
+                            <StackPanel Grid.Column="2">
+                                <TextBlock Classes="label" Text="Пароль"/>
+                                <TextBox Classes="input"
+                                         Text="{Binding Password}"
+                                         PasswordChar="*"
+                                         Watermark="Введите пароль"/>
+                            </StackPanel>
+                        </Grid>
 
+                        <WrapPanel>
+                            <Button Classes="secondary"
+                                    Content="Проверить SSH"
+                                    Command="{Binding TestSshConnectionCommand}"
+                                    Margin="0,0,12,12"/>
+
+                            <Button Classes="warning"
+                                    Content="Найти серверы"
+                                    Command="{Binding DiscoverServersCommand}"
+                                    Margin="0,0,12,12"/>
+                        </WrapPanel>
+
+                        <Border Classes="infoBox">
+                            <TextBlock Text="{Binding StatusMessage}"
+                                       Foreground="#334155"
+                                       TextWrapping="Wrap"/>
+                        </Border>
+
+                    </StackPanel>
+                </Border>
+
+                <!-- Сбор логов -->
+                <Border Classes="card">
+                    <Grid ColumnDefinitions="*,Auto"
+                          RowDefinitions="Auto,12,Auto">
+                        <StackPanel Grid.Row="0"
+                                    Grid.Column="0"
+                                    Spacing="4">
+                            <TextBlock Classes="h1" Text="Сбор логов"/>
+                            <TextBlock Classes="muted"
+                                       Text="Запуск сбора Docker-логов для выбранной группы серверов."/>
                         </StackPanel>
-                    </Border>
-					<Border Classes="card">
-						<StackPanel Spacing="10">
 
-							<TextBlock Classes="h1" Text="Сбор логов"/>
+                        <Border Grid.Row="0"
+                                Grid.Column="1"
+                                Background="#EFF6FF"
+                                BorderBrush="#BFDBFE"
+                                BorderThickness="1"
+                                CornerRadius="999"
+                                Padding="12,6">
+                            <TextBlock Text="{Binding SelectedGroup.Name, StringFormat='Группа: {0}'}"
+                                       Foreground="#1D4ED8"
+                                       FontWeight="SemiBold"/>
+                        </Border>
 
-							<Button Classes="primary"
-									Content="Запустить сбор логов"
-									Command="{Binding RunCollectionCommand}"
-									IsEnabled="{Binding CanRun}"/>
+                        <WrapPanel Grid.Row="2"
+                                   Grid.ColumnSpan="2">
+                            <Button Classes="primary"
+                                    Content="Запустить сбор логов"
+                                    Command="{Binding RunCollectionCommand}"
+                                    IsEnabled="{Binding CanRun}"
+                                    Margin="0,0,12,12"/>
+                        </WrapPanel>
+                    </Grid>
+                </Border>
 
-						</StackPanel>
-					</Border>
-                    <!-- Серверы -->
-                    <Border Classes="card">
-                        <StackPanel Spacing="10">
+                <!-- Серверы -->
+                <Border Classes="card">
+                    <StackPanel Spacing="16">
 
+                        <StackPanel Spacing="4">
                             <TextBlock Classes="h1" Text="Серверы"/>
+                            <TextBlock Classes="muted"
+                                       Text="Просматривай список серверов, добавляй новые, редактируй и удаляй существующие."/>
+                        </StackPanel>
 
-                            <ListBox ItemsSource="{Binding Servers}"
-                                     SelectedItem="{Binding SelectedServer}">
-                                <ListBox.ItemTemplate>
-                                    <DataTemplate x:DataType="vm:RemoteServerItemViewModel">
-                                        <Border Padding="8">
-                                            <StackPanel>
-                                                <TextBlock Text="{Binding DisplayName}"
-                                                           FontWeight="Bold"/>
-                                                <TextBlock Text="{Binding IpAddress}"/>
-                                            </StackPanel>
-                                        </Border>
-                                    </DataTemplate>
-                                </ListBox.ItemTemplate>
-                            </ListBox>
+                        <Grid ColumnDefinitions="1.5*,20,1*">
+
+                            <!-- Список серверов -->
+                            <StackPanel Grid.Column="0"
+                                        Spacing="8">
+                                <TextBlock Classes="h2" Text="Список серверов"/>
+
+                                <ListBox Classes="serverList"
+                                         ItemsSource="{Binding Servers}"
+                                         SelectedItem="{Binding SelectedServer}"
+                                         Height="360">
+                                    <ListBox.ItemTemplate>
+                                        <DataTemplate x:DataType="vm:RemoteServerItemViewModel">
+                                            <Border Classes="serverRow">
+                                                <Grid ColumnDefinitions="*,Auto">
+                                                    <StackPanel Spacing="2">
+                                                        <TextBlock Text="{Binding DisplayName}"
+                                                                   FontWeight="SemiBold"
+                                                                   Foreground="#111827"/>
+                                                        <TextBlock Text="{Binding IpAddress}"
+                                                                   FontSize="13"
+                                                                   Foreground="#6B7280"/>
+                                                    </StackPanel>
+
+                                                    <Border Grid.Column="1"
+                                                            Background="#ECFDF5"
+                                                            BorderBrush="#A7F3D0"
+                                                            BorderThickness="1"
+                                                            CornerRadius="999"
+                                                            Padding="10,4"
+                                                            VerticalAlignment="Center">
+                                                        <TextBlock Text="{Binding IsEnabled, StringFormat='Активен: {0}'}"
+                                                                   FontSize="12"
+                                                                   Foreground="#065F46"/>
+                                                    </Border>
+                                                </Grid>
+                                            </Border>
+                                        </DataTemplate>
+                                    </ListBox.ItemTemplate>
+                                </ListBox>
+                            </StackPanel>
 
                             <!-- Форма -->
-                            <TextBox Classes="input"
-                                     Text="{Binding ServerDisplayName}"
-                                     Watermark="Имя"/>
+                            <Border Grid.Column="2"
+                                    Classes="formPanel">
+                                <StackPanel Spacing="12">
+                                    <TextBlock Classes="h2" Text="Карточка сервера"/>
 
-                            <TextBox Classes="input"
-                                     Text="{Binding ServerIpAddress}"
-                                     Watermark="IP"/>
+                                    <StackPanel>
+                                        <TextBlock Classes="label" Text="Имя сервера"/>
+                                        <TextBox Classes="input"
+                                                 Text="{Binding ServerDisplayName}"
+                                                 Watermark="Например, nn-lsed-app10"/>
+                                    </StackPanel>
 
-                            <CheckBox Content="Активен"
-                                      IsChecked="{Binding ServerIsEnabled}"/>
+                                    <StackPanel>
+                                        <TextBlock Classes="label" Text="IP-адрес"/>
+                                        <TextBox Classes="input"
+                                                 Text="{Binding ServerIpAddress}"
+                                                 Watermark="Например, 10.10.130.200"/>
+                                    </StackPanel>
 
-                            <StackPanel Orientation="Horizontal" Spacing="10">
-                                <Button Classes="primary"
-                                        Content="Добавить"
-                                        Command="{Binding AddServerCommand}"/>
+                                    <CheckBox Content="Сервер активен"
+                                              IsChecked="{Binding ServerIsEnabled}"/>
 
-                                <Button Classes="secondary"
-                                        Content="Сохранить"
-                                        Command="{Binding UpdateServerCommand}"/>
+                                    <WrapPanel>
+                                        <Button Classes="primary"
+                                                Content="Добавить"
+                                                Command="{Binding AddServerCommand}"
+                                                Margin="0,0,12,12"/>
 
-                                <Button Classes="danger"
-                                        Content="Удалить"
-                                        Command="{Binding DeleteServerCommand}"/>
-								<Button Classes="secondary"
-                                        Content="Найти серверы"
-                                        Command="{Binding DiscoverServersCommand}"/>
-                            </StackPanel>
+                                        <Button Classes="success"
+                                                Content="Сохранить"
+                                                Command="{Binding UpdateServerCommand}"
+                                                Margin="0,0,12,12"/>
 
+                                        <Button Classes="danger"
+                                                Content="Удалить"
+                                                Command="{Binding DeleteServerCommand}"
+                                                Margin="0,0,12,12"/>
+
+                                        <Button Classes="secondary"
+                                                Content="Очистить"
+                                                Command="{Binding ClearServerFormCommand}"
+                                                Margin="0,0,12,12"/>
+                                    </WrapPanel>
+                                </StackPanel>
+                            </Border>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- stdout -->
+                <Border Classes="card">
+                    <StackPanel Spacing="10">
+                        <StackPanel Spacing="4">
+                            <TextBlock Classes="h1" Text="stdout"/>
+                            <TextBlock Classes="muted"
+                                       Text="Стандартный вывод выполнения команд и скриптов."/>
                         </StackPanel>
-                    </Border>
 
-                    <!-- Вывод -->
-                    <Border Classes="card">
-                        <StackPanel>
-                            <TextBlock Text="Output"/>
-                            <TextBox Classes="output"
-                                     Text="{Binding ExecutionOutput}"
-                                     Height="150"/>
+                        <TextBox Classes="output"
+                                 Text="{Binding ExecutionOutput}"
+                                 MinHeight="220"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- stderr -->
+                <Border Classes="card">
+                    <StackPanel Spacing="10">
+                        <StackPanel Spacing="4">
+                            <TextBlock Classes="h1" Text="stderr"/>
+                            <TextBlock Classes="muted"
+                                       Text="Ошибки, предупреждения и диагностические сообщения."/>
                         </StackPanel>
-                    </Border>
 
-                    <Border Classes="card">
-                        <StackPanel>
-                            <TextBlock Text="Error"/>
-                            <TextBox Classes="output"
-                                     Text="{Binding ExecutionError}"
-                                     Height="120"/>
-                        </StackPanel>
-                    </Border>
+                        <TextBox Classes="output"
+                                 Text="{Binding ExecutionError}"
+                                 MinHeight="180"/>
+                    </StackPanel>
+                </Border>
 
-                </StackPanel>
-            </ScrollViewer>
-
-        </Grid>
+            </StackPanel>
+        </ScrollViewer>
     </Grid>
 </UserControl>

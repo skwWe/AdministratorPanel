@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdministratorPanel.Modules.LogCollector")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+47d97f2496d32cbc33f3c4718495920ce6daae00")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+73129ecd23eefd70efe72658b34c12da85381fd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdministratorPanel.Modules.LogCollector")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdministratorPanel.Modules.LogCollector")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

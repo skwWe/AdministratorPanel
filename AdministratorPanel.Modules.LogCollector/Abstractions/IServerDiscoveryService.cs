@@ -1,12 +1,15 @@
 ﻿using AdministratorPanel.Modules.LogCollector.Models;
 
-public interface IServerDiscoveryService
+namespace AdministratorPanel.Modules.LogCollector.Abstractions
 {
-    Task<IReadOnlyCollection<DiscoveredServerDto>> DiscoverAsync(
-        string prefix,
-        int from,
-        int to,
-        string sshUserName,
-        string password,
-        CancellationToken cancellationToken = default);
+    public interface IServerDiscoveryService
+    {
+        Task<IReadOnlyCollection<DiscoveredServerDto>> DiscoverAsync(
+            string networkPrefix,
+            int from,
+            int to,
+            string sshUserName,
+            string password,
+            CancellationToken cancellationToken = default);
+    }
 }

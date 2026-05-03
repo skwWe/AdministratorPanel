@@ -532,94 +532,87 @@ public partial class LogCollectorViewModel : ViewModelBase
             return;
         }
 
-        var groupName = SelectedGroup.Name.Trim().ToLowerInvariant();
-
-        var prefix = groupName switch
+        if (string.IsNullOrWhiteSpace(SshUserName))
         {
-            "app" => "nn-lsed-app",
-            "convert" => "nn-lsed-convert",
-            "sync" => "nn-lsed-sync",
-            "web" => "nn-lsed-web",
-            _ => string.Empty
-        };
-
-        if (string.IsNullOrWhiteSpace(prefix))
-        {
-            StatusMessage = $"Для группы {SelectedGroup.Name} не задан шаблон поиска.";
+            StatusMessage = "Укажи SSH пользователя.";
             return;
         }
 
-        var maxNumber = groupName == "web" ? 50 : 30;
+        if (string.IsNullOrWhiteSpace(Password))
+        {
+            StatusMessage = "Укажи пароль.";
+            return;
+        }
+
+        var groupName = SelectedGroup.Name.Trim().ToLowerInvariant();
 
         IsRunning = true;
-        StatusMessage = $"Поиск серверов: {prefix}01...{prefix}{maxNumber:00}";
+        StatusMessage = "Поиск серверов...";
 
         try
         {
             var discoveredServers = await _serverDiscoveryService.DiscoverAsync(
-                prefix,
+                "10.10.130",
                 1,
-                maxNumber,
+                254,
                 SshUserName,
                 Password);
 
-            if (string.IsNullOrWhiteSpace(Password))
-            {
-                StatusMessage = "Введи пароль для автопоиска серверов";
-                return;
-            }
+            var added = 0;
+            var updated = 0;
 
-            var addedCount = 0;
-            var updatedCount = 0;
-
-            foreach (var discoveredServer in discoveredServers)
+            foreach (var server in discoveredServers)
             {
-                if (!discoveredServer.DisplayName.Contains($"-{groupName}", StringComparison.OrdinalIgnoreCase))
-                {
+                var normalizedName = NormalizeHostName(server.DisplayName);
+
+                // 🔥 ФИЛЬТР ПО ГРУППЕ
+                if (!IsServerFromGroup(normalizedName, groupName))
                     continue;
-                }
-                var existingServer = SelectedGroup.Servers.FirstOrDefault(x =>
-                    string.Equals(x.DisplayName, discoveredServer.DisplayName, StringComparison.OrdinalIgnoreCase));
 
-                if (existingServer is not null)
+                var existing = SelectedGroup.Servers.FirstOrDefault(x =>
+                    string.Equals(x.DisplayName, normalizedName, StringComparison.OrdinalIgnoreCase));
+
+                if (existing != null)
                 {
-                    if (!string.Equals(existingServer.IpAddress, discoveredServer.IpAdress, StringComparison.OrdinalIgnoreCase))
+                    if (existing.IpAddress != server.IpAddress)
                     {
-                        _workspaceService.UpdateServer(
-                            existingServer.Id,
-                            existingServer.DisplayName,
-                            discoveredServer.IpAdress,
-                            existingServer.IsEnabled);
+                        existing.IpAddress = server.IpAddress;
 
-                        existingServer.IpAddress = discoveredServer.IpAdress;
-                        updatedCount++;
+                        _workspaceService.UpdateServer(
+                            existing.Id,
+                            existing.DisplayName,
+                            existing.IpAddress,
+                            existing.IsEnabled);
+
+                        updated++;
                     }
 
                     continue;
                 }
 
-                var savedServer = _workspaceService.AddServer(
+                var saved = _workspaceService.AddServer(
                     SelectedGroup.Id,
-                    discoveredServer.DisplayName,
-                    discoveredServer.IpAdress,
+                    normalizedName,
+                    server.IpAddress,
                     true);
 
-                var item = new RemoteServerItemViewModel
+                var vm = new RemoteServerItemViewModel
                 {
-                    Id = savedServer.Id,
-                    DisplayName = savedServer.DisplayName,
-                    IpAddress = savedServer.IpAddress,
-                    IsEnabled = savedServer.IsEnabled
+                    Id = saved.Id,
+                    DisplayName = saved.DisplayName,
+                    IpAddress = saved.IpAddress,
+                    IsEnabled = saved.IsEnabled
                 };
 
-                SelectedGroup.Servers.Add(item);
-                Servers.Add(item);
-                addedCount++;
+                SelectedGroup.Servers.Add(vm);
+                Servers.Add(vm);
+
+                added++;
             }
 
             OnPropertyChanged(nameof(SelectedGroup.ServerCount));
 
-            StatusMessage = $"Поиск завершён. Найдено: {discoveredServers.Count}. Добавлено: {addedCount}. Обновлено: {updatedCount}.";
+            StatusMessage = $"Поиск завершён. Найдено: {discoveredServers.Count}. Добавлено: {added}. Обновлено: {updated}.";
         }
         catch (Exception ex)
         {
@@ -630,5 +623,24 @@ public partial class LogCollectorViewModel : ViewModelBase
         {
             IsRunning = false;
         }
+    }
+    
+
+    private static string NormalizeHostName(string hostName)
+    {
+        if (string.IsNullOrWhiteSpace(hostName))
+            return hostName;
+
+        // nn-lsed-web02.nnov.ru → nn-lsed-web02
+        return hostName.Split('.')[0].Trim().ToLowerInvariant();
+    }
+
+    private static bool IsServerFromGroup(string hostName, string groupName)
+    {
+        var name = hostName.Trim().ToLowerInvariant();
+        var group = groupName.Trim().ToLowerInvariant();
+
+        // 🔥 строгая проверка
+        return name.StartsWith($"nn-lsed-{group}");
     }
 }
