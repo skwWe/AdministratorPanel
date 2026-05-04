@@ -39,12 +39,6 @@ public partial class LogCollectorViewModel : ViewModelBase
     private bool _isRunning;
 
     [ObservableProperty]
-    private bool _isWslAvailable;
-
-    [ObservableProperty]
-    private string _wslStatusMessage = string.Empty;
-
-    [ObservableProperty]
     private string _sshUserName = "Kuznetsov.SS";
 
     [ObservableProperty]
@@ -55,14 +49,6 @@ public partial class LogCollectorViewModel : ViewModelBase
 
     [ObservableProperty]
     private bool _serverIsEnabled = true;
-
-    private bool _isWslMissing;
-
-    public bool IsWslMissing
-    {
-        get => _isWslMissing;
-        private set => SetProperty(ref _isWslMissing, value);
-    }
 
     public LogCollectorViewModel(
         ILogCollectorWorkspaceService workspaceService,
@@ -110,16 +96,9 @@ public partial class LogCollectorViewModel : ViewModelBase
     partial void OnIsRunningChanged(bool value)
     {
         OnPropertyChanged(nameof(CanRun));
-        RunCollectionCommand.NotifyCanExecuteChanged();
     }
 
-    partial void OnIsWslAvailableChanged(bool value)
-    {
-        IsWslMissing = !value;
 
-        OnPropertyChanged(nameof(CanRun));
-        RunCollectionCommand.NotifyCanExecuteChanged();
-    }
 
     [RelayCommand(CanExecute = nameof(GetCanRunCollection))]
     private async Task RunCollectionAsync()
@@ -189,51 +168,6 @@ public partial class LogCollectorViewModel : ViewModelBase
         }
     }
 
-    [RelayCommand]
-    private void CheckWsl()
-    {
-        CheckWslAvailability();
-    }
-
-    [RelayCommand]
-    private void InstallWsl()
-    {
-        try
-        {
-            var psi = new ProcessStartInfo
-            {
-                FileName = "powershell",
-                Arguments = "Start-Process powershell -Verb RunAs -ArgumentList 'wsl --install'",
-                UseShellExecute = true
-            };
-
-            Process.Start(psi);
-
-            WslStatusMessage = "Запущена установка WSL. После установки может потребоваться перезагрузка и настройка Linux-дистрибутива.";
-        }
-        catch (Exception ex)
-        {
-            WslStatusMessage = $"Не удалось запустить установку WSL: {ex.Message}";
-        }
-    }
-
-    [RelayCommand]
-    private void OpenWslHelp()
-    {
-        try
-        {
-            Process.Start(new ProcessStartInfo
-            {
-                FileName = "https://learn.microsoft.com/windows/wsl/install",
-                UseShellExecute = true
-            });
-        }
-        catch (Exception ex)
-        {
-            WslStatusMessage = $"Не удалось открыть инструкцию: {ex.Message}";
-        }
-    }
-
     private bool GetCanRunCollection()
     {
         return SelectedGroup is not null && !IsRunning;
@@ -264,59 +198,6 @@ public partial class LogCollectorViewModel : ViewModelBase
         }
 
         SelectedGroup = Groups.FirstOrDefault();
-    }
-
-    private void CheckWslAvailability()
-    {
-        try
-        {
-            using var process = new Process
-            {
-                StartInfo = new ProcessStartInfo
-                {
-                    FileName = "wsl.exe",
-                    Arguments = "--list --quiet",
-                    RedirectStandardOutput = true,
-                    RedirectStandardError = true,
-                    UseShellExecute = false,
-                    CreateNoWindow = true
-                }
-            };
-
-            process.Start();
-
-            var output = process.StandardOutput.ReadToEnd();
-            var error = process.StandardError.ReadToEnd();
-
-            process.WaitForExit();
-
-            var installedDistros = output
-                .Split(new[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries)
-                .Select(x => x.Trim())
-                .Where(x => !string.IsNullOrWhiteSpace(x))
-                .ToArray();
-
-            IsWslAvailable = process.ExitCode == 0 && installedDistros.Length > 0;
-
-            if (IsWslAvailable)
-            {
-                WslStatusMessage = $"WSL обнаружен. Установленные дистрибутивы: {string.Join(", ", installedDistros)}";
-            }
-            else
-            {
-                WslStatusMessage = string.IsNullOrWhiteSpace(error)
-                    ? "WSL найден, но Linux-дистрибутив не установлен. Выполни установку WSL и настрой дистрибутив."
-                    : $"WSL недоступен или не настроен: {error}";
-            }
-
-            IsWslMissing = !IsWslAvailable;
-        }
-        catch (Exception ex)
-        {
-            IsWslAvailable = false;
-            IsWslMissing = true;
-            WslStatusMessage = $"WSL не найден в системе: {ex.Message}";
-        }
     }
 
     private static LogCollectionGroupType MapGroupNameToEnum(string groupName)

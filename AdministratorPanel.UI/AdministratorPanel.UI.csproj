@@ -8,7 +8,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Assets\Scripts\" />
     <Folder Include="Models\" />
     <AvaloniaResource Include="Assets\**" />
   </ItemGroup>
@@ -33,10 +32,4 @@
     <ProjectReference Include="..\AdministratorPanel.Infrastructure\AdministratorPanel.Infrastructure.csproj" />
     <ProjectReference Include="..\AdministratorPanel.Modules.LogCollector\AdministratorPanel.Modules.LogCollector.csproj" />
   </ItemGroup>
-
-	<ItemGroup>
-		<None Update="Assets\Scripts\*.sh">
-			<CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-		</None>
-	</ItemGroup>
 </Project>

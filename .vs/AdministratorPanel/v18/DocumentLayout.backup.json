@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\viewmodels\\logcollector\\logcollectorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|c:\\users\\kss\\source\\repos\\administratorpanel\\administratorpanel.modules.logcollector\\services\\dnsserverdiscoveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|solutionrelative:administratorpanel.modules.logcollector\\services\\dnsserverdiscoveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|c:\\users\\kss\\source\\repos\\administratorpanel\\administratorpanel.modules.logcollector\\abstractions\\iserverdiscoveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|solutionrelative:administratorpanel.modules.logcollector\\abstractions\\iserverdiscoveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\kss\\source\\repos\\administratorpanel\\administratorpanel.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|solutionrelative:administratorpanel.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.csproj|c:\\users\\kss\\source\\repos\\administratorpanel\\administratorpanel.modules.logcollector\\logcollector\\services\\sshserverdiscoveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.csproj|solutionrelative:administratorpanel.modules.logcollector\\logcollector\\services\\sshserverdiscoveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\kss\\source\\repos\\administratorpanel\\administratorpanel.infrastructure\\logcollector\\ssh\\sshnetcommandrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,6 +17,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\kss\\source\\repos\\administratorpanel\\administratorpanel.infrastructure\\logcollector\\services\\sshnetlogscriptrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|solutionrelative:administratorpanel.infrastructure\\logcollector\\services\\sshnetlogscriptrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\kss\\source\\repos\\administratorpanel\\administratorpanel.ui\\administratorpanel.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\administratorpanel.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\kss\\source\\repos\\administratorpanel\\administratorpanel.infrastructure\\services\\inmemorytoolprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|solutionrelative:administratorpanel.infrastructure\\services\\inmemorytoolprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\kss\\source\\repos\\administratorpanel\\administratorpanel.infrastructure\\services\\modulebootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|solutionrelative:administratorpanel.infrastructure\\services\\modulebootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.csproj|c:\\users\\kss\\source\\repos\\administratorpanel\\administratorpanel.modules.logcollector\\logcollector\\abstractions\\iserverdiscoveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.csproj|solutionrelative:administratorpanel.modules.logcollector\\logcollector\\abstractions\\iserverdiscoveryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\kss\\source\\repos\\administratorpanel\\administratorpanel.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|solutionrelative:administratorpanel.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\kss\\source\\repos\\administratorpanel\\administratorpanel.ui\\views\\logcollectorview.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
@@ -38,16 +50,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "AdministratorPanel.UI.csproj",
+              "DocumentMoniker": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\AdministratorPanel.UI.csproj",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\AdministratorPanel.UI.csproj",
+              "ToolTip": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\AdministratorPanel.UI.csproj",
+              "RelativeToolTip": "AdministratorPanel.UI\\AdministratorPanel.UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-04T09:57:25.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InMemoryToolProvider.cs",
+              "DocumentMoniker": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Services\\InMemoryToolProvider.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\Services\\InMemoryToolProvider.cs",
+              "ToolTip": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Services\\InMemoryToolProvider.cs",
+              "RelativeToolTip": "AdministratorPanel.Infrastructure\\Services\\InMemoryToolProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:41:52.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ModuleBootstrapper.cs",
+              "DocumentMoniker": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Services\\ModuleBootstrapper.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\Services\\ModuleBootstrapper.cs",
+              "ToolTip": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Services\\ModuleBootstrapper.cs",
+              "RelativeToolTip": "AdministratorPanel.Infrastructure\\Services\\ModuleBootstrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-04T09:41:38.218Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "IServerDiscoveryService.cs",
-              "DocumentMoniker": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Abstractions\\IServerDiscoveryService.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Abstractions\\IServerDiscoveryService.cs",
-              "ToolTip": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Abstractions\\IServerDiscoveryService.cs",
-              "RelativeToolTip": "AdministratorPanel.Modules.LogCollector\\Abstractions\\IServerDiscoveryService.cs",
+              "DocumentMoniker": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\LogCollector\\Abstractions\\IServerDiscoveryService.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\LogCollector\\Abstractions\\IServerDiscoveryService.cs",
+              "ToolTip": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\LogCollector\\Abstractions\\IServerDiscoveryService.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.LogCollector\\LogCollector\\Abstractions\\IServerDiscoveryService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T09:43:26.747Z",
@@ -55,20 +106,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "SshNetLogScriptRunner.cs",
               "DocumentMoniker": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\LogCollector\\Services\\SshNetLogScriptRunner.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\LogCollector\\Services\\SshNetLogScriptRunner.cs",
               "ToolTip": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\LogCollector\\Services\\SshNetLogScriptRunner.cs",
               "RelativeToolTip": "AdministratorPanel.Infrastructure\\LogCollector\\Services\\SshNetLogScriptRunner.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAAAE4AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE4AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T09:41:41.427Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "SshNetCommandRunner.cs",
               "DocumentMoniker": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\LogCollector\\Ssh\\SshNetCommandRunner.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\LogCollector\\Ssh\\SshNetCommandRunner.cs",
@@ -81,13 +132,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 9,
               "Title": "LogCollectorView.axaml",
               "DocumentMoniker": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
               "ToolTip": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
               "RelativeToolTip": "AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
-              "ViewState": "AgIAAIUAAAAAAAAAAAApwK8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAApwK8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2026-04-30T09:29:20.969Z",
               "EditorCaption": ""
@@ -100,14 +151,14 @@
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\LogCollector\\LogCollectorViewModel.cs",
               "ToolTip": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\LogCollector\\LogCollectorViewModel.cs",
               "RelativeToolTip": "AdministratorPanel.UI\\ViewModels\\LogCollector\\LogCollectorViewModel.cs",
-              "ViewState": "AgIAADMCAAAAAAAAAAAIwEgCAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAwwKgAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T09:11:46.637Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ServiceCollectionExtensions.cs",
               "DocumentMoniker": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
@@ -121,12 +172,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DnsServerDiscoveryService.cs",
-              "DocumentMoniker": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Services\\DnsServerDiscoveryService.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\Services\\DnsServerDiscoveryService.cs",
-              "ToolTip": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\Services\\DnsServerDiscoveryService.cs",
-              "RelativeToolTip": "AdministratorPanel.Modules.LogCollector\\Services\\DnsServerDiscoveryService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAcwBIAAAAlAAAAAAAAAA==",
+              "Title": "SshServerDiscoveryService.cs",
+              "DocumentMoniker": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\LogCollector\\Services\\SshServerDiscoveryService.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\LogCollector\\Services\\SshServerDiscoveryService.cs",
+              "ToolTip": "C:\\Users\\kss\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\LogCollector\\Services\\SshServerDiscoveryService.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.LogCollector\\LogCollector\\Services\\SshServerDiscoveryService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-30T08:42:34.607Z",
               "EditorCaption": ""

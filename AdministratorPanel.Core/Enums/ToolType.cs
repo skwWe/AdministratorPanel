@@ -9,6 +9,7 @@ namespace AdministratorPanel.Core.Enums
     public enum ToolType
     {
         Unknown = 0,
-        LogCollector = 1
+        LogCollector = 1,
+        ServerManagement = 2
     }
 }

@@ -7,6 +7,8 @@ build_property.AvaloniaNameGeneratorFilterByNamespace = *
 build_property.AvaloniaNameGeneratorViewFileNamingStrategy = NamespaceAndClassName
 build_property.AvaloniaNameGeneratorAttachDevTools = true
 build_property.TargetFramework = net8.0
+build_property.TargetFrameworkIdentifier = .NETCoreApp
+build_property.TargetFrameworkVersion = v8.0
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
 build_property.ProjectTypeGuids = 
@@ -15,17 +17,17 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = AdministratorPanel.UI
-build_property.ProjectDir = C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\
+build_property.ProjectDir = C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.UI\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/skw/source/repos/AdministratorPanel/AdministratorPanel.UI/App.axaml]
+[C:/Users/kss/source/repos/AdministratorPanel/AdministratorPanel.UI/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/skw/source/repos/AdministratorPanel/AdministratorPanel.UI/Views/LogCollectorView.axaml]
+[C:/Users/kss/source/repos/AdministratorPanel/AdministratorPanel.UI/Views/LogCollectorView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/skw/source/repos/AdministratorPanel/AdministratorPanel.UI/Views/MainWindow.axaml]
+[C:/Users/kss/source/repos/AdministratorPanel/AdministratorPanel.UI/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

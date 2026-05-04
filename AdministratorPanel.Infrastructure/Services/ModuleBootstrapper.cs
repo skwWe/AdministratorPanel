@@ -1,6 +1,7 @@
 ﻿using AdministratorPanel.Application.Abstractions;
 using AdministratorPanel.Core.Abstractions;
 using AdministratorPanel.Modules.LogCollector.Modules;
+using AdministratorPanel.Modules.ServerManagement.Modules;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,6 +22,7 @@ namespace AdministratorPanel.Infrastructure.Services
         public void RegisterModules()
         {
             Register(new LogCollectorModule());
+            Register(new ServerManagementModule());
         }
 
         private void Register(IToolModule module)

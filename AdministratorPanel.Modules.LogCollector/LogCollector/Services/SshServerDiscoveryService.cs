@@ -3,7 +3,7 @@ using AdministratorPanel.Modules.LogCollector.Models;
 using Renci.SshNet;
 using System.Collections.Concurrent;
 
-namespace AdministratorPanel.Infrastructure.LogCollector.Services
+namespace AdministratorPanel.Modules.LogCollector.Services
 {
     public sealed class SshServerDiscoveryService : IServerDiscoveryService
     {
