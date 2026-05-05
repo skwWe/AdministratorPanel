@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdministratorPanel.UI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f3dd1df9abfdab50b5c9da398289573d23e1c10e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7bf2420c690f9ba265c47574d15f0a77c0ee7a1f")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdministratorPanel.UI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdministratorPanel.UI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

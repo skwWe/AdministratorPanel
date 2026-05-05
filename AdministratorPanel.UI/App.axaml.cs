@@ -4,6 +4,7 @@ using AdministratorPanel.UI.ViewModels;
 using AdministratorPanel.UI.ViewModels.LogCollector;
 using AdministratorPanel.UI.Views;
 using Avalonia.Controls.ApplicationLifetimes;
+using AdministratorPanel.UI.ViewModels.ServerManagement;
 using Avalonia.Markup.Xaml;
 using Microsoft.Extensions.DependencyInjection;
 
@@ -33,7 +34,8 @@ public partial class App : Avalonia.Application
         {
             var mainWindow = new MainWindow(
                 _serviceProvider.GetRequiredService<MainWindowViewModel>(),
-                _serviceProvider.GetRequiredService<LogCollectorViewModel>());
+                _serviceProvider.GetRequiredService<LogCollectorViewModel>(),
+                _serviceProvider.GetRequiredService<ServerManagementViewModel>());
 
             desktop.MainWindow = mainWindow;
         }
@@ -47,5 +49,6 @@ public partial class App : Avalonia.Application
 
         services.AddSingleton<MainWindowViewModel>();
         services.AddSingleton<LogCollectorViewModel>();
+        services.AddSingleton<ServerManagementViewModel>();
     }
 }

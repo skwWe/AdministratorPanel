@@ -3,6 +3,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:vm="using:AdministratorPanel.UI.ViewModels"
+        xmlns:serverViews="using:AdministratorPanel.UI.Views.ServerManagement"
         xmlns:logViews="using:AdministratorPanel.UI.Views.LogCollector"
         x:Class="AdministratorPanel.UI.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
@@ -80,7 +81,10 @@
 
             <Grid Grid.Row="1" Margin="24">
                 <logViews:LogCollectorView x:Name="LogCollectorHost"
-                           IsVisible="{Binding IsLogCollectorSelected}"/>
+                                           IsVisible="{Binding IsLogCollectorSelected}"/>
+
+                <serverViews:ServerManagementView x:Name="ServerManagementHost"
+                                                  IsVisible="{Binding IsServerManagementSelected}"/>
             </Grid>
         </Grid>
     </Grid>

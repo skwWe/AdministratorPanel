@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AdministratorPanel.UI.ViewModels
+namespace AdministratorPanel.UI.ViewModels.ServerManagement
 {
 
     public partial class ServerManagementViewModel : ViewModelBase // разделение класса на несколько частей

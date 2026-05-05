@@ -5,3 +5,10 @@ C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Tests\obj\Debug\
 C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Tests\obj\Debug\net8.0\AdministratorPanel.Tests.AssemblyInfo.cs
 C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Tests\obj\Debug\net8.0\AdministratorPanel.Tests.csproj.CoreCompileInputs.cache
 C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Tests\obj\Debug\net8.0\AdministratorPanel.Tests.sourcelink.json
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Tests\bin\Debug\net8.0\.msCoverageSourceRootsMapping_AdministratorPanel.Tests
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Tests\obj\Debug\net8.0\AdministratorPanel.Tests.csproj.AssemblyReference.cache
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Tests\obj\Debug\net8.0\AdministratorPanel.Tests.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Tests\obj\Debug\net8.0\AdministratorPanel.Tests.AssemblyInfoInputs.cache
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Tests\obj\Debug\net8.0\AdministratorPanel.Tests.AssemblyInfo.cs
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Tests\obj\Debug\net8.0\AdministratorPanel.Tests.csproj.CoreCompileInputs.cache
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.Tests\obj\Debug\net8.0\AdministratorPanel.Tests.sourcelink.json

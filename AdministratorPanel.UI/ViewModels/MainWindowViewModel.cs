@@ -16,6 +16,9 @@ public partial class MainWindowViewModel : ViewModelBase
     [ObservableProperty]
     private string _pageDescription = "Многофункциональная панель администратора.";
 
+    public bool IsServerManagementSelected =>
+    SelectedTool?.Tool.Type == AdministratorPanel.Core.Enums.ToolType.ServerManagement;
+
     public MainWindowViewModel(IToolProvider toolProvider)
     {
         Tools = new ObservableCollection<ToolItemViewModel>(
@@ -34,6 +37,7 @@ public partial class MainWindowViewModel : ViewModelBase
     {
         UpdateSelectedToolInfo();
         OnPropertyChanged(nameof(IsLogCollectorSelected));
+        OnPropertyChanged(nameof(IsServerManagementSelected));
     }
 
     private void UpdateSelectedToolInfo()
