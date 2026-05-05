@@ -88,3 +88,5 @@ C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net
 C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net8.0\AdministratorPanel.UI.pdb
 C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net8.0\AdministratorPanel.UI.genruntimeconfig.cache
 C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net8.0\ref\AdministratorPanel.UI.dll
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.UI\bin\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.dll
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.UI\bin\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.pdb

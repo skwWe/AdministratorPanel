@@ -1,0 +1,7 @@
+Renci.SshNet.Common.SshOperationTimeoutException: Connection failed to establish within 10000 milliseconds.
+   at Renci.SshNet.Abstractions.SocketAbstraction.ConnectCore(Socket socket, EndPoint remoteEndpoint, TimeSpan connectTimeout, Boolean ownsSocket)
+   at Renci.SshNet.Connection.ConnectorBase.SocketConnect(EndPoint endPoint, TimeSpan timeout)
+   at Renci.SshNet.Session.Connect()
+   at Renci.SshNet.BaseClient.CreateAndConnectSession()
+   at Renci.SshNet.BaseClient.Connect()
+   at AdministratorPanel.Infrastructure.LogCollector.Services.SshNetLogScriptRunner.<>c__DisplayClass2_0.<RunAsync>b__0() in C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Infrastructure\LogCollector\Services\SshNetLogScriptRunner.cs:line 86

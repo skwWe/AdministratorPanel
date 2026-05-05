@@ -1,0 +1,8 @@
+[docker ps exit code]
+127
+
+[docker ps output]
+
+
+[docker ps error]
+sh: docker: команда не найдена

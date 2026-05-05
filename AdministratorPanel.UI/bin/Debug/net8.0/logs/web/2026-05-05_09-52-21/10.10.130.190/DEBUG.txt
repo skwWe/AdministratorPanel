@@ -1,0 +1,10 @@
+[docker ps exit code]
+0
+
+[docker ps output]
+ddmwebadmin-ui
+ddmweb-ui
+ddmwebapi
+
+
+[docker ps error]

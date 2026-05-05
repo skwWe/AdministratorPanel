@@ -1,0 +1,3 @@
+nn-lsed-app-t.nnov.ru
+Вт мая  5 09:49:24 MSK 2026
+uid=1012(Kuznetsov.SS) gid=1014(Kuznetsov.SS) группы=1014(Kuznetsov.SS),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),109(netdev),333(astra-console),1001(astra-admin),1238400513(пользователи домена),1238401120(docsvision users)

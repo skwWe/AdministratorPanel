@@ -1,0 +1,11 @@
+[docker ps exit code]
+0
+
+[docker ps output]
+dotnet
+crlinstaller
+sdu
+cadvisor
+
+
+[docker ps error]

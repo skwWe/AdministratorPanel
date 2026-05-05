@@ -18,3 +18,5 @@ C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Infrastructure\o
 C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Infrastructure\obj\Debug\net8.0\refint\AdministratorPanel.Infrastructure.dll
 C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Infrastructure\obj\Debug\net8.0\AdministratorPanel.Infrastructure.pdb
 C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Infrastructure\obj\Debug\net8.0\ref\AdministratorPanel.Infrastructure.dll
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.dll
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.pdb

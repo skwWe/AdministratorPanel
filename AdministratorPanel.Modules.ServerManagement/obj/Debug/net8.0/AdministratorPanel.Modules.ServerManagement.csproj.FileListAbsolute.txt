@@ -1,0 +1,16 @@
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\bin\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.deps.json
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\bin\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.dll
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\bin\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.pdb
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\bin\Debug\net8.0\AdministratorPanel.Core.dll
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\bin\Debug\net8.0\AdministratorPanel.Core.pdb
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\obj\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.csproj.AssemblyReference.cache
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\obj\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\obj\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.AssemblyInfoInputs.cache
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\obj\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.AssemblyInfo.cs
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\obj\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.csproj.CoreCompileInputs.cache
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\obj\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.sourcelink.json
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\obj\Debug\net8.0\Administ.485793A3.Up2Date
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\obj\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.dll
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\obj\Debug\net8.0\refint\AdministratorPanel.Modules.ServerManagement.dll
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\obj\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.pdb
+C:\Users\kss\source\repos\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\obj\Debug\net8.0\ref\AdministratorPanel.Modules.ServerManagement.dll

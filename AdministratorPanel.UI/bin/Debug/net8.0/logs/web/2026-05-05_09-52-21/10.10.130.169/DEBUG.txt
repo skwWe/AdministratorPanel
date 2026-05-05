@@ -1,0 +1,12 @@
+[docker ps exit code]
+0
+
+[docker ps output]
+dotnet
+ddmwebadmin-ui
+ddmweb-ui
+ddmwebapi
+cadvisor
+
+
+[docker ps error]

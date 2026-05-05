@@ -23,5 +23,7 @@ namespace AdministratorPanel.Modules.ServerManagement.Models.Operations
         public DateTime ExecutedAt { get; init; } = DateTime.Now;
 
         public bool IsSuccess => Status == ServerOperationStatus.Success;
-    }
+            
+
+    }   
 }

@@ -1,0 +1,7 @@
+[docker ps exit code]
+0
+
+[docker ps output]
+
+
+[docker ps error]
