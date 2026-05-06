@@ -182,3 +182,11 @@ C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net
 C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net8.0\AdministratorPanel.UI.pdb
 C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net8.0\AdministratorPanel.UI.genruntimeconfig.cache
 C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\obj\Debug\net8.0\ref\AdministratorPanel.UI.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\bin\Debug\net8.0\ClosedXML.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\bin\Debug\net8.0\ClosedXML.Parser.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\bin\Debug\net8.0\DocumentFormat.OpenXml.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\bin\Debug\net8.0\DocumentFormat.OpenXml.Framework.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\bin\Debug\net8.0\RBush.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\bin\Debug\net8.0\SixLabors.Fonts.dll
+C:\Users\skw\source\repos\AdministratorPanel\AdministratorPanel.UI\bin\Debug\net8.0\System.IO.Packaging.dll

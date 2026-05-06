@@ -1,4 +1,4 @@
-<UserControl xmlns="https://github.com/avaloniaui"
+﻿<UserControl xmlns="https://github.com/avaloniaui"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:vm="using:AdministratorPanel.UI.ViewModels.ServerManagement"
              x:Class="AdministratorPanel.UI.Views.ServerManagement.ServerManagementView"
@@ -17,10 +17,69 @@
             <Setter Property="Foreground" Value="#111827"/>
         </Style>
 
+        <Style Selector="TextBlock.h2">
+            <Setter Property="FontSize" Value="15"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#111827"/>
+        </Style>
+
+        <Style Selector="TextBox">
+            <Setter Property="Background" Value="#FFFFFF"/>
+            <Setter Property="Foreground" Value="#111827"/>
+            <Setter Property="BorderBrush" Value="#94A3B8"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
         <Style Selector="TextBox.output">
             <Setter Property="IsReadOnly" Value="True"/>
             <Setter Property="AcceptsReturn" Value="True"/>
             <Setter Property="FontFamily" Value="Consolas"/>
+            <Setter Property="TextWrapping" Value="Wrap"/>
+        </Style>
+
+        <Style Selector="ListBox">
+            <Setter Property="Background" Value="#FFFFFF"/>
+            <Setter Property="Foreground" Value="#111827"/>
+            <Setter Property="BorderBrush" Value="#CBD5E1"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <Style Selector="ListBoxItem">
+            <Setter Property="Background" Value="#FFFFFF"/>
+            <Setter Property="Foreground" Value="#111827"/>
+            <Setter Property="Padding" Value="8"/>
+        </Style>
+
+        <Style Selector="ListBoxItem:pointerover /template/ ContentPresenter">
+            <Setter Property="Background" Value="#EFF6FF"/>
+        </Style>
+
+        <Style Selector="ListBoxItem:selected /template/ ContentPresenter">
+            <Setter Property="Background" Value="#DBEAFE"/>
+        </Style>
+
+        <Style Selector="Button.primary">
+            <Setter Property="Background" Value="#2563EB"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#2563EB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="12,8"/>
+        </Style>
+
+        <Style Selector="Button.secondary">
+            <Setter Property="Background" Value="#E5E7EB"/>
+            <Setter Property="Foreground" Value="#111827"/>
+            <Setter Property="BorderBrush" Value="#6B7280"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="12,8"/>
+        </Style>
+
+        <Style Selector="Button.danger">
+            <Setter Property="Background" Value="#DC2626"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="BorderBrush" Value="#DC2626"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding" Value="12,8"/>
         </Style>
     </UserControl.Styles>
 
@@ -29,46 +88,148 @@
 
             <Border Classes="card">
                 <StackPanel Spacing="10">
-                    <TextBlock Classes="h1" Text="���������� ���������"/>
+                    <TextBlock Classes="h1" Text="Управление серверами"/>
 
                     <TextBlock Text="{Binding StatusMessage}"
                                TextWrapping="Wrap"/>
 
-                    <TextBox Text="{Binding ServerName}"
-                             Watermark="��� �������, �������� nn-lsed-web01"/>
+                    <Grid ColumnDefinitions="*,12,*"
+                          RowDefinitions="Auto,8,Auto,8,Auto">
 
-                    <TextBox Text="{Binding IpAddress}"
-                             Watermark="IP-����� �������"/>
+                        <TextBlock Grid.Column="0"
+                                   Text="SSH пользователь"
+                                   Classes="h2"/>
 
-                    <TextBox Text="{Binding SshUserName}"
-                             Watermark="SSH ������������"/>
+                        <TextBlock Grid.Column="2"
+                                   Text="Пароль"
+                                   Classes="h2"/>
 
-                    <TextBox Text="{Binding Password}"
-                             PasswordChar="*"
-                             Watermark="������"/>
+                        <TextBox Grid.Row="2"
+                                 Grid.Column="0"
+                                 Text="{Binding SshUserName}"
+                                 Watermark="Пользователь"/>
+
+                        <TextBox Grid.Row="2"
+                                 Grid.Column="2"
+                                 Text="{Binding Password}"
+                                 PasswordChar="*"
+                                 Watermark="Пароль"/>
+
+                        <TextBlock Grid.Row="4"
+                                   Grid.Column="0"
+                                   Grid.ColumnSpan="3"
+                                   Text="Эти данные используются для SSH-подключения при перезапуске сервисов и безопасном отключении серверов."
+                                   Foreground="#6B7280"
+                                   TextWrapping="Wrap"/>
+                    </Grid>
                 </StackPanel>
             </Border>
 
             <Border Classes="card">
                 <StackPanel Spacing="10">
-                    <TextBlock Classes="h1" Text="��������"/>
+                    <TextBlock Classes="h1" Text="План отключения"/>
+
+                    <TextBlock Text="{Binding LoadedPlanName}"
+                               Foreground="#374151"
+                               TextWrapping="Wrap"/>
+
+                    <Grid ColumnDefinitions="*,12,120">
+                        <TextBox Grid.Column="0"
+                                 Text="{Binding ShutdownPlanFilePath}"
+                                 Watermark="Путь к Excel-файлу плана отключения"/>
+
+                        <Button Grid.Column="2"
+                                Content="Обзор..."
+                                Command="{Binding BrowseShutdownPlanFileCommand}"
+                                Classes="secondary"
+                                HorizontalContentAlignment="Center"/>
+                    </Grid>
+
+                    <WrapPanel Margin="0,10,0,0">
+                        <Button Classes="primary"
+                                Content="Загрузить план"
+                                Command="{Binding LoadShutdownPlanCommand}"
+                                Margin="0,0,10,10"/>
+                    </WrapPanel>
+                </StackPanel>
+            </Border>
+
+            <Border Classes="card">
+                <Grid ColumnDefinitions="320,16,*">
+                    <StackPanel Grid.Column="0" Spacing="10">
+                        <TextBlock Classes="h1" Text="Группы плана"/>
+
+                        <ListBox ItemsSource="{Binding ShutdownGroups}"
+                                 SelectedItem="{Binding SelectedShutdownGroup}"
+                                 Height="260">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate x:DataType="vm:ShutdownPlanGroupItemViewModel">
+                                    <Border Padding="8">
+                                        <TextBlock Text="{Binding DisplayName}"
+                                                   TextWrapping="Wrap"/>
+                                    </Border>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="2" Spacing="10">
+                        <TextBlock Classes="h1" Text="Серверы выбранной группы"/>
+
+                        <ListBox ItemsSource="{Binding ShutdownServers}"
+                                 SelectedItem="{Binding SelectedShutdownServer}"
+                                 Height="260">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate x:DataType="vm:ShutdownPlanServerItemViewModel">
+                                    <Border Padding="8">
+                                        <StackPanel Spacing="2">
+                                            <TextBlock Text="{Binding DisplayName}"
+                                                       FontWeight="SemiBold"
+                                                       TextWrapping="Wrap"/>
+                                            <TextBlock Text="{Binding GroupName, StringFormat='Группа: {0}'}"
+                                                       FontSize="12"
+                                                       Foreground="#6B7280"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+
+                        <Button Content="Использовать выбранный сервер"
+                                Command="{Binding UseSelectedPlanServerCommand}"
+                                Classes="secondary"
+                                HorizontalAlignment="Left"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+
+            <Border Classes="card">
+                <StackPanel Spacing="10">
+                    <TextBlock Classes="h1" Text="Выбранный сервер для операции"/>
+
+                    <Grid ColumnDefinitions="*,12,*">
+                        <TextBox Grid.Column="0"
+                                 Text="{Binding ServerName}"
+                                 Watermark="Имя сервера"/>
+
+                        <TextBox Grid.Column="2"
+                                 Text="{Binding IpAddress}"
+                                 Watermark="IP-адрес"/>
+                    </Grid>
+
+                    <TextBlock Text="Безопасное отключение автоматически остановит Docker Compose-сервисы на сервере, а затем выполнит shutdown now. Для групп dev и intgr остановка Docker Compose пропускается."
+                               Foreground="#6B7280"
+                               TextWrapping="Wrap"/>
 
                     <WrapPanel>
-                        <Button Content="�����������"
+                        <Button Content="Перезапустить сервисы"
+                                Command="{Binding RestartServicesCommand}"
+                                Classes="secondary"
                                 Margin="0,0,10,10"/>
 
-                        <Button Content="���������� ����������"
-                                Margin="0,0,10,10"/>
-
-                        <Button Content="������������� ����������"
-                                Margin="0,0,10,10"/>
-
-                        <Button Content="������������� Docker"
-                                Margin="0,0,10,10"/>
-
-                        <Button Content="���������� ����������"
-                                Background="#DC2626"
-                                Foreground="White"
+                        <Button Content="Безопасно отключить сервер"
+                                Command="{Binding SafeShutdownSelectedServerCommand}"
+                                Classes="danger"
                                 Margin="0,0,10,10"/>
                     </WrapPanel>
                 </StackPanel>
@@ -76,7 +237,7 @@
 
             <Border Classes="card">
                 <StackPanel Spacing="8">
-                    <TextBlock Classes="h1" Text="����� ��������"/>
+                    <TextBlock Classes="h1" Text="Вывод операции"/>
                     <TextBox Classes="output"
                              Text="{Binding OperationOutput}"
                              MinHeight="220"/>
@@ -85,7 +246,7 @@
 
             <Border Classes="card">
                 <StackPanel Spacing="8">
-                    <TextBlock Classes="h1" Text="������"/>
+                    <TextBlock Classes="h1" Text="Ошибки"/>
                     <TextBox Classes="output"
                              Text="{Binding OperationError}"
                              MinHeight="160"/>

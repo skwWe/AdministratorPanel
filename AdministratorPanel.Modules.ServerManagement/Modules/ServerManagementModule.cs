@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using AdministratorPanel.Core.Enums;
 
 
 namespace AdministratorPanel.Modules.ServerManagement.Modules
@@ -20,8 +21,8 @@ namespace AdministratorPanel.Modules.ServerManagement.Modules
                 Name = "Управление серверами",
                 Description = "Диагностика серверов, анализ Docker-сервисов, управление контейнерами и безопасное отключение.",
                 IconKey = "Server",
-                Type = Core.Enums.ToolType.ServerManagement,
-                AvailabilityStatus = Core.Enums.ToolAvailabilityStatus.Available,
+                Type = ToolType.ServerManagement,
+                AvailabilityStatus = ToolAvailabilityStatus.Available,
                 IsEnabled = true,
                 SortOrder = 2
             };

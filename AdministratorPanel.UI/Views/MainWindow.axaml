@@ -80,11 +80,15 @@
             </Border>
 
             <Grid Grid.Row="1" Margin="24">
-                <logViews:LogCollectorView x:Name="LogCollectorHost"
-                                           IsVisible="{Binding IsLogCollectorSelected}"/>
 
-                <serverViews:ServerManagementView x:Name="ServerManagementHost"
-                                                  IsVisible="{Binding IsServerManagementSelected}"/>
+                <Border IsVisible="{Binding IsLogCollectorSelected}">
+                    <logViews:LogCollectorView x:Name="LogCollectorHost"/>
+                </Border>
+
+                <Border IsVisible="{Binding IsServerManagementSelected}">
+                    <serverViews:ServerManagementView x:Name="ServerManagementHost"/>
+                </Border>
+
             </Grid>
         </Grid>
     </Grid>

@@ -1,6 +1,7 @@
 ﻿using AdministratorPanel.Application.Abstractions;
 using CommunityToolkit.Mvvm.ComponentModel;
 using System.Collections.ObjectModel;
+using AdministratorPanel.Core.Enums;
 using System.Linq;
 
 namespace AdministratorPanel.UI.ViewModels;
@@ -17,7 +18,7 @@ public partial class MainWindowViewModel : ViewModelBase
     private string _pageDescription = "Многофункциональная панель администратора.";
 
     public bool IsServerManagementSelected =>
-    SelectedTool?.Tool.Type == AdministratorPanel.Core.Enums.ToolType.ServerManagement;
+    SelectedTool?.Tool.Type == ToolType.ServerManagement;
 
     public MainWindowViewModel(IToolProvider toolProvider)
     {
@@ -31,11 +32,12 @@ public partial class MainWindowViewModel : ViewModelBase
     public ObservableCollection<ToolItemViewModel> Tools { get; }
 
     public bool IsLogCollectorSelected =>
-        SelectedTool?.Tool.Type == AdministratorPanel.Core.Enums.ToolType.LogCollector;
+        SelectedTool?.Tool.Type == ToolType.LogCollector;
 
     partial void OnSelectedToolChanged(ToolItemViewModel? value)
     {
         UpdateSelectedToolInfo();
+
         OnPropertyChanged(nameof(IsLogCollectorSelected));
         OnPropertyChanged(nameof(IsServerManagementSelected));
     }

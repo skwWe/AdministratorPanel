@@ -7,6 +7,7 @@ using Avalonia.Controls.ApplicationLifetimes;
 using AdministratorPanel.UI.ViewModels.ServerManagement;
 using Avalonia.Markup.Xaml;
 using Microsoft.Extensions.DependencyInjection;
+using AdministratorPanel.UI.Services;
 
 namespace AdministratorPanel.UI;
 
@@ -50,5 +51,6 @@ public partial class App : Avalonia.Application
         services.AddSingleton<MainWindowViewModel>();
         services.AddSingleton<LogCollectorViewModel>();
         services.AddSingleton<ServerManagementViewModel>();
+        services.AddSingleton<IFileDialogService, FileDialogService>();
     }
 }
