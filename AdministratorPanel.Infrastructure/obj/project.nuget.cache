@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JdK+0mlfPec=",
+  "dgSpecHash": "7Yt4TVbytEs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\skw\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\skw\\.nuget\\packages\\closedxml\\0.105.0\\closedxml.0.105.0.nupkg.sha512",

@@ -10,152 +10,45 @@ namespace AdministratorPanel.Infrastructure.ServerManagement.Services
         private const string ComposeDirectory = "/digdes/docker_data";
 
         public async Task<ServerOperationResultDto> StopServicesAsync(
-            string serverName,
-            string ipAddress,
-            string sshUserName,
-            string password,
-            CancellationToken cancellationToken = default)
+            string serverName, string ipAddress, string sshUserName, string password, CancellationToken cancellationToken = default)
         {
-            return await ExecuteAsync(
-                serverName,
-                ipAddress,
-                sshUserName,
-                password,
-                "Остановка Docker Compose-сервисов",
-                BuildStopCommand(),
-                cancellationToken);
+            return await ExecuteAsync(serverName, ipAddress, sshUserName, password,
+                "Остановка Docker Compose-сервисов", BuildStopCommand(), cancellationToken);
         }
 
         public async Task<ServerOperationResultDto> RestartServicesAsync(
-            string serverName,
-            string ipAddress,
-            string sshUserName,
-            string password,
-            CancellationToken cancellationToken = default)
+            string serverName, string ipAddress, string sshUserName, string password, CancellationToken cancellationToken = default)
         {
-            return await ExecuteAsync(
-                serverName,
-                ipAddress,
-                sshUserName,
-                password,
-                "Перезапуск Docker Compose-сервисов",
-                BuildRestartCommand(),
-                cancellationToken);
+            return await ExecuteAsync(serverName, ipAddress, sshUserName, password,
+                "Перезапуск Docker Compose-сервисов", BuildRestartCommand(), cancellationToken);
         }
 
-        private static string BuildStopCommand()
-        {
-            return "bash -lc " + EscapeBashArgument($@"
-set -euo pipefail
+        private static string BuildStopCommand() =>
+            $"/gmn/shell_scripts/docker/docker_compose_down.sh {EscapeBashArgument(ComposeDirectory)}";
 
-TARGET_DIR={ComposeDirectory}
-
-if [ ! -d ""$TARGET_DIR"" ]; then
-    echo ""Ошибка: '$TARGET_DIR' не директория.""
-    exit 1
-fi
-
-cd ""$TARGET_DIR""
-
-shopt -s nullglob
-files=( *.yml *.yaml )
-
-if [ ${{#files[@]}} -eq 0 ]; then
-    echo ""Файлы .yml/.yaml не найдены в $TARGET_DIR""
-    exit 0
-fi
-
-for file in ""${{files[@]}}""; do
-    echo
-    echo ""=== Останавливаю $file ===""
-
-    if ! docker-compose -f ""$file"" down; then
-        echo ""Предупреждение: $file не удалось остановить (пропускаю).""
-    fi
-done
-
-echo
-echo ""Все compose-файлы в '$TARGET_DIR' обработаны.""
-");
-        }
-
-        private static string BuildRestartCommand()
-        {
-            return "bash -lc " + EscapeBashArgument($@"
-set -euo pipefail
-
-TARGET_DIR={ComposeDirectory}
-
-if [ ! -d ""$TARGET_DIR"" ]; then
-    echo ""Ошибка: '$TARGET_DIR' не директория.""
-    exit 1
-fi
-
-cd ""$TARGET_DIR""
-
-shopt -s nullglob
-files=( *.yml *.yaml )
-
-if [ ${{#files[@]}} -eq 0 ]; then
-    echo ""Файлы .yml/.yaml не найдены в $TARGET_DIR""
-    exit 0
-fi
-
-for file in ""${{files[@]}}""; do
-    echo
-    echo ""=== Останавливаю $file ===""
-
-    if ! docker-compose -f ""$file"" down; then
-        echo ""Предупреждение: $file не удалось остановить (пропускаю).""
-    fi
-done
-
-echo
-echo ""=== Выполняю docker volume prune ===""
-docker volume prune -f
-
-for file in ""${{files[@]}}""; do
-    echo
-    echo ""=== Запускаю $file ===""
-
-    docker-compose -f ""$file"" up -d
-done
-
-echo
-echo ""Все compose-файлы в '$TARGET_DIR' обработаны.""
-");
-        }
+        private static string BuildRestartCommand() =>
+            $"/gmn/shell_scripts/docker/docker_compose_restart.sh {EscapeBashArgument(ComposeDirectory)}";
 
         private static async Task<ServerOperationResultDto> ExecuteAsync(
-            string serverName,
-            string ipAddress,
-            string sshUserName,
-            string password,
-            string operationName,
-            string commandText,
-            CancellationToken cancellationToken)
+            string serverName, string ipAddress, string sshUserName, string password,
+            string operationName, string commandText, CancellationToken cancellationToken)
         {
             return await Task.Run(() =>
             {
                 var output = new StringBuilder();
                 var error = new StringBuilder();
-
                 try
                 {
                     cancellationToken.ThrowIfCancellationRequested();
-
                     output.AppendLine($"Операция: {operationName}");
                     output.AppendLine($"Сервер: {serverName}");
                     output.AppendLine($"IP: {ipAddress}");
-                    output.AppendLine($"Время: {DateTime.Now:yyyy-MM-dd HH:mm:ss}");
-                    output.AppendLine();
+                    output.AppendLine($"Время: {DateTime.Now:yyyy-MM-dd HH:mm:ss}\n");
 
                     using var client = new SshClient(ipAddress, 22, sshUserName, password);
                     client.ConnectionInfo.Timeout = TimeSpan.FromSeconds(10);
                     client.Connect();
-
                     if (!client.IsConnected)
-                    {
                         return new ServerOperationResultDto
                         {
                             Status = ServerOperationStatus.Failed,
@@ -165,37 +58,21 @@ echo ""Все compose-файлы в '$TARGET_DIR' обработаны.""
                             Output = output.ToString(),
                             Error = "SSH-подключение не установлено."
                         };
-                    }
 
-                    output.AppendLine("> Выполнение удалённого скрипта");
-                    output.AppendLine();
-
+                    output.AppendLine("> Выполнение удалённого скрипта\n");
                     using var command = client.CreateCommand(commandText);
-
                     var commandOutput = command.Execute();
-                    var commandError = command.Error ?? string.Empty;
+                    var commandError = command.Error ?? "";
                     var exitCode = command.ExitStatus ?? -1;
 
-                    if (!string.IsNullOrWhiteSpace(commandOutput))
-                    {
-                        output.AppendLine(commandOutput);
-                    }
-
-                    if (!string.IsNullOrWhiteSpace(commandError))
-                    {
-                        error.AppendLine(commandError);
-                    }
-
-                    output.AppendLine();
-                    output.AppendLine($"ExitCode: {exitCode}");
-
+                    if (!string.IsNullOrWhiteSpace(commandOutput)) output.AppendLine(commandOutput);
+                    if (!string.IsNullOrWhiteSpace(commandError)) error.AppendLine(commandError);
+                    output.AppendLine($"\nExitCode: {exitCode}");
                     client.Disconnect();
 
                     return new ServerOperationResultDto
                     {
-                        Status = exitCode == 0
-                            ? ServerOperationStatus.Success
-                            : ServerOperationStatus.Failed,
+                        Status = exitCode == 0 ? ServerOperationStatus.Success : ServerOperationStatus.Failed,
                         ServerName = serverName,
                         IpAddress = ipAddress,
                         OperationName = operationName,
@@ -218,9 +95,6 @@ echo ""Все compose-файлы в '$TARGET_DIR' обработаны.""
             }, cancellationToken);
         }
 
-        private static string EscapeBashArgument(string value)
-        {
-            return "'" + value.Replace("'", "'\"'\"'") + "'";
-        }
+        private static string EscapeBashArgument(string value) => "'" + value.Replace("'", "'\"'\"'") + "'";
     }
 }

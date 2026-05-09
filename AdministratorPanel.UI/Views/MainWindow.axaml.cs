@@ -1,7 +1,9 @@
 using AdministratorPanel.UI.ViewModels;
 using AdministratorPanel.UI.ViewModels.LogCollector;
+using AdministratorPanel.UI.ViewModels.LogDiagnostics;
 using AdministratorPanel.UI.ViewModels.ServerManagement;
 using AdministratorPanel.UI.Views.LogCollector;
+using AdministratorPanel.UI.Views.LogDiagnostics;
 using AdministratorPanel.UI.Views.ServerManagement;
 using Avalonia.Controls;
 
@@ -17,7 +19,8 @@ public partial class MainWindow : Window
     public MainWindow(
         MainWindowViewModel viewModel,
         LogCollectorViewModel logCollectorViewModel,
-        ServerManagementViewModel serverManagementViewModel) : this()
+        ServerManagementViewModel serverManagementViewModel,
+        LogDiagnosticsViewModel logDiagnosticsViewModel) : this()
     {
         DataContext = viewModel;
 
@@ -32,5 +35,9 @@ public partial class MainWindow : Window
         {
             serverManagementView.DataContext = serverManagementViewModel;
         }
+
+        var logDiagnosticsView = this.FindControl<LogDiagnosticsView>("LogDiagnosticsHost");
+        if (logDiagnosticsView is not null)
+            logDiagnosticsView.DataContext = logDiagnosticsViewModel;
     }
 }

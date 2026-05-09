@@ -223,7 +223,7 @@
                     <TextBlock Classes="muted"
                                Text="Выбери группу для просмотра серверов и запуска операций."/>
                 </StackPanel>
-
+            <ScrollViewer MaxHeight="400" VerticalScrollBarVisibility="Auto">
                 <ListBox Classes="groupList"
                          ItemsSource="{Binding Groups}"
                          SelectedItem="{Binding SelectedGroup}">
@@ -246,6 +246,7 @@
                         </DataTemplate>
                     </ListBox.ItemTemplate>
                 </ListBox>
+            </ScrollViewer>
             </StackPanel>
         </Border>
 

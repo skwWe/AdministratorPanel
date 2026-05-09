@@ -7,6 +7,8 @@ using AdministratorPanel.Infrastructure.ServerManagement.Services;
 using AdministratorPanel.Infrastructure.Services;
 using AdministratorPanel.Modules.LogCollector.Abstractions;
 using AdministratorPanel.Modules.LogCollector.Services;
+using AdministratorPanel.Modules.LogDiagnostics.Abstractions;
+using AdministratorPanel.Modules.LogDiagnostics.Services;
 using AdministratorPanel.Modules.ServerManagement.Abstractions;
 using AdministratorPanel.Modules.ServerManagement.Services;
 using Microsoft.Extensions.DependencyInjection;
@@ -34,6 +36,9 @@ public static class ServiceCollectionExtensions
         services.AddSingleton<IServerComposeService, SshServerComposeService>();
         services.AddSingleton<IServerShutdownService, SshServerShutdownService>();
         services.AddSingleton<IShutdownRuleProvider, DefaultShutdownRuleProvider>();
+
+
+        services.AddSingleton<ILogAnalysisService, LogAnalysisService>();
 
         services.AddSingleton<ModuleBootstrapper>();
 

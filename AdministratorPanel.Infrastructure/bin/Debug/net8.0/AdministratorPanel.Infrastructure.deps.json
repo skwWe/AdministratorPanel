@@ -11,6 +11,7 @@
           "AdministratorPanel.Application": "1.0.0",
           "AdministratorPanel.Core": "1.0.0",
           "AdministratorPanel.Modules.LogCollector": "1.0.0",
+          "AdministratorPanel.Modules.LogDiagnostics": "1.0.0",
           "AdministratorPanel.Modules.ServerManagement": "1.0.0",
           "ClosedXML": "0.105.0",
           "Microsoft.Extensions.DependencyInjection": "10.0.5",
@@ -179,6 +180,17 @@
           }
         }
       },
+      "AdministratorPanel.Modules.LogDiagnostics/1.0.0": {
+        "dependencies": {
+          "AdministratorPanel.Core": "1.0.0"
+        },
+        "runtime": {
+          "AdministratorPanel.Modules.LogDiagnostics.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
       "AdministratorPanel.Modules.ServerManagement/1.0.0": {
         "dependencies": {
           "AdministratorPanel.Core": "1.0.0",
@@ -302,6 +314,11 @@
       "sha512": ""
     },
     "AdministratorPanel.Modules.LogCollector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdministratorPanel.Modules.LogDiagnostics/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

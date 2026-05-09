@@ -3,6 +3,7 @@
   <ItemGroup>
     <ProjectReference Include="..\AdministratorPanel.Core\AdministratorPanel.Core.csproj" />
     <ProjectReference Include="..\AdministratorPanel.Application\AdministratorPanel.Application.csproj" />
+    <ProjectReference Include="..\AdministratorPanel.Modules.LogDiagnostics\AdministratorPanel.Modules.LogDiagnostics.csproj" />
 	<ProjectReference Include="..\AdministratorPanel.Modules.ServerManagement\AdministratorPanel.Modules.ServerManagement.csproj" />
     <ProjectReference Include="..\AdministratorPanel.Modules.LogCollector\AdministratorPanel.Modules.LogCollector.csproj" />
   </ItemGroup>

@@ -5,6 +5,7 @@
         xmlns:vm="using:AdministratorPanel.UI.ViewModels"
         xmlns:serverViews="using:AdministratorPanel.UI.Views.ServerManagement"
         xmlns:logViews="using:AdministratorPanel.UI.Views.LogCollector"
+        xmlns:diagnosticsViews="using:AdministratorPanel.UI.Views.LogDiagnostics"
         x:Class="AdministratorPanel.UI.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         mc:Ignorable="d"
@@ -80,7 +81,6 @@
             </Border>
 
             <Grid Grid.Row="1" Margin="24">
-
                 <Border IsVisible="{Binding IsLogCollectorSelected}">
                     <logViews:LogCollectorView x:Name="LogCollectorHost"/>
                 </Border>
@@ -89,7 +89,11 @@
                     <serverViews:ServerManagementView x:Name="ServerManagementHost"/>
                 </Border>
 
-            </Grid>
+                <!-- 🆕 Добавьте этот блок для диагностики -->
+                <Border IsVisible="{Binding IsDiagnosticsSelected}">
+                    <diagnosticsViews:LogDiagnosticsView x:Name="LogDiagnosticsHost"/>
+                </Border>
+                    </Grid>
         </Grid>
     </Grid>
 </Window>

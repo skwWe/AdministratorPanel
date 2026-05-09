@@ -1,0 +1,16 @@
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\bin\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.deps.json
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\bin\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.dll
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\bin\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.pdb
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\bin\Debug\net8.0\AdministratorPanel.Core.dll
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\bin\Debug\net8.0\AdministratorPanel.Core.pdb
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\obj\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.csproj.AssemblyReference.cache
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\obj\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\obj\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.AssemblyInfoInputs.cache
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\obj\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.AssemblyInfo.cs
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\obj\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.csproj.CoreCompileInputs.cache
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\obj\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.sourcelink.json
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\obj\Debug\net8.0\Administ.7A6984E1.Up2Date
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\obj\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.dll
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\obj\Debug\net8.0\refint\AdministratorPanel.Modules.LogDiagnostics.dll
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\obj\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.pdb
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\obj\Debug\net8.0\ref\AdministratorPanel.Modules.LogDiagnostics.dll

@@ -1,0 +1,1255 @@
+
+========== cadvisor-docker-compose.yml ==========
+---- Логи сервиса: cadvisor ----
+Attaching to cadvisor
+[36mcadvisor    |[0m W0508 23:00:17.913765       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0508 23:00:17.955314       1 manager.go:286] Could not configure a source for OOM detection, disabling OOM events: open /dev/kmsg: no such file or directory
+[36mcadvisor    |[0m W0508 23:05:18.054647       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0508 23:10:18.055933       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0508 23:15:18.055166       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0508 23:20:18.054170       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0508 23:25:18.054987       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0508 23:30:18.054324       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0508 23:35:18.054292       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0508 23:40:18.054757       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0508 23:45:18.055764       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0508 23:50:18.054930       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0508 23:55:18.055224       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 00:00:18.055356       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 00:05:18.055129       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 00:10:18.055112       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 00:15:18.055472       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 00:20:18.056503       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 00:25:18.055770       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 00:30:18.054065       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 00:35:18.055055       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 00:40:18.055147       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 00:45:18.054866       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 00:50:18.055958       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 00:55:18.054594       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 01:00:18.054428       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 01:05:18.054970       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 01:10:18.054974       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 01:15:18.054821       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 01:20:18.058877       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 01:25:18.054948       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 01:30:18.054479       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 01:35:18.055007       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 01:40:18.054448       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 01:45:18.054495       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 01:50:18.055002       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 01:55:18.055256       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 02:00:18.054185       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 02:05:18.054608       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 02:10:18.055003       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 02:15:18.055432       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 02:20:18.054888       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 02:25:18.054333       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 02:30:18.054471       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 02:35:18.054490       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 02:40:18.054706       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 02:45:18.054261       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 02:50:18.054004       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 02:55:18.054562       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 03:00:18.054667       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 03:05:18.054419       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 03:10:18.055295       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 03:15:18.055024       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 03:20:18.055149       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 03:25:18.054849       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 03:30:18.054925       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 03:35:18.054611       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 03:40:18.054479       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 03:45:18.054920       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 03:50:18.054635       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 03:55:18.055059       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 04:00:18.054660       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 04:05:18.054115       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 04:10:18.054945       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 04:15:18.054842       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 04:20:18.054751       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 04:25:18.056922       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 04:30:18.059330       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 04:35:18.054384       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 04:40:18.054843       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 04:45:18.054599       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 04:50:18.054802       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 04:55:18.055335       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 05:00:18.054811       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 05:05:18.054820       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 05:10:18.054516       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 05:15:18.054321       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 05:20:18.054798       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 05:25:18.054817       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 05:30:18.055014       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 05:35:18.054824       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 05:40:18.054369       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 05:45:18.054996       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 05:50:18.056852       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 05:55:18.054869       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 06:00:18.054625       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 06:05:18.055272       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 06:10:18.055230       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 06:15:18.055721       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 06:20:18.054625       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 06:25:18.056487       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 06:30:18.054592       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 06:35:18.055013       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 06:40:18.054104       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 06:45:18.055831       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 06:50:18.053967       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 06:55:18.054065       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 07:00:18.055406       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 07:05:18.054071       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 07:10:18.055361       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 07:15:18.056698       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 07:20:18.054276       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 07:25:18.055185       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 07:30:18.053977       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 07:35:18.055973       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 07:40:18.054634       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 07:45:18.055229       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 07:50:18.054074       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 07:55:18.054941       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 08:00:18.054564       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 08:05:18.055005       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 08:10:18.054477       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 08:15:18.054639       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 08:20:18.054704       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 08:25:18.054456       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 08:30:18.055002       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 08:35:18.054316       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 08:40:18.054816       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 08:45:18.054598       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 08:50:18.054605       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 08:55:18.054724       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 09:00:18.054126       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 09:05:18.054384       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 09:10:18.054124       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 09:15:18.054550       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 09:20:18.054821       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 09:25:18.055001       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 09:30:18.054812       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 09:35:18.054997       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 09:40:18.054672       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 09:45:18.055252       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 09:50:18.054319       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 09:55:18.054357       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 10:00:18.054998       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 10:05:18.054141       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 10:10:18.054138       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 10:15:18.054707       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 10:20:18.055188       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 10:25:18.054402       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 10:30:18.054111       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 10:35:18.053995       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 10:40:18.055735       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 10:45:18.054627       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 10:50:18.053986       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 10:55:18.055455       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 11:00:18.055255       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 11:05:18.054742       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 11:10:18.055396       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 11:15:18.054978       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 11:20:18.054657       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 11:25:18.055170       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 11:30:18.055026       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 11:35:18.054868       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 11:40:18.054949       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 11:45:18.054933       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 11:50:18.054452       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 11:55:18.055518       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 12:00:18.054937       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 12:05:18.053992       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 12:10:18.055458       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 12:15:18.055119       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 12:20:18.054649       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 12:25:18.054914       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 12:30:18.054275       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 12:35:18.054917       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 12:40:18.053973       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 12:45:18.054379       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 12:50:18.055209       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 12:55:18.054972       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 13:00:18.054064       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 13:05:18.055263       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 13:10:18.054094       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 13:15:18.054376       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 13:20:18.055216       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 13:25:18.054674       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 13:30:18.059759       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 13:35:18.054427       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 13:40:18.055368       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 13:45:18.055011       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 13:50:18.054641       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 13:55:18.054871       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 14:00:18.055112       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 14:05:18.055863       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 14:10:18.054558       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 14:15:18.054234       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 14:20:18.055706       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 14:25:18.054375       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 14:30:18.054993       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 14:35:18.055445       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 14:40:18.055072       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 14:45:18.055138       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 14:50:18.054111       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 14:55:18.054637       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 15:00:18.055254       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 15:05:18.054381       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 15:10:18.054015       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 15:15:18.055674       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 15:20:18.054929       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 15:25:18.054140       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 15:30:18.054650       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 15:35:18.054726       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 15:40:18.058819       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 15:45:18.054988       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 15:50:18.055018       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 15:55:18.054877       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 16:00:18.058835       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 16:05:18.054421       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 16:10:18.054411       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 16:15:18.053972       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 16:20:18.055431       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 16:25:18.053947       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 16:30:18.054628       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 16:35:18.055210       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 16:40:18.055090       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 16:45:18.054462       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 16:50:18.054436       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 16:55:18.054310       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 17:00:18.055268       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 17:05:18.055111       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 17:10:18.054727       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 17:15:18.054858       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 17:20:18.054704       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 17:25:18.054066       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 17:30:18.054379       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 17:35:18.054428       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 17:40:18.054512       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 17:45:18.054621       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 17:50:18.055280       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 17:55:18.055023       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 18:00:18.054451       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 18:05:18.054370       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 18:10:18.054054       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 18:15:18.054833       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 18:20:18.055068       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 18:25:18.054579       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 18:30:18.054761       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 18:35:18.059374       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 18:40:18.054397       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 18:45:18.054783       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 18:50:18.054292       1 machine_libipmctl.go:64] There are no NVM devices!
+[36mcadvisor    |[0m W0509 18:55:18.054961       1 machine_libipmctl.go:64] There are no NVM devices!
+
+========== docker-compose.yml ==========
+---- Логи сервиса: conversionservice ----
+Attaching to conversionservice
+[36mconversionservice    |[0m 2026-05-09 07:50:01.4636|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/26e3f9c2-07c3-4fa0-bed4-76365896d968.
+[36mconversionservice    |[0m 2026-05-09 07:50:01.4636|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 07:50:01.8316|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 07:50:02.3430|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/26e3f9c2-07c3-4fa0-bed4-76365896d968/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 07:50:02.4395|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/26e3f9c2-07c3-4fa0-bed4-76365896d968/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 07:50:02.5420|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 26e3f9c2-07c3-4fa0-bed4-76365896d968
+[36mconversionservice    |[0m 2026-05-09 07:50:02.5451|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 07:50:02.5451|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 07:50:02.5451|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 26e3f9c2-07c3-4fa0-bed4-76365896d968
+[36mconversionservice    |[0m 2026-05-09 08:12:45.3209|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/ee2a9812-8130-4fd3-807a-178f043c2e54.
+[36mconversionservice    |[0m 2026-05-09 08:12:45.3209|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 08:12:45.6851|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 08:12:46.2213|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/ee2a9812-8130-4fd3-807a-178f043c2e54/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 08:12:46.3143|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/ee2a9812-8130-4fd3-807a-178f043c2e54/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 08:12:46.4263|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: ee2a9812-8130-4fd3-807a-178f043c2e54
+[36mconversionservice    |[0m 2026-05-09 08:12:46.4263|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 08:12:46.4263|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 08:12:46.4263|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено ee2a9812-8130-4fd3-807a-178f043c2e54
+[36mconversionservice    |[0m 2026-05-09 08:20:16.2961|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/d239ce3a-d097-4d1a-85a9-4fb000aca9b0.
+[36mconversionservice    |[0m 2026-05-09 08:20:16.2961|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 08:20:16.7729|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/d239ce3a-d097-4d1a-85a9-4fb000aca9b0/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 08:20:16.8797|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/d239ce3a-d097-4d1a-85a9-4fb000aca9b0/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 08:20:17.0032|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: d239ce3a-d097-4d1a-85a9-4fb000aca9b0
+[36mconversionservice    |[0m 2026-05-09 08:20:17.0032|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 08:20:17.0032|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 08:20:17.0064|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено d239ce3a-d097-4d1a-85a9-4fb000aca9b0
+[36mconversionservice    |[0m 2026-05-09 08:25:28.8848|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/94378611-c377-4f86-9511-942fd92e4cf1.
+[36mconversionservice    |[0m 2026-05-09 08:25:28.8848|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 08:25:29.2557|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 08:25:29.7785|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/94378611-c377-4f86-9511-942fd92e4cf1/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 08:25:29.8762|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/94378611-c377-4f86-9511-942fd92e4cf1/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 08:25:29.9712|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 94378611-c377-4f86-9511-942fd92e4cf1
+[36mconversionservice    |[0m 2026-05-09 08:25:29.9712|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 08:25:29.9712|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 08:25:29.9712|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 94378611-c377-4f86-9511-942fd92e4cf1
+[36mconversionservice    |[0m 2026-05-09 08:43:16.8855|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/f56925f2-bc9e-4855-8e3b-0ba34e3382da.
+[36mconversionservice    |[0m 2026-05-09 08:43:16.8865|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 08:43:17.2400|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 08:43:17.7368|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/f56925f2-bc9e-4855-8e3b-0ba34e3382da/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 08:43:17.8208|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/f56925f2-bc9e-4855-8e3b-0ba34e3382da/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 08:43:17.9523|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: f56925f2-bc9e-4855-8e3b-0ba34e3382da
+[36mconversionservice    |[0m 2026-05-09 08:43:17.9523|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 08:43:17.9523|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 08:43:17.9543|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено f56925f2-bc9e-4855-8e3b-0ba34e3382da
+[36mconversionservice    |[0m 2026-05-09 08:47:30.0238|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|<Консолидация карточек файлов. CardFileCollection=c35e6eee-6b58-4676-9574-0189b7e14ea6, ConvertionsParams=UseIso190051=True>
+[36mconversionservice    |[0m 2026-05-09 08:47:30.0279|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 08:47:30.8150|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/ca4a6bc4-603c-4bed-bd37-abf4fdae783e.
+[36mconversionservice    |[0m 2026-05-09 08:47:30.9001|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл '2026 Бовин А.И._ОИВы_об исп.п.3 протокола 272пр_14.04.2026.docx' скачан и сохранен как '/tmp/DigDes.ConversionService/ca4a6bc4-603c-4bed-bd37-abf4fdae783e/c35e6eee-6b58-4676-9574-0189b7e14ea6.docx'.
+[36mconversionservice    |[0m 2026-05-09 08:47:30.9053|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Скачанные файлы: CardFileId='c35e6eee-6b58-4676-9574-0189b7e14ea6', FilePath='/tmp/DigDes.ConversionService/ca4a6bc4-603c-4bed-bd37-abf4fdae783e/c35e6eee-6b58-4676-9574-0189b7e14ea6.docx', FileName='2026 Бовин А.И._ОИВы_об исп.п.3 протокола 272пр_14.04.2026.docx'
+[36mconversionservice    |[0m 2026-05-09 08:47:30.9077|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|<Конвертирование файла в pdf со стандартом PDF/A. Файл: '/tmp/DigDes.ConversionService/ca4a6bc4-603c-4bed-bd37-abf4fdae783e/c35e6eee-6b58-4676-9574-0189b7e14ea6.docx'>
+[36mconversionservice    |[0m 2026-05-09 08:47:30.9120|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|SourcePath=/tmp/DigDes.ConversionService/ca4a6bc4-603c-4bed-bd37-abf4fdae783e/c35e6eee-6b58-4676-9574-0189b7e14ea6.docx
+[36mconversionservice    |[0m 2026-05-09 08:47:30.9299|DEBUG|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|R7OfficeDocumentExporter. Start file 'c35e6eee-6b58-4676-9574-0189b7e14ea6.docx' exporting to PDF format.
+[36mconversionservice    |[0m 2026-05-09 08:47:32.4879|DEBUG|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|File 'c35e6eee-6b58-4676-9574-0189b7e14ea6.docx' was successfully exported to PDF format. New size = 109979 bytes.
+[36mconversionservice    |[0m 2026-05-09 08:47:32.4879|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|</Конвертирование файла в pdf со стандартом PDF/A. Файл: '/tmp/DigDes.ConversionService/ca4a6bc4-603c-4bed-bd37-abf4fdae783e/c35e6eee-6b58-4676-9574-0189b7e14ea6.docx'>
+[36mconversionservice    |[0m 2026-05-09 08:47:32.4906|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Сконвертированные файлы: CardFileId='c35e6eee-6b58-4676-9574-0189b7e14ea6', FilePath='/tmp/DigDes.ConversionService/ca4a6bc4-603c-4bed-bd37-abf4fdae783e/c35e6eee-6b58-4676-9574-0189b7e14ea6.pdf', FileName='2026 Бовин А.И._ОИВы_об исп.п.3 протокола 272пр_14.04.2026.pdf'
+[36mconversionservice    |[0m 2026-05-09 08:47:32.4906|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание карточки файла. Файл: '/tmp/DigDes.ConversionService/ca4a6bc4-603c-4bed-bd37-abf4fdae783e/c35e6eee-6b58-4676-9574-0189b7e14ea6.pdf', имя файла'2026 Бовин А.И._ОИВы_об исп.п.3 протокола 272пр_14.04.2026.pdf'.
+[36mconversionservice    |[0m 2026-05-09 08:47:33.5842|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Завершено создание карточки файла. Файл: '/tmp/DigDes.ConversionService/ca4a6bc4-603c-4bed-bd37-abf4fdae783e/c35e6eee-6b58-4676-9574-0189b7e14ea6.pdf', имя файла'2026 Бовин А.И._ОИВы_об исп.п.3 протокола 272пр_14.04.2026.pdf'.
+[36mconversionservice    |[0m 2026-05-09 08:47:33.7428|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Созданная карточка файла: 34f6ab10-ca5d-42f2-909c-6806a1689fef
+[36mconversionservice    |[0m 2026-05-09 08:47:33.7428|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: ca4a6bc4-603c-4bed-bd37-abf4fdae783e
+[36mconversionservice    |[0m 2026-05-09 08:47:33.7428|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено c35e6eee-6b58-4676-9574-0189b7e14ea6.pdf
+[36mconversionservice    |[0m 2026-05-09 08:47:33.7428|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено c35e6eee-6b58-4676-9574-0189b7e14ea6.docx
+[36mconversionservice    |[0m 2026-05-09 08:47:33.7465|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено ca4a6bc4-603c-4bed-bd37-abf4fdae783e
+[36mconversionservice    |[0m 2026-05-09 08:47:33.7465|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|</Консолидация карточек файлов. CardFileCollection=c35e6eee-6b58-4676-9574-0189b7e14ea6, ConvertionsParams=UseIso190051=True>
+[36mconversionservice    |[0m 2026-05-09 08:56:41.5612|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/03433115-7942-4c28-92f0-6eb0ac2d7e5a.
+[36mconversionservice    |[0m 2026-05-09 08:56:41.5612|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 08:56:41.9350|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 08:56:42.4608|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/03433115-7942-4c28-92f0-6eb0ac2d7e5a/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 08:56:42.5417|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/03433115-7942-4c28-92f0-6eb0ac2d7e5a/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 08:56:42.6428|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 03433115-7942-4c28-92f0-6eb0ac2d7e5a
+[36mconversionservice    |[0m 2026-05-09 08:56:42.6428|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 08:56:42.6428|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 08:56:42.6428|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 03433115-7942-4c28-92f0-6eb0ac2d7e5a
+[36mconversionservice    |[0m 2026-05-09 09:01:02.7063|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/25f552fe-690c-43df-948e-b59d9bcc7e8c.
+[36mconversionservice    |[0m 2026-05-09 09:01:02.7069|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 09:01:03.1263|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/25f552fe-690c-43df-948e-b59d9bcc7e8c/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 09:01:03.2132|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/25f552fe-690c-43df-948e-b59d9bcc7e8c/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 09:01:03.3048|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 25f552fe-690c-43df-948e-b59d9bcc7e8c
+[36mconversionservice    |[0m 2026-05-09 09:01:03.3048|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 09:01:03.3048|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 09:01:03.3048|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 25f552fe-690c-43df-948e-b59d9bcc7e8c
+[36mconversionservice    |[0m 2026-05-09 09:20:24.3388|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 09:20:24.7408|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 09:20:25.1151|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/02d06a37-9d1b-4d90-b26c-6609ce3e398f.
+[36mconversionservice    |[0m 2026-05-09 09:20:25.2501|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'о согласовании закупки у ед.поставщика.docx' скачан и сохранен как '/tmp/DigDes.ConversionService/02d06a37-9d1b-4d90-b26c-6609ce3e398f/bddf1104-186d-4d97-91a1-5111f27c77af.docx'.
+[36mconversionservice    |[0m 2026-05-09 09:20:25.2519|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|SourcePath=/tmp/DigDes.ConversionService/02d06a37-9d1b-4d90-b26c-6609ce3e398f/bddf1104-186d-4d97-91a1-5111f27c77af.docx
+[36mconversionservice    |[0m 2026-05-09 09:20:25.2519|DEBUG|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|R7OfficeDocumentExporter. Start file 'bddf1104-186d-4d97-91a1-5111f27c77af.docx' exporting to PDF format.
+[36mconversionservice    |[0m 2026-05-09 09:20:26.6492|DEBUG|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|File 'bddf1104-186d-4d97-91a1-5111f27c77af.docx' was successfully exported to PDF format. New size = 186743 bytes.
+[36mconversionservice    |[0m 2026-05-09 09:20:26.6516|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание карточки файла. Файл: '/tmp/DigDes.ConversionService/02d06a37-9d1b-4d90-b26c-6609ce3e398f/91844a41-d9e8-42e9-adeb-882bf63473ff.docx', имя файла'о согласовании закупки у ед.поставщика.pdf'.
+[36mconversionservice    |[0m 2026-05-09 09:20:27.6204|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Завершено создание карточки файла. Файл: '/tmp/DigDes.ConversionService/02d06a37-9d1b-4d90-b26c-6609ce3e398f/91844a41-d9e8-42e9-adeb-882bf63473ff.docx', имя файла'о согласовании закупки у ед.поставщика.pdf'.
+[36mconversionservice    |[0m 2026-05-09 09:20:27.6204|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 02d06a37-9d1b-4d90-b26c-6609ce3e398f
+[36mconversionservice    |[0m 2026-05-09 09:20:27.6241|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 91844a41-d9e8-42e9-adeb-882bf63473ff.docx
+[36mconversionservice    |[0m 2026-05-09 09:20:27.6241|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено bddf1104-186d-4d97-91a1-5111f27c77af.docx
+[36mconversionservice    |[0m 2026-05-09 09:20:27.6241|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 02d06a37-9d1b-4d90-b26c-6609ce3e398f
+[36mconversionservice    |[0m 2026-05-09 09:39:41.6886|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/209bfbfd-1daa-4868-8459-c6dfa4ca9639.
+[36mconversionservice    |[0m 2026-05-09 09:39:41.6886|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 09:39:42.0982|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 09:39:42.6336|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/209bfbfd-1daa-4868-8459-c6dfa4ca9639/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 09:39:42.7401|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/209bfbfd-1daa-4868-8459-c6dfa4ca9639/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 09:39:42.8293|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 209bfbfd-1daa-4868-8459-c6dfa4ca9639
+[36mconversionservice    |[0m 2026-05-09 09:39:42.8293|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 09:39:42.8293|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 09:39:42.8302|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 209bfbfd-1daa-4868-8459-c6dfa4ca9639
+[36mconversionservice    |[0m 2026-05-09 09:42:36.1936|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/323ee0bd-3f14-4f9f-92cc-888429cd173f.
+[36mconversionservice    |[0m 2026-05-09 09:42:36.1943|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 09:42:36.6307|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/323ee0bd-3f14-4f9f-92cc-888429cd173f/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 09:42:36.7228|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/323ee0bd-3f14-4f9f-92cc-888429cd173f/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 09:42:36.8101|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 323ee0bd-3f14-4f9f-92cc-888429cd173f
+[36mconversionservice    |[0m 2026-05-09 09:42:36.8107|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 09:42:36.8107|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 09:42:36.8107|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 323ee0bd-3f14-4f9f-92cc-888429cd173f
+[36mconversionservice    |[0m 2026-05-09 09:51:58.9649|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/88530494-2516-4e7c-82e8-d989b9654652.
+[36mconversionservice    |[0m 2026-05-09 09:51:58.9649|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 09:51:59.3496|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 09:51:59.9076|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/88530494-2516-4e7c-82e8-d989b9654652/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 09:51:59.9954|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/88530494-2516-4e7c-82e8-d989b9654652/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 09:52:00.1009|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 88530494-2516-4e7c-82e8-d989b9654652
+[36mconversionservice    |[0m 2026-05-09 09:52:00.1009|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 09:52:00.1009|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 09:52:00.1009|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 88530494-2516-4e7c-82e8-d989b9654652
+[36mconversionservice    |[0m 2026-05-09 10:00:11.7905|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/2a8f0838-c24a-4a5a-a4f9-c386e0ec073f.
+[36mconversionservice    |[0m 2026-05-09 10:00:11.7976|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 10:00:12.2437|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/2a8f0838-c24a-4a5a-a4f9-c386e0ec073f/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 10:00:12.3338|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/2a8f0838-c24a-4a5a-a4f9-c386e0ec073f/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 10:00:12.4638|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 2a8f0838-c24a-4a5a-a4f9-c386e0ec073f
+[36mconversionservice    |[0m 2026-05-09 10:00:12.4638|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 10:00:12.4638|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 10:00:12.4638|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 2a8f0838-c24a-4a5a-a4f9-c386e0ec073f
+[36mconversionservice    |[0m 2026-05-09 10:27:20.9269|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|<Консолидация карточек файлов. CardFileCollection=92f338fa-02e2-4cfa-962a-7fd123a16e0e, ConvertionsParams=UseIso190051=True>
+[36mconversionservice    |[0m 2026-05-09 10:27:20.9269|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 10:27:21.3333|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 10:27:22.0053|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/f74a9bf0-85ed-4acd-bbd0-ccddaa2faf00.
+[36mconversionservice    |[0m 2026-05-09 10:27:22.0805|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл '1. Постановление отказ.docx' скачан и сохранен как '/tmp/DigDes.ConversionService/f74a9bf0-85ed-4acd-bbd0-ccddaa2faf00/92f338fa-02e2-4cfa-962a-7fd123a16e0e.docx'.
+[36mconversionservice    |[0m 2026-05-09 10:27:22.0805|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Скачанные файлы: CardFileId='92f338fa-02e2-4cfa-962a-7fd123a16e0e', FilePath='/tmp/DigDes.ConversionService/f74a9bf0-85ed-4acd-bbd0-ccddaa2faf00/92f338fa-02e2-4cfa-962a-7fd123a16e0e.docx', FileName='1. Постановление отказ.docx'
+[36mconversionservice    |[0m 2026-05-09 10:27:22.0805|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|<Конвертирование файла в pdf со стандартом PDF/A. Файл: '/tmp/DigDes.ConversionService/f74a9bf0-85ed-4acd-bbd0-ccddaa2faf00/92f338fa-02e2-4cfa-962a-7fd123a16e0e.docx'>
+[36mconversionservice    |[0m 2026-05-09 10:27:22.0826|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|SourcePath=/tmp/DigDes.ConversionService/f74a9bf0-85ed-4acd-bbd0-ccddaa2faf00/92f338fa-02e2-4cfa-962a-7fd123a16e0e.docx
+[36mconversionservice    |[0m 2026-05-09 10:27:22.0826|DEBUG|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|R7OfficeDocumentExporter. Start file '92f338fa-02e2-4cfa-962a-7fd123a16e0e.docx' exporting to PDF format.
+[36mconversionservice    |[0m 2026-05-09 10:27:23.3857|DEBUG|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|File '92f338fa-02e2-4cfa-962a-7fd123a16e0e.docx' was successfully exported to PDF format. New size = 192525 bytes.
+[36mconversionservice    |[0m 2026-05-09 10:27:23.3876|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|</Конвертирование файла в pdf со стандартом PDF/A. Файл: '/tmp/DigDes.ConversionService/f74a9bf0-85ed-4acd-bbd0-ccddaa2faf00/92f338fa-02e2-4cfa-962a-7fd123a16e0e.docx'>
+[36mconversionservice    |[0m 2026-05-09 10:27:23.3876|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Сконвертированные файлы: CardFileId='92f338fa-02e2-4cfa-962a-7fd123a16e0e', FilePath='/tmp/DigDes.ConversionService/f74a9bf0-85ed-4acd-bbd0-ccddaa2faf00/92f338fa-02e2-4cfa-962a-7fd123a16e0e.pdf', FileName='1. Постановление отказ.pdf'
+[36mconversionservice    |[0m 2026-05-09 10:27:23.3876|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание карточки файла. Файл: '/tmp/DigDes.ConversionService/f74a9bf0-85ed-4acd-bbd0-ccddaa2faf00/92f338fa-02e2-4cfa-962a-7fd123a16e0e.pdf', имя файла'1. Постановление отказ.pdf'.
+[36mconversionservice    |[0m 2026-05-09 10:27:24.3171|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Завершено создание карточки файла. Файл: '/tmp/DigDes.ConversionService/f74a9bf0-85ed-4acd-bbd0-ccddaa2faf00/92f338fa-02e2-4cfa-962a-7fd123a16e0e.pdf', имя файла'1. Постановление отказ.pdf'.
+[36mconversionservice    |[0m 2026-05-09 10:27:24.4475|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Созданная карточка файла: 18b170af-95f6-4a00-b561-dc9365b3dfad
+[36mconversionservice    |[0m 2026-05-09 10:27:24.4475|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: f74a9bf0-85ed-4acd-bbd0-ccddaa2faf00
+[36mconversionservice    |[0m 2026-05-09 10:27:24.4475|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 92f338fa-02e2-4cfa-962a-7fd123a16e0e.pdf
+[36mconversionservice    |[0m 2026-05-09 10:27:24.4475|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 92f338fa-02e2-4cfa-962a-7fd123a16e0e.docx
+[36mconversionservice    |[0m 2026-05-09 10:27:24.4503|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено f74a9bf0-85ed-4acd-bbd0-ccddaa2faf00
+[36mconversionservice    |[0m 2026-05-09 10:27:24.4503|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|</Консолидация карточек файлов. CardFileCollection=92f338fa-02e2-4cfa-962a-7fd123a16e0e, ConvertionsParams=UseIso190051=True>
+[36mconversionservice    |[0m 2026-05-09 10:30:07.3853|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/fb2ee9b8-44ea-42ed-b617-6fd627d6851c.
+[36mconversionservice    |[0m 2026-05-09 10:30:07.3853|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 10:30:07.8242|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/fb2ee9b8-44ea-42ed-b617-6fd627d6851c/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 10:30:07.9152|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/fb2ee9b8-44ea-42ed-b617-6fd627d6851c/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 10:30:08.0159|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: fb2ee9b8-44ea-42ed-b617-6fd627d6851c
+[36mconversionservice    |[0m 2026-05-09 10:30:08.0159|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 10:30:08.0159|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 10:30:08.0159|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено fb2ee9b8-44ea-42ed-b617-6fd627d6851c
+[36mconversionservice    |[0m 2026-05-09 10:31:56.4482|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/92960f5d-c887-41be-a05a-77f1669ccf6d.
+[36mconversionservice    |[0m 2026-05-09 10:31:56.4504|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 10:31:56.9297|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/92960f5d-c887-41be-a05a-77f1669ccf6d/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 10:31:57.0256|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/92960f5d-c887-41be-a05a-77f1669ccf6d/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 10:31:57.1799|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 92960f5d-c887-41be-a05a-77f1669ccf6d
+[36mconversionservice    |[0m 2026-05-09 10:31:57.1799|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 10:31:57.1799|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 10:31:57.1799|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 92960f5d-c887-41be-a05a-77f1669ccf6d
+[36mconversionservice    |[0m 2026-05-09 10:35:29.9060|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/495150c7-c1e4-4c03-80ff-9067e20bae4a.
+[36mconversionservice    |[0m 2026-05-09 10:35:29.9064|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 10:35:30.3289|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/495150c7-c1e4-4c03-80ff-9067e20bae4a/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 10:35:30.4120|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/495150c7-c1e4-4c03-80ff-9067e20bae4a/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 10:35:30.5212|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 495150c7-c1e4-4c03-80ff-9067e20bae4a
+[36mconversionservice    |[0m 2026-05-09 10:35:30.5233|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 10:35:30.5233|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 10:35:30.5233|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 495150c7-c1e4-4c03-80ff-9067e20bae4a
+[36mconversionservice    |[0m 2026-05-09 10:38:12.1161|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/5c94a008-4dee-495d-8f82-a958390b44ca.
+[36mconversionservice    |[0m 2026-05-09 10:38:12.1161|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 10:38:12.4569|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 10:38:13.0225|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/5c94a008-4dee-495d-8f82-a958390b44ca/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 10:38:13.1237|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/5c94a008-4dee-495d-8f82-a958390b44ca/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 10:38:13.2201|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 5c94a008-4dee-495d-8f82-a958390b44ca
+[36mconversionservice    |[0m 2026-05-09 10:38:13.2201|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 10:38:13.2201|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 10:38:13.2201|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 5c94a008-4dee-495d-8f82-a958390b44ca
+[36mconversionservice    |[0m 2026-05-09 10:43:26.7863|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/b917da1d-148f-4ebe-9e6c-5d1c858f7020.
+[36mconversionservice    |[0m 2026-05-09 10:43:26.7863|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 10:43:27.2191|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/b917da1d-148f-4ebe-9e6c-5d1c858f7020/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 10:43:27.3031|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/b917da1d-148f-4ebe-9e6c-5d1c858f7020/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 10:43:27.4251|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: b917da1d-148f-4ebe-9e6c-5d1c858f7020
+[36mconversionservice    |[0m 2026-05-09 10:43:27.4251|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 10:43:27.4251|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 10:43:27.4262|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено b917da1d-148f-4ebe-9e6c-5d1c858f7020
+[36mconversionservice    |[0m 2026-05-09 10:45:34.2669|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/67d96dff-88bf-4285-ac5a-cf697c61b3d9.
+[36mconversionservice    |[0m 2026-05-09 10:45:34.2669|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 10:45:34.7914|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/67d96dff-88bf-4285-ac5a-cf697c61b3d9/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 10:45:34.8834|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/67d96dff-88bf-4285-ac5a-cf697c61b3d9/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 10:45:34.9966|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 67d96dff-88bf-4285-ac5a-cf697c61b3d9
+[36mconversionservice    |[0m 2026-05-09 10:45:34.9966|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 10:45:34.9966|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 10:45:34.9966|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 67d96dff-88bf-4285-ac5a-cf697c61b3d9
+[36mconversionservice    |[0m 2026-05-09 10:47:47.4478|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/b38b2659-4a73-484b-a4bf-47fba76049db.
+[36mconversionservice    |[0m 2026-05-09 10:47:47.4478|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 10:47:47.8656|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/b38b2659-4a73-484b-a4bf-47fba76049db/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 10:47:47.9474|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/b38b2659-4a73-484b-a4bf-47fba76049db/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 10:47:48.0690|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: b38b2659-4a73-484b-a4bf-47fba76049db
+[36mconversionservice    |[0m 2026-05-09 10:47:48.0690|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 10:47:48.0690|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 10:47:48.0705|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено b38b2659-4a73-484b-a4bf-47fba76049db
+[36mconversionservice    |[0m 2026-05-09 10:53:07.8774|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/dca8a279-73d0-4971-92bc-6727f5f723e3.
+[36mconversionservice    |[0m 2026-05-09 10:53:07.8782|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 10:53:08.2750|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 10:53:08.8601|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/dca8a279-73d0-4971-92bc-6727f5f723e3/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 10:53:08.9721|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/dca8a279-73d0-4971-92bc-6727f5f723e3/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 10:53:09.0633|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: dca8a279-73d0-4971-92bc-6727f5f723e3
+[36mconversionservice    |[0m 2026-05-09 10:53:09.0633|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 10:53:09.0633|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 10:53:09.0633|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено dca8a279-73d0-4971-92bc-6727f5f723e3
+[36mconversionservice    |[0m 2026-05-09 11:01:19.4722|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/88b04efc-7d11-4c03-aa47-f8c31a39e0b6.
+[36mconversionservice    |[0m 2026-05-09 11:01:19.4722|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 11:01:19.9549|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/88b04efc-7d11-4c03-aa47-f8c31a39e0b6/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 11:01:20.0455|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/88b04efc-7d11-4c03-aa47-f8c31a39e0b6/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 11:01:20.1401|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 88b04efc-7d11-4c03-aa47-f8c31a39e0b6
+[36mconversionservice    |[0m 2026-05-09 11:01:20.1439|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 11:01:20.1439|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 11:01:20.1439|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 88b04efc-7d11-4c03-aa47-f8c31a39e0b6
+[36mconversionservice    |[0m 2026-05-09 11:11:49.4815|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/af5843ca-931c-4c60-8919-0077cf3991ed.
+[36mconversionservice    |[0m 2026-05-09 11:11:49.4822|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 11:11:49.8689|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 11:11:50.3861|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/af5843ca-931c-4c60-8919-0077cf3991ed/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 11:11:50.4598|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/af5843ca-931c-4c60-8919-0077cf3991ed/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 11:11:50.5821|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: af5843ca-931c-4c60-8919-0077cf3991ed
+[36mconversionservice    |[0m 2026-05-09 11:11:50.5828|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 11:11:50.5828|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 11:11:50.5828|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено af5843ca-931c-4c60-8919-0077cf3991ed
+[36mconversionservice    |[0m 2026-05-09 11:19:11.3192|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/4d68066e-fd81-4f31-8b24-3387057fa5f3.
+[36mconversionservice    |[0m 2026-05-09 11:19:11.3192|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 11:19:11.7661|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/4d68066e-fd81-4f31-8b24-3387057fa5f3/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 11:19:11.8422|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/4d68066e-fd81-4f31-8b24-3387057fa5f3/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 11:19:11.9377|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 4d68066e-fd81-4f31-8b24-3387057fa5f3
+[36mconversionservice    |[0m 2026-05-09 11:19:11.9385|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 11:19:11.9385|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 11:19:11.9385|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 4d68066e-fd81-4f31-8b24-3387057fa5f3
+[36mconversionservice    |[0m 2026-05-09 11:56:36.8068|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/237ba9ec-62c5-410c-97cf-92aa974f0c75.
+[36mconversionservice    |[0m 2026-05-09 11:56:36.8068|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 11:56:37.1972|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 11:56:37.7131|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/237ba9ec-62c5-410c-97cf-92aa974f0c75/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 11:56:37.8007|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/237ba9ec-62c5-410c-97cf-92aa974f0c75/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 11:56:37.9263|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 237ba9ec-62c5-410c-97cf-92aa974f0c75
+[36mconversionservice    |[0m 2026-05-09 11:56:37.9263|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 11:56:37.9263|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 11:56:37.9263|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 237ba9ec-62c5-410c-97cf-92aa974f0c75
+[36mconversionservice    |[0m 2026-05-09 12:20:23.9955|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|<Консолидация карточек файлов. CardFileCollection=ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d, ConvertionsParams=UseIso190051=True>
+[36mconversionservice    |[0m 2026-05-09 12:20:23.9955|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 12:20:24.3737|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 12:20:25.0464|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/de545244-717f-4915-a9d8-9bb494c81e7d.
+[36mconversionservice    |[0m 2026-05-09 12:20:25.1348|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Батурину09.05.26.doc' скачан и сохранен как '/tmp/DigDes.ConversionService/de545244-717f-4915-a9d8-9bb494c81e7d/ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d.doc'.
+[36mconversionservice    |[0m 2026-05-09 12:20:25.1348|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Скачанные файлы: CardFileId='ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d', FilePath='/tmp/DigDes.ConversionService/de545244-717f-4915-a9d8-9bb494c81e7d/ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d.doc', FileName='Батурину09.05.26.doc'
+[36mconversionservice    |[0m 2026-05-09 12:20:25.1348|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|<Конвертирование файла в pdf со стандартом PDF/A. Файл: '/tmp/DigDes.ConversionService/de545244-717f-4915-a9d8-9bb494c81e7d/ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d.doc'>
+[36mconversionservice    |[0m 2026-05-09 12:20:25.1348|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|SourcePath=/tmp/DigDes.ConversionService/de545244-717f-4915-a9d8-9bb494c81e7d/ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d.doc
+[36mconversionservice    |[0m 2026-05-09 12:20:25.1399|DEBUG|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|R7OfficeDocumentExporter. Start file 'ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d.doc' exporting to PDF format.
+[36mconversionservice    |[0m 2026-05-09 12:20:26.6470|DEBUG|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|File 'ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d.doc' was successfully exported to PDF format. New size = 99119 bytes.
+[36mconversionservice    |[0m 2026-05-09 12:20:26.6470|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|</Конвертирование файла в pdf со стандартом PDF/A. Файл: '/tmp/DigDes.ConversionService/de545244-717f-4915-a9d8-9bb494c81e7d/ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d.doc'>
+[36mconversionservice    |[0m 2026-05-09 12:20:26.6470|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Сконвертированные файлы: CardFileId='ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d', FilePath='/tmp/DigDes.ConversionService/de545244-717f-4915-a9d8-9bb494c81e7d/ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d.pdf', FileName='Батурину09.05.26.pdf'
+[36mconversionservice    |[0m 2026-05-09 12:20:26.6503|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание карточки файла. Файл: '/tmp/DigDes.ConversionService/de545244-717f-4915-a9d8-9bb494c81e7d/ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d.pdf', имя файла'Батурину09.05.26.pdf'.
+[36mconversionservice    |[0m 2026-05-09 12:20:27.8234|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Завершено создание карточки файла. Файл: '/tmp/DigDes.ConversionService/de545244-717f-4915-a9d8-9bb494c81e7d/ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d.pdf', имя файла'Батурину09.05.26.pdf'.
+[36mconversionservice    |[0m 2026-05-09 12:20:27.9697|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Созданная карточка файла: 7ee31642-bc2b-419b-ad48-161ef1e28a7b
+[36mconversionservice    |[0m 2026-05-09 12:20:27.9697|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: de545244-717f-4915-a9d8-9bb494c81e7d
+[36mconversionservice    |[0m 2026-05-09 12:20:27.9697|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d.doc
+[36mconversionservice    |[0m 2026-05-09 12:20:27.9697|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d.pdf
+[36mconversionservice    |[0m 2026-05-09 12:20:27.9697|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено de545244-717f-4915-a9d8-9bb494c81e7d
+[36mconversionservice    |[0m 2026-05-09 12:20:27.9697|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|</Консолидация карточек файлов. CardFileCollection=ac9c6dd1-24b3-45dc-bd3d-00ae489fbf9d, ConvertionsParams=UseIso190051=True>
+[36mconversionservice    |[0m 2026-05-09 12:55:47.0408|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/00387084-d338-4966-beec-1e9eb54eb7cb.
+[36mconversionservice    |[0m 2026-05-09 12:55:47.0408|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 12:55:47.4249|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 12:55:47.9503|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/00387084-d338-4966-beec-1e9eb54eb7cb/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 12:55:48.0318|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/00387084-d338-4966-beec-1e9eb54eb7cb/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 12:55:48.1365|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 00387084-d338-4966-beec-1e9eb54eb7cb
+[36mconversionservice    |[0m 2026-05-09 12:55:48.1365|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 12:55:48.1365|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 12:55:48.1365|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 00387084-d338-4966-beec-1e9eb54eb7cb
+[36mconversionservice    |[0m 2026-05-09 13:09:43.8916|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/2d40f977-81ab-4ab1-8038-7b4886458944.
+[36mconversionservice    |[0m 2026-05-09 13:09:43.8916|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 13:09:44.2755|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 13:09:44.8149|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/2d40f977-81ab-4ab1-8038-7b4886458944/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 13:09:44.9076|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/2d40f977-81ab-4ab1-8038-7b4886458944/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 13:09:45.0162|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 2d40f977-81ab-4ab1-8038-7b4886458944
+[36mconversionservice    |[0m 2026-05-09 13:09:45.0162|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 13:09:45.0162|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 13:09:45.0162|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 2d40f977-81ab-4ab1-8038-7b4886458944
+[36mconversionservice    |[0m 2026-05-09 13:24:22.5237|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/4ce37b8b-ef13-4e60-99f2-19103d6d738a.
+[36mconversionservice    |[0m 2026-05-09 13:24:22.5237|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 13:24:22.9164|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 13:24:23.4925|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/4ce37b8b-ef13-4e60-99f2-19103d6d738a/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 13:24:23.5814|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/4ce37b8b-ef13-4e60-99f2-19103d6d738a/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 13:24:23.6895|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 4ce37b8b-ef13-4e60-99f2-19103d6d738a
+[36mconversionservice    |[0m 2026-05-09 13:24:23.6903|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 13:24:23.6903|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 13:24:23.6903|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 4ce37b8b-ef13-4e60-99f2-19103d6d738a
+[36mconversionservice    |[0m 2026-05-09 13:50:25.7024|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/8461cbee-02b7-4250-bfb4-0f1e7ae3ca80.
+[36mconversionservice    |[0m 2026-05-09 13:50:25.7024|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 13:50:30.8232|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 13:50:31.7465|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'regstamp.png' скачан и сохранен как '/tmp/DigDes.ConversionService/8461cbee-02b7-4250-bfb4-0f1e7ae3ca80/regstamp.png'.
+[36mconversionservice    |[0m 2026-05-09 13:50:31.8294|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'stamp000001.png' скачан и сохранен как '/tmp/DigDes.ConversionService/8461cbee-02b7-4250-bfb4-0f1e7ae3ca80/stamp000001.png'.
+[36mconversionservice    |[0m 2026-05-09 13:50:31.8723|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 8461cbee-02b7-4250-bfb4-0f1e7ae3ca80
+[36mconversionservice    |[0m 2026-05-09 13:50:31.8723|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено regstamp.png
+[36mconversionservice    |[0m 2026-05-09 13:50:31.8723|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено stamp000001.png
+[36mconversionservice    |[0m 2026-05-09 13:50:31.8723|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 8461cbee-02b7-4250-bfb4-0f1e7ae3ca80
+[36mconversionservice    |[0m 2026-05-09 14:09:45.4350|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/e17f7c35-f997-491b-8779-c87172b6ea72.
+[36mconversionservice    |[0m 2026-05-09 14:09:45.4350|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 14:09:45.8254|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 14:09:46.4079|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/e17f7c35-f997-491b-8779-c87172b6ea72/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 14:09:46.5212|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/e17f7c35-f997-491b-8779-c87172b6ea72/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 14:09:46.6639|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: e17f7c35-f997-491b-8779-c87172b6ea72
+[36mconversionservice    |[0m 2026-05-09 14:09:46.6639|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 14:09:46.6639|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 14:09:46.6639|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено e17f7c35-f997-491b-8779-c87172b6ea72
+[36mconversionservice    |[0m 2026-05-09 14:32:46.5342|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/29e33fec-b63b-4af5-b2fc-04cabaa02051.
+[36mconversionservice    |[0m 2026-05-09 14:32:46.5342|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 14:32:46.9184|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 14:32:47.4615|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/29e33fec-b63b-4af5-b2fc-04cabaa02051/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 14:32:47.5521|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/29e33fec-b63b-4af5-b2fc-04cabaa02051/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 14:32:47.6412|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 29e33fec-b63b-4af5-b2fc-04cabaa02051
+[36mconversionservice    |[0m 2026-05-09 14:32:47.6412|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 14:32:47.6412|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 14:32:47.6423|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 29e33fec-b63b-4af5-b2fc-04cabaa02051
+[36mconversionservice    |[0m 2026-05-09 14:50:53.6506|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/6a88331c-51fd-48cf-b14c-35a85fa8659a.
+[36mconversionservice    |[0m 2026-05-09 14:50:53.6506|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 14:50:54.0341|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 14:50:54.5680|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/6a88331c-51fd-48cf-b14c-35a85fa8659a/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 14:50:54.6626|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/6a88331c-51fd-48cf-b14c-35a85fa8659a/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 14:50:54.7839|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 6a88331c-51fd-48cf-b14c-35a85fa8659a
+[36mconversionservice    |[0m 2026-05-09 14:50:54.7839|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 14:50:54.7839|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 14:50:54.7839|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 6a88331c-51fd-48cf-b14c-35a85fa8659a
+[36mconversionservice    |[0m 2026-05-09 14:55:17.8725|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/6dc4f42a-ebcf-481a-ae00-c108853f2166.
+[36mconversionservice    |[0m 2026-05-09 14:55:17.8725|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 14:55:18.3241|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/6dc4f42a-ebcf-481a-ae00-c108853f2166/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 14:55:18.5003|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/6dc4f42a-ebcf-481a-ae00-c108853f2166/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 14:55:18.5963|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 6dc4f42a-ebcf-481a-ae00-c108853f2166
+[36mconversionservice    |[0m 2026-05-09 14:55:18.5963|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 14:55:18.5963|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 14:55:18.5963|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 6dc4f42a-ebcf-481a-ae00-c108853f2166
+[36mconversionservice    |[0m 2026-05-09 15:14:28.0089|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/44949f03-21f2-449c-81f7-bede64952e66.
+[36mconversionservice    |[0m 2026-05-09 15:14:28.0089|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 15:14:28.3766|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 15:14:28.8776|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/44949f03-21f2-449c-81f7-bede64952e66/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 15:14:28.9628|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/44949f03-21f2-449c-81f7-bede64952e66/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 15:14:29.0751|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 44949f03-21f2-449c-81f7-bede64952e66
+[36mconversionservice    |[0m 2026-05-09 15:14:29.0751|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 15:14:29.0751|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 15:14:29.0751|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 44949f03-21f2-449c-81f7-bede64952e66
+[36mconversionservice    |[0m 2026-05-09 15:20:05.4300|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/d163c15c-87f9-4373-a98c-4367930a90f5.
+[36mconversionservice    |[0m 2026-05-09 15:20:05.4322|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 15:20:05.8760|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/d163c15c-87f9-4373-a98c-4367930a90f5/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 15:20:05.9658|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/d163c15c-87f9-4373-a98c-4367930a90f5/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 15:20:06.0766|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: d163c15c-87f9-4373-a98c-4367930a90f5
+[36mconversionservice    |[0m 2026-05-09 15:20:06.0766|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 15:20:06.0766|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 15:20:06.0766|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено d163c15c-87f9-4373-a98c-4367930a90f5
+[36mconversionservice    |[0m 2026-05-09 15:33:20.0611|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|<Консолидация карточек файлов. CardFileCollection=4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4, ConvertionsParams=UseIso190051=True>
+[36mconversionservice    |[0m 2026-05-09 15:33:20.0611|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 15:33:20.4366|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 15:33:21.1654|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/41ef0d63-9005-4a18-9b31-cd56dd35590d.
+[36mconversionservice    |[0m 2026-05-09 15:33:21.2312|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'ООО Жилищник НН- обращение Зубковой, Успенского 9а.docx' скачан и сохранен как '/tmp/DigDes.ConversionService/41ef0d63-9005-4a18-9b31-cd56dd35590d/4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4.docx'.
+[36mconversionservice    |[0m 2026-05-09 15:33:21.2312|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Скачанные файлы: CardFileId='4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4', FilePath='/tmp/DigDes.ConversionService/41ef0d63-9005-4a18-9b31-cd56dd35590d/4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4.docx', FileName='ООО Жилищник НН- обращение Зубковой, Успенского 9а.docx'
+[36mconversionservice    |[0m 2026-05-09 15:33:21.2312|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|<Конвертирование файла в pdf со стандартом PDF/A. Файл: '/tmp/DigDes.ConversionService/41ef0d63-9005-4a18-9b31-cd56dd35590d/4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4.docx'>
+[36mconversionservice    |[0m 2026-05-09 15:33:21.2312|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|SourcePath=/tmp/DigDes.ConversionService/41ef0d63-9005-4a18-9b31-cd56dd35590d/4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4.docx
+[36mconversionservice    |[0m 2026-05-09 15:33:21.2358|DEBUG|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|R7OfficeDocumentExporter. Start file '4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4.docx' exporting to PDF format.
+[36mconversionservice    |[0m 2026-05-09 15:33:22.6654|DEBUG|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|File '4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4.docx' was successfully exported to PDF format. New size = 129000 bytes.
+[36mconversionservice    |[0m 2026-05-09 15:33:22.6671|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|</Конвертирование файла в pdf со стандартом PDF/A. Файл: '/tmp/DigDes.ConversionService/41ef0d63-9005-4a18-9b31-cd56dd35590d/4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4.docx'>
+[36mconversionservice    |[0m 2026-05-09 15:33:22.6671|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Сконвертированные файлы: CardFileId='4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4', FilePath='/tmp/DigDes.ConversionService/41ef0d63-9005-4a18-9b31-cd56dd35590d/4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4.pdf', FileName='ООО Жилищник НН- обращение Зубковой, Успенского 9а.pdf'
+[36mconversionservice    |[0m 2026-05-09 15:33:22.6671|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание карточки файла. Файл: '/tmp/DigDes.ConversionService/41ef0d63-9005-4a18-9b31-cd56dd35590d/4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4.pdf', имя файла'ООО Жилищник НН- обращение Зубковой, Успенского 9а.pdf'.
+[36mconversionservice    |[0m 2026-05-09 15:33:23.4828|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Завершено создание карточки файла. Файл: '/tmp/DigDes.ConversionService/41ef0d63-9005-4a18-9b31-cd56dd35590d/4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4.pdf', имя файла'ООО Жилищник НН- обращение Зубковой, Успенского 9а.pdf'.
+[36mconversionservice    |[0m 2026-05-09 15:33:23.6119|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Созданная карточка файла: 45d940f8-5fc0-42bc-a20b-420ebe29313f
+[36mconversionservice    |[0m 2026-05-09 15:33:23.6119|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 41ef0d63-9005-4a18-9b31-cd56dd35590d
+[36mconversionservice    |[0m 2026-05-09 15:33:23.6119|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4.pdf
+[36mconversionservice    |[0m 2026-05-09 15:33:23.6119|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4.docx
+[36mconversionservice    |[0m 2026-05-09 15:33:23.6147|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 41ef0d63-9005-4a18-9b31-cd56dd35590d
+[36mconversionservice    |[0m 2026-05-09 15:33:23.6147|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|</Консолидация карточек файлов. CardFileCollection=4f0d73cd-7077-4ec6-bba6-72cb6b27e7c4, ConvertionsParams=UseIso190051=True>
+[36mconversionservice    |[0m 2026-05-09 15:42:29.6877|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/14703829-f596-40eb-8ab9-a66fca8c69e2.
+[36mconversionservice    |[0m 2026-05-09 15:42:29.6877|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 15:42:30.1506|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/14703829-f596-40eb-8ab9-a66fca8c69e2/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 15:42:30.2241|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/14703829-f596-40eb-8ab9-a66fca8c69e2/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 15:42:30.3180|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 14703829-f596-40eb-8ab9-a66fca8c69e2
+[36mconversionservice    |[0m 2026-05-09 15:42:30.3186|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 15:42:30.3186|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 15:42:30.3186|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 14703829-f596-40eb-8ab9-a66fca8c69e2
+[36mconversionservice    |[0m 2026-05-09 15:51:24.0756|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|<Консолидация карточек файлов. CardFileCollection=d08c6124-9796-436e-84b9-dadc69ac7070, ConvertionsParams=UseIso190051=True>
+[36mconversionservice    |[0m 2026-05-09 15:51:24.0756|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 15:51:24.4509|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 15:51:25.0794|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/f98cf173-f0c6-46fd-9b6c-91c6e68bc700.
+[36mconversionservice    |[0m 2026-05-09 15:51:25.1679|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Доп.день по ИС.docx' скачан и сохранен как '/tmp/DigDes.ConversionService/f98cf173-f0c6-46fd-9b6c-91c6e68bc700/d08c6124-9796-436e-84b9-dadc69ac7070.docx'.
+[36mconversionservice    |[0m 2026-05-09 15:51:25.1679|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Скачанные файлы: CardFileId='d08c6124-9796-436e-84b9-dadc69ac7070', FilePath='/tmp/DigDes.ConversionService/f98cf173-f0c6-46fd-9b6c-91c6e68bc700/d08c6124-9796-436e-84b9-dadc69ac7070.docx', FileName='Доп.день по ИС.docx'
+[36mconversionservice    |[0m 2026-05-09 15:51:25.1679|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|<Конвертирование файла в pdf со стандартом PDF/A. Файл: '/tmp/DigDes.ConversionService/f98cf173-f0c6-46fd-9b6c-91c6e68bc700/d08c6124-9796-436e-84b9-dadc69ac7070.docx'>
+[36mconversionservice    |[0m 2026-05-09 15:51:25.1679|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|SourcePath=/tmp/DigDes.ConversionService/f98cf173-f0c6-46fd-9b6c-91c6e68bc700/d08c6124-9796-436e-84b9-dadc69ac7070.docx
+[36mconversionservice    |[0m 2026-05-09 15:51:25.1710|DEBUG|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|R7OfficeDocumentExporter. Start file 'd08c6124-9796-436e-84b9-dadc69ac7070.docx' exporting to PDF format.
+[36mconversionservice    |[0m 2026-05-09 15:51:26.6801|DEBUG|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|File 'd08c6124-9796-436e-84b9-dadc69ac7070.docx' was successfully exported to PDF format. New size = 115196 bytes.
+[36mconversionservice    |[0m 2026-05-09 15:51:26.6801|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|</Конвертирование файла в pdf со стандартом PDF/A. Файл: '/tmp/DigDes.ConversionService/f98cf173-f0c6-46fd-9b6c-91c6e68bc700/d08c6124-9796-436e-84b9-dadc69ac7070.docx'>
+[36mconversionservice    |[0m 2026-05-09 15:51:26.6825|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Сконвертированные файлы: CardFileId='d08c6124-9796-436e-84b9-dadc69ac7070', FilePath='/tmp/DigDes.ConversionService/f98cf173-f0c6-46fd-9b6c-91c6e68bc700/d08c6124-9796-436e-84b9-dadc69ac7070.pdf', FileName='Доп.день по ИС.pdf'
+[36mconversionservice    |[0m 2026-05-09 15:51:26.6825|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание карточки файла. Файл: '/tmp/DigDes.ConversionService/f98cf173-f0c6-46fd-9b6c-91c6e68bc700/d08c6124-9796-436e-84b9-dadc69ac7070.pdf', имя файла'Доп.день по ИС.pdf'.
+[36mconversionservice    |[0m 2026-05-09 15:51:27.5074|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Завершено создание карточки файла. Файл: '/tmp/DigDes.ConversionService/f98cf173-f0c6-46fd-9b6c-91c6e68bc700/d08c6124-9796-436e-84b9-dadc69ac7070.pdf', имя файла'Доп.день по ИС.pdf'.
+[36mconversionservice    |[0m 2026-05-09 15:51:27.6424|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Созданная карточка файла: 66677e35-2f94-4d8f-bc82-df9157583692
+[36mconversionservice    |[0m 2026-05-09 15:51:27.6424|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: f98cf173-f0c6-46fd-9b6c-91c6e68bc700
+[36mconversionservice    |[0m 2026-05-09 15:51:27.6424|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено d08c6124-9796-436e-84b9-dadc69ac7070.pdf
+[36mconversionservice    |[0m 2026-05-09 15:51:27.6424|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено d08c6124-9796-436e-84b9-dadc69ac7070.docx
+[36mconversionservice    |[0m 2026-05-09 15:51:27.6424|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено f98cf173-f0c6-46fd-9b6c-91c6e68bc700
+[36mconversionservice    |[0m 2026-05-09 15:51:27.6424|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|</Консолидация карточек файлов. CardFileCollection=d08c6124-9796-436e-84b9-dadc69ac7070, ConvertionsParams=UseIso190051=True>
+[36mconversionservice    |[0m 2026-05-09 15:59:13.9477|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/9a597c81-9d90-4d39-94ad-88bd1a713256.
+[36mconversionservice    |[0m 2026-05-09 15:59:13.9477|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 15:59:14.4197|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/9a597c81-9d90-4d39-94ad-88bd1a713256/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 15:59:14.5054|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/9a597c81-9d90-4d39-94ad-88bd1a713256/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 15:59:14.5952|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 9a597c81-9d90-4d39-94ad-88bd1a713256
+[36mconversionservice    |[0m 2026-05-09 15:59:14.5952|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 15:59:14.5952|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 15:59:14.5952|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 9a597c81-9d90-4d39-94ad-88bd1a713256
+[36mconversionservice    |[0m 2026-05-09 16:07:15.3165|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/9d8f94b2-12d2-496a-b7f0-8450743afb25.
+[36mconversionservice    |[0m 2026-05-09 16:07:15.3165|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 16:07:15.7008|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 16:07:16.2306|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/9d8f94b2-12d2-496a-b7f0-8450743afb25/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 16:07:16.3208|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/9d8f94b2-12d2-496a-b7f0-8450743afb25/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 16:07:16.4147|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 9d8f94b2-12d2-496a-b7f0-8450743afb25
+[36mconversionservice    |[0m 2026-05-09 16:07:16.4147|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 16:07:16.4147|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 16:07:16.4147|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 9d8f94b2-12d2-496a-b7f0-8450743afb25
+[36mconversionservice    |[0m 2026-05-09 16:16:12.0598|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/89cf55fe-bc4f-4528-a5c8-b2c0a78b4a4e.
+[36mconversionservice    |[0m 2026-05-09 16:16:12.0598|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 16:16:12.4968|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/89cf55fe-bc4f-4528-a5c8-b2c0a78b4a4e/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 16:16:12.5871|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/89cf55fe-bc4f-4528-a5c8-b2c0a78b4a4e/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 16:16:12.6856|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 89cf55fe-bc4f-4528-a5c8-b2c0a78b4a4e
+[36mconversionservice    |[0m 2026-05-09 16:16:12.6862|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 16:16:12.6862|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 16:16:12.6862|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 89cf55fe-bc4f-4528-a5c8-b2c0a78b4a4e
+[36mconversionservice    |[0m 2026-05-09 16:27:34.3882|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/654f0096-cd2a-4ce2-8c30-69cde81c6513.
+[36mconversionservice    |[0m 2026-05-09 16:27:34.3882|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 16:27:34.7736|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 16:27:35.3106|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/654f0096-cd2a-4ce2-8c30-69cde81c6513/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 16:27:35.4028|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/654f0096-cd2a-4ce2-8c30-69cde81c6513/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 16:27:35.4917|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 654f0096-cd2a-4ce2-8c30-69cde81c6513
+[36mconversionservice    |[0m 2026-05-09 16:27:35.4917|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 16:27:35.4917|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 16:27:35.4917|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 654f0096-cd2a-4ce2-8c30-69cde81c6513
+[36mconversionservice    |[0m 2026-05-09 16:39:30.3458|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/e65a8beb-9238-480e-ad5e-7b28be8c8221.
+[36mconversionservice    |[0m 2026-05-09 16:39:30.3467|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 16:39:30.7464|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 16:39:31.2605|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/e65a8beb-9238-480e-ad5e-7b28be8c8221/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 16:39:31.3364|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/e65a8beb-9238-480e-ad5e-7b28be8c8221/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 16:39:31.4404|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: e65a8beb-9238-480e-ad5e-7b28be8c8221
+[36mconversionservice    |[0m 2026-05-09 16:39:31.4404|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 16:39:31.4404|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 16:39:31.4404|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено e65a8beb-9238-480e-ad5e-7b28be8c8221
+[36mconversionservice    |[0m 2026-05-09 17:00:56.1558|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/172859ec-bc99-4e07-98bb-f1a28b7b58a7.
+[36mconversionservice    |[0m 2026-05-09 17:00:56.1558|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 17:00:56.5744|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 17:00:57.1543|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/172859ec-bc99-4e07-98bb-f1a28b7b58a7/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 17:00:57.2614|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/172859ec-bc99-4e07-98bb-f1a28b7b58a7/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 17:00:57.3505|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 172859ec-bc99-4e07-98bb-f1a28b7b58a7
+[36mconversionservice    |[0m 2026-05-09 17:00:57.3505|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 17:00:57.3505|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 17:00:57.3505|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 172859ec-bc99-4e07-98bb-f1a28b7b58a7
+[36mconversionservice    |[0m 2026-05-09 17:28:49.0716|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/300eb4d5-2bcb-45b0-9a55-1b470a9bfeff.
+[36mconversionservice    |[0m 2026-05-09 17:28:49.0716|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 17:28:49.4590|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 17:28:49.9814|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/300eb4d5-2bcb-45b0-9a55-1b470a9bfeff/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 17:28:50.0633|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/300eb4d5-2bcb-45b0-9a55-1b470a9bfeff/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 17:28:50.1669|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 300eb4d5-2bcb-45b0-9a55-1b470a9bfeff
+[36mconversionservice    |[0m 2026-05-09 17:28:50.1669|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 17:28:50.1669|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 17:28:50.1669|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 300eb4d5-2bcb-45b0-9a55-1b470a9bfeff
+[36mconversionservice    |[0m 2026-05-09 17:56:07.6293|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/2a9a57fc-d7b0-40f5-9d2a-ea63e577921a.
+[36mconversionservice    |[0m 2026-05-09 17:56:07.6305|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 17:56:08.0120|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 17:56:08.5466|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/2a9a57fc-d7b0-40f5-9d2a-ea63e577921a/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 17:56:08.6429|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/2a9a57fc-d7b0-40f5-9d2a-ea63e577921a/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 17:56:08.7535|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 2a9a57fc-d7b0-40f5-9d2a-ea63e577921a
+[36mconversionservice    |[0m 2026-05-09 17:56:08.7542|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 17:56:08.7542|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 17:56:08.7542|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 2a9a57fc-d7b0-40f5-9d2a-ea63e577921a
+[36mconversionservice    |[0m 2026-05-09 18:26:14.2061|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/4706c8bf-e740-4aeb-937e-ed1821c1f1bc.
+[36mconversionservice    |[0m 2026-05-09 18:26:14.2068|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 18:26:14.5724|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 18:26:15.1109|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/4706c8bf-e740-4aeb-937e-ed1821c1f1bc/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 18:26:15.1941|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/4706c8bf-e740-4aeb-937e-ed1821c1f1bc/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 18:26:15.3093|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: 4706c8bf-e740-4aeb-937e-ed1821c1f1bc
+[36mconversionservice    |[0m 2026-05-09 18:26:15.3093|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 18:26:15.3102|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 18:26:15.3102|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено 4706c8bf-e740-4aeb-937e-ed1821c1f1bc
+[36mconversionservice    |[0m 2026-05-09 20:44:31.2610|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/ae9f0254-0568-43cc-bfc1-6932f83044f5.
+[36mconversionservice    |[0m 2026-05-09 20:44:31.2610|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 20:44:31.6293|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 20:44:32.0875|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/ae9f0254-0568-43cc-bfc1-6932f83044f5/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 20:44:32.1701|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/ae9f0254-0568-43cc-bfc1-6932f83044f5/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 20:44:32.2609|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: ae9f0254-0568-43cc-bfc1-6932f83044f5
+[36mconversionservice    |[0m 2026-05-09 20:44:32.2609|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 20:44:32.2609|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 20:44:32.2609|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено ae9f0254-0568-43cc-bfc1-6932f83044f5
+[36mconversionservice    |[0m 2026-05-09 21:32:42.1692|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создана директория /tmp/DigDes.ConversionService/f5319422-eddc-4a47-9dd0-3d4bd3ec8c9c.
+[36mconversionservice    |[0m 2026-05-09 21:32:42.1692|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Взятие сессии из пула.
+[36mconversionservice    |[0m 2026-05-09 21:32:42.5635|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Создание сессии Docsvision
+[36mconversionservice    |[0m 2026-05-09 21:32:43.1053|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_1..png' скачан и сохранен как '/tmp/DigDes.ConversionService/f5319422-eddc-4a47-9dd0-3d4bd3ec8c9c/Stamp_1..png'.
+[36mconversionservice    |[0m 2026-05-09 21:32:43.1907|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Файл 'Stamp_2..png' скачан и сохранен как '/tmp/DigDes.ConversionService/f5319422-eddc-4a47-9dd0-3d4bd3ec8c9c/Stamp_2..png'.
+[36mconversionservice    |[0m 2026-05-09 21:32:43.3170|TRACE|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удаление директории: f5319422-eddc-4a47-9dd0-3d4bd3ec8c9c
+[36mconversionservice    |[0m 2026-05-09 21:32:43.3170|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_2..png
+[36mconversionservice    |[0m 2026-05-09 21:32:43.3170|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено Stamp_1..png
+[36mconversionservice    |[0m 2026-05-09 21:32:43.3183|INFO|DigDes.ConversionService.ConverterEnvironment.NLogLoggerWrapper|Удалено f5319422-eddc-4a47-9dd0-3d4bd3ec8c9c
+
+========== r7office-docker-compose.yaml ==========
+---- Логи сервиса: r7office ----
+Attaching to r7office
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 14:30:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 14:40:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 14:50:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 15:00:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 15:10:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 15:20:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 15:30:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 15:40:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 15:50:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 16:00:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 16:10:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 16:20:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 16:30:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 16:40:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 16:50:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 17:00:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 17:10:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 17:20:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 17:30:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 17:40:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 17:50:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 18:00:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 18:10:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 18:20:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 18:30:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 18:40:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+[36mr7office    |[0m Flushing stats at  Sat May 09 2026 18:50:39 GMT+0000 (Coordinated Universal Time)
+[36mr7office    |[0m {
+[36mr7office    |[0m   counters: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   timers: {},
+[36mr7office    |[0m   gauges: { 'statsd.timestamp_lag': 0 },
+[36mr7office    |[0m   timer_data: {},
+[36mr7office    |[0m   counter_rates: {
+[36mr7office    |[0m     'statsd.bad_lines_seen': 0,
+[36mr7office    |[0m     'statsd.packets_received': 0,
+[36mr7office    |[0m     'statsd.metrics_received': 0
+[36mr7office    |[0m   },
+[36mr7office    |[0m   sets: {},
+[36mr7office    |[0m   pctThreshold: [ 90 ]
+[36mr7office    |[0m }
+
+Сбор логов завершён. Директория: /digdes/docker_data

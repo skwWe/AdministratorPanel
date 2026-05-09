@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8WMlDPLhfv4=",
+  "dgSpecHash": "YHgZmFbGxBU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj",
+  "projectFilePath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\skw\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\skw\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",

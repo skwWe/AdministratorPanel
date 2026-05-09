@@ -1,8 +1,10 @@
 ﻿using AdministratorPanel.Modules.LogCollector.Abstractions;
 using AdministratorPanel.Modules.LogCollector.Enums;
+using AdministratorPanel.Modules.LogCollector.Models;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System;
+using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Diagnostics;
 using System.Linq;
@@ -208,6 +210,26 @@ public partial class LogCollectorViewModel : ViewModelBase
             "convert" => LogCollectionGroupType.Convert,
             "sync" => LogCollectionGroupType.Sync,
             "web" => LogCollectionGroupType.Web,
+            "dev" => LogCollectionGroupType.Dev,
+            "intgr" => LogCollectionGroupType.Intgr,
+            "medo" => LogCollectionGroupType.Medo,
+            "sstu" => LogCollectionGroupType.Sstu,
+            "monit" => LogCollectionGroupType.Monit,
+            "mgmt" => LogCollectionGroupType.Mgmt,
+            "crldmz" => LogCollectionGroupType.Crldmz,
+            "search" => LogCollectionGroupType.Search,
+            "service" => LogCollectionGroupType.Service,
+            "dmz" => LogCollectionGroupType.Dmz,
+            "office" => LogCollectionGroupType.Office,
+            "bl2" => LogCollectionGroupType.Bl2,
+            "bl1" => LogCollectionGroupType.Bl1,
+            "redis" => LogCollectionGroupType.Redis,
+            "files" => LogCollectionGroupType.Files,
+            "dc" => LogCollectionGroupType.Dc,
+            "backup" => LogCollectionGroupType.Backup,
+            "dbpg" => LogCollectionGroupType.Dbpg,
+            "quor" => LogCollectionGroupType.Quor,
+            "pgprx" => LogCollectionGroupType.Pgprx,
             _ => throw new InvalidOperationException($"Неизвестная группа серверов: {groupName}")
         };
     }
@@ -407,93 +429,92 @@ public partial class LogCollectorViewModel : ViewModelBase
     [RelayCommand]
     private async Task DiscoverServersAsync()
     {
-        if (SelectedGroup is null)
+        if (string.IsNullOrWhiteSpace(SshUserName) || string.IsNullOrWhiteSpace(Password))
         {
-            StatusMessage = "Сначала выбери группу серверов.";
+            StatusMessage = "Укажи SSH-пользователя и пароль.";
             return;
         }
-
-        if (string.IsNullOrWhiteSpace(SshUserName))
-        {
-            StatusMessage = "Укажи SSH пользователя.";
-            return;
-        }
-
-        if (string.IsNullOrWhiteSpace(Password))
-        {
-            StatusMessage = "Укажи пароль.";
-            return;
-        }
-
-        var groupName = SelectedGroup.Name.Trim().ToLowerInvariant();
 
         IsRunning = true;
         StatusMessage = "Поиск серверов...";
 
         try
         {
+            // Сканируем всю подсеть 10.10.130.1-254
             var discoveredServers = await _serverDiscoveryService.DiscoverAsync(
-                "10.10.130",
-                1,
-                254,
-                SshUserName,
-                Password);
+                "10.10.130", 1, 254, SshUserName, Password);
+
+            // Загружаем существующие группы из репозитория
+            var allGroups = _workspaceService.GetServerGroups();
+            // Строим словарь: IP -> (группа, существующий сервер, если есть)
+            var ipToGroup = new Dictionary<string, (ServerGroupDto Group, RemoteServerDto? ExistingServer)>();
+            foreach (var group in allGroups)
+            {
+                foreach (var server in group.Servers)
+                {
+                    ipToGroup[server.IpAddress] = (group, server);
+                }
+            }
 
             var added = 0;
             var updated = 0;
 
-            foreach (var server in discoveredServers)
+            foreach (var discovered in discoveredServers)
             {
-                var normalizedName = NormalizeHostName(server.DisplayName);
-
-                // 🔥 ФИЛЬТР ПО ГРУППЕ
-                if (!IsServerFromGroup(normalizedName, groupName))
-                    continue;
-
-                var existing = SelectedGroup.Servers.FirstOrDefault(x =>
-                    string.Equals(x.DisplayName, normalizedName, StringComparison.OrdinalIgnoreCase));
-
-                if (existing != null)
+                var ip = discovered.IpAddress;
+                if (!ipToGroup.TryGetValue(ip, out var entry))
                 {
-                    if (existing.IpAddress != server.IpAddress)
-                    {
-                        existing.IpAddress = server.IpAddress;
-
-                        _workspaceService.UpdateServer(
-                            existing.Id,
-                            existing.DisplayName,
-                            existing.IpAddress,
-                            existing.IsEnabled);
-
-                        updated++;
-                    }
-
+                    // Этот IP не принадлежит ни одной предопределённой группе – пропускаем
                     continue;
                 }
 
-                var saved = _workspaceService.AddServer(
-                    SelectedGroup.Id,
-                    normalizedName,
-                    server.IpAddress,
-                    true);
+                var group = entry.Group;
+                var existing = entry.ExistingServer;
 
-                var vm = new RemoteServerItemViewModel
+                // Нормализуем имя хоста (берём первую часть до точки)
+                var normalizedName = discovered.DisplayName.Split('.')[0].Trim().ToLowerInvariant();
+
+                if (existing != null)
                 {
-                    Id = saved.Id,
-                    DisplayName = saved.DisplayName,
-                    IpAddress = saved.IpAddress,
-                    IsEnabled = saved.IsEnabled
-                };
-
-                SelectedGroup.Servers.Add(vm);
-                Servers.Add(vm);
-
-                added++;
+                    // Обновляем, если имя или статус изменились
+                    if (existing.DisplayName != normalizedName || existing.IpAddress != ip)
+                    {
+                        _workspaceService.UpdateServer(existing.Id, normalizedName, ip, true);
+                        updated++;
+                    }
+                }
+                else
+                {
+                    // Добавляем новый сервер в группу
+                    var saved = _workspaceService.AddServer(group.Id, normalizedName, ip, true);
+                    added++;
+                    // Добавляем в VM коллекции (если текущая выбранная группа совпадает)
+                    if (SelectedGroup?.Id == group.Id)
+                    {
+                        var vm = new RemoteServerItemViewModel
+                        {
+                            Id = saved.Id,
+                            DisplayName = saved.DisplayName,
+                            IpAddress = saved.IpAddress,
+                            IsEnabled = saved.IsEnabled
+                        };
+                        SelectedGroup.Servers.Add(vm);
+                        Servers.Add(vm);
+                    }
+                }
             }
 
-            OnPropertyChanged(nameof(SelectedGroup.ServerCount));
+            // Обновляем UI для текущей выбранной группы
+            if (SelectedGroup != null)
+            {
+                OnPropertyChanged(nameof(SelectedGroup.ServerCount));
+                // Перезагружаем список серверов в правой панели
+                Servers.Clear();
+                foreach (var server in SelectedGroup.Servers.OrderBy(x => x.DisplayName))
+                    Servers.Add(server);
+            }
 
-            StatusMessage = $"Поиск завершён. Найдено: {discoveredServers.Count}. Добавлено: {added}. Обновлено: {updated}.";
+            StatusMessage = $"Поиск завершён. Найдено серверов в группах: {discoveredServers.Count}. Добавлено: {added}. Обновлено: {updated}.";
         }
         catch (Exception ex)
         {
@@ -504,24 +525,5 @@ public partial class LogCollectorViewModel : ViewModelBase
         {
             IsRunning = false;
         }
-    }
-    
-
-    private static string NormalizeHostName(string hostName)
-    {
-        if (string.IsNullOrWhiteSpace(hostName))
-            return hostName;
-
-        // nn-lsed-web02.nnov.ru → nn-lsed-web02
-        return hostName.Split('.')[0].Trim().ToLowerInvariant();
-    }
-
-    private static bool IsServerFromGroup(string hostName, string groupName)
-    {
-        var name = hostName.Trim().ToLowerInvariant();
-        var group = groupName.Trim().ToLowerInvariant();
-
-        // 🔥 строгая проверка
-        return name.StartsWith($"nn-lsed-{group}");
     }
 }

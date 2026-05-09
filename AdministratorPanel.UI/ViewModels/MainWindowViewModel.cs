@@ -17,6 +17,7 @@ public partial class MainWindowViewModel : ViewModelBase
     [ObservableProperty]
     private string _pageDescription = "Многофункциональная панель администратора.";
 
+    public bool IsDiagnosticsSelected => SelectedTool?.Tool.Name == "Диагностика логов";
     public bool IsServerManagementSelected =>
     SelectedTool?.Tool.Type == ToolType.ServerManagement;
 

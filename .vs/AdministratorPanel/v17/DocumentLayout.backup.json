@@ -1,102 +1,174 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\",
+  "WorkspaceRootPath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9A8AFCE5-A3A8-7CFB-7FF3-45C0CA197FF0}|AdministratorPanel.Tests\\AdministratorPanel.Tests.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.tests\\modules\\logcollector\\logcollectorworkspaceservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9A8AFCE5-A3A8-7CFB-7FF3-45C0CA197FF0}|AdministratorPanel.Tests\\AdministratorPanel.Tests.csproj|solutionrelative:administratorpanel.tests\\modules\\logcollector\\logcollectorworkspaceservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.servermanagement\\services\\sshservershutdownservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\services\\sshservershutdownservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|solutionrelative:administratorpanel.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.servermanagement\\abstractions\\iservershutdownservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\abstractions\\iservershutdownservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.ui\\views\\servermanagementview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
-      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\views\\servermanagementview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.servermanagement\\services\\defaultshutdownruleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\services\\defaultshutdownruleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.servermanagement\\abstractions\\ishutdownruleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\abstractions\\ishutdownruleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.servermanagement\\models\\shutdownplans\\shutdowngroupruledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\models\\shutdownplans\\shutdowngroupruledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.ui\\viewmodels\\servermanagement\\servermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\viewmodels\\servermanagement\\servermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.ui\\views\\servermanagementview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\views\\servermanagementview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.infrastructure\\servermanagament\\services\\sshservercomposeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|solutionrelative:administratorpanel.infrastructure\\servermanagament\\services\\sshservercomposeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.servermanagement\\models\\operations\\serveroperationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\models\\operations\\serveroperationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.servermanagement\\models\\operations\\serveroperationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\models\\operations\\serveroperationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.servermanagement\\abstractions\\iservercomposeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\abstractions\\iservercomposeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.servermanagement\\services\\excelshutdownplanimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\services\\excelshutdownplanimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.ui\\services\\filedialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\services\\filedialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.ui\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\app.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.ui\\services\\ifiledialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\services\\ifiledialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.ui\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.ui\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.ui\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\views\\mainwindow.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.modules.servermanagement\\modules\\servermanagementmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\modules\\servermanagementmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\views\\mainwindow.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E44299E2-F0B7-4D6B-A4EA-F43419DB37E6}|AdministratorPanel.Core\\AdministratorPanel.Core.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.core\\enums\\tooltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E44299E2-F0B7-4D6B-A4EA-F43419DB37E6}|AdministratorPanel.Core\\AdministratorPanel.Core.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.core\\enums\\tooltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E44299E2-F0B7-4D6B-A4EA-F43419DB37E6}|AdministratorPanel.Core\\AdministratorPanel.Core.csproj|solutionrelative:administratorpanel.core\\enums\\tooltype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\source\\repos\\administratorpanel\\administratorpanel.ui\\views\\logcollectorview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\viewmodels\\mainwindowviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\views\\logdiagnosticsview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\views\\logdiagnosticsview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE96071-13A2-4BE8-AE3F-C801F070297C}|AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.logdiagnostics\\models\\sessioninfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE96071-13A2-4BE8-AE3F-C801F070297C}|AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj|solutionrelative:administratorpanel.modules.logdiagnostics\\models\\sessioninfodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\views\\logdiagnosticsview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\views\\logdiagnosticsview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\viewmodels\\logdiagnostics\\logsessionitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\viewmodels\\logdiagnostics\\logsessionitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\app.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\viewmodels\\logdiagnostics\\logdiagnosticsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\viewmodels\\logdiagnostics\\logdiagnosticsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE96071-13A2-4BE8-AE3F-C801F070297C}|AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.logdiagnostics\\models\\analysisresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE96071-13A2-4BE8-AE3F-C801F070297C}|AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj|solutionrelative:administratorpanel.modules.logdiagnostics\\models\\analysisresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE96071-13A2-4BE8-AE3F-C801F070297C}|AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.logdiagnostics\\services\\loganalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE96071-13A2-4BE8-AE3F-C801F070297C}|AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj|solutionrelative:administratorpanel.modules.logdiagnostics\\services\\loganalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|solutionrelative:administratorpanel.infrastructure\\extensions\\servicecollectionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE96071-13A2-4BE8-AE3F-C801F070297C}|AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.logdiagnostics\\abstractions\\iloganalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE96071-13A2-4BE8-AE3F-C801F070297C}|AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj|solutionrelative:administratorpanel.modules.logdiagnostics\\abstractions\\iloganalysisservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE96071-13A2-4BE8-AE3F-C801F070297C}|AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.logdiagnostics\\modules\\logdiagnosticsmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE96071-13A2-4BE8-AE3F-C801F070297C}|AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj|solutionrelative:administratorpanel.modules.logdiagnostics\\modules\\logdiagnosticsmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9DE96071-13A2-4BE8-AE3F-C801F070297C}|AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.logdiagnostics\\models\\logmatchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9DE96071-13A2-4BE8-AE3F-C801F070297C}|AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj|solutionrelative:administratorpanel.modules.logdiagnostics\\models\\logmatchdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.infrastructure\\services\\modulebootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|solutionrelative:administratorpanel.infrastructure\\services\\modulebootstrapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.logcollector\\logcollector\\modules\\logcollectormodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|solutionrelative:administratorpanel.modules.logcollector\\logcollector\\modules\\logcollectormodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE7195E1-590F-4CD6-99D4-863172A070FD}|AdministratorPanel.Application\\AdministratorPanel.Application.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.application\\abstractions\\itoolregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE7195E1-590F-4CD6-99D4-863172A070FD}|AdministratorPanel.Application\\AdministratorPanel.Application.csproj|solutionrelative:administratorpanel.application\\abstractions\\itoolregistry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E44299E2-F0B7-4D6B-A4EA-F43419DB37E6}|AdministratorPanel.Core\\AdministratorPanel.Core.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.core\\abstractions\\itoolmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E44299E2-F0B7-4D6B-A4EA-F43419DB37E6}|AdministratorPanel.Core\\AdministratorPanel.Core.csproj|solutionrelative:administratorpanel.core\\abstractions\\itoolmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.servermanagement\\modules\\servermanagementmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\modules\\servermanagementmodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\views\\logcollectorview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
       "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\views\\logcollectorview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\viewmodels\\logcollector\\logcollectorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\viewmodels\\logcollector\\logcollectorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.logcollector\\logcollector\\data\\defaultservergroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|solutionrelative:administratorpanel.modules.logcollector\\logcollector\\data\\defaultservergroups.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.logcollector\\logcollector\\enums\\logcollectiongrouptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8BED471E-6093-4EB6-B45D-BBDAB8C1A50D}|AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj|solutionrelative:administratorpanel.modules.logcollector\\logcollector\\enums\\logcollectiongrouptype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.infrastructure\\logcollector\\services\\sshnetlogscriptrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|solutionrelative:administratorpanel.infrastructure\\logcollector\\services\\sshnetlogscriptrunner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.infrastructure\\servermanagament\\services\\sshservershutdownservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|solutionrelative:administratorpanel.infrastructure\\servermanagament\\services\\sshservershutdownservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.infrastructure\\servermanagament\\services\\sshservercomposeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{63491965-FF59-4771-87F5-BA6CAF63562E}|AdministratorPanel.Infrastructure\\AdministratorPanel.Infrastructure.csproj|solutionrelative:administratorpanel.infrastructure\\servermanagament\\services\\sshservercomposeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.servermanagement\\abstractions\\iservershutdownservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\abstractions\\iservershutdownservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\views\\servermanagementview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\views\\servermanagementview.axaml||{6D5344A2-2FCD-49DE-A09D-6A14FD1B1224}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.servermanagement\\services\\defaultshutdownruleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\services\\defaultshutdownruleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.servermanagement\\abstractions\\ishutdownruleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\abstractions\\ishutdownruleprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.servermanagement\\models\\shutdownplans\\shutdowngroupruledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\models\\shutdownplans\\shutdowngroupruledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\viewmodels\\servermanagement\\servermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\viewmodels\\servermanagement\\servermanagementviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\views\\servermanagementview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\views\\servermanagementview.axaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.servermanagement\\models\\operations\\serveroperationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\models\\operations\\serveroperationresultdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.servermanagement\\models\\operations\\serveroperationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\models\\operations\\serveroperationstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.servermanagement\\abstractions\\iservercomposeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\abstractions\\iservercomposeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.modules.servermanagement\\services\\excelshutdownplanimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2130B6D8-E42D-4E81-B381-5B7B6936292A}|AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj|solutionrelative:administratorpanel.modules.servermanagement\\services\\excelshutdownplanimportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\services\\filedialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\services\\filedialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|c:\\users\\skw\\desktop\\1\\administratorpanel\\administratorpanel.ui\\services\\ifiledialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CFF5FC0E-D6EC-4CB2-A2A3-7D1FCE4058AB}|AdministratorPanel.UI\\AdministratorPanel.UI.csproj|solutionrelative:administratorpanel.ui\\services\\ifiledialogservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,67 +178,388 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LogCollectorWorkspaceServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Tests\\Modules\\LogCollector\\LogCollectorWorkspaceServiceTests.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.Tests\\Modules\\LogCollector\\LogCollectorWorkspaceServiceTests.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Tests\\Modules\\LogCollector\\LogCollectorWorkspaceServiceTests.cs",
-              "RelativeToolTip": "AdministratorPanel.Tests\\Modules\\LogCollector\\LogCollectorWorkspaceServiceTests.cs",
-              "ViewState": "AgIAAHYAAAAAAAAAAAAqwIkAAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T19:42:15.474Z",
+              "DocumentIndex": 5,
+              "Title": "LogDiagnosticsView.axaml",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\LogDiagnosticsView.axaml",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\LogDiagnosticsView.axaml",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\LogDiagnosticsView.axaml",
+              "RelativeToolTip": "AdministratorPanel.UI\\Views\\LogDiagnosticsView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-09T19:50:16.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SshServerShutdownService.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Services\\SshServerShutdownService.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Services\\SshServerShutdownService.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Services\\SshServerShutdownService.cs",
-              "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Services\\SshServerShutdownService.cs",
-              "ViewState": "AgIAANoAAAAAAAAAAAAqwJoAAAASAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "LogDiagnosticsViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\LogDiagnostics\\LogDiagnosticsViewModel.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\LogDiagnostics\\LogDiagnosticsViewModel.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\LogDiagnostics\\LogDiagnosticsViewModel.cs",
+              "RelativeToolTip": "AdministratorPanel.UI\\ViewModels\\LogDiagnostics\\LogDiagnosticsViewModel.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAkwEMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T19:40:39.657Z",
+              "WhenOpened": "2026-05-09T19:45:23.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MainWindowViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\MainWindowViewModel.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\MainWindowViewModel.cs",
+              "RelativeToolTip": "AdministratorPanel.UI\\ViewModels\\MainWindowViewModel.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCMAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T18:46:50.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "IServerShutdownService.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerShutdownService.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerShutdownService.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerShutdownService.cs",
-              "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerShutdownService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Title": "ToolType.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Core\\Enums\\ToolType.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Core\\Enums\\ToolType.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Core\\Enums\\ToolType.cs",
+              "RelativeToolTip": "AdministratorPanel.Core\\Enums\\ToolType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T19:34:42.833Z",
+              "WhenOpened": "2026-05-06T18:48:25Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DefaultShutdownRuleProvider.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Services\\DefaultShutdownRuleProvider.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Services\\DefaultShutdownRuleProvider.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Services\\DefaultShutdownRuleProvider.cs",
-              "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Services\\DefaultShutdownRuleProvider.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAA2wCMAAAABAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\MainWindow.axaml*",
+              "RelativeToolTip": "AdministratorPanel.UI\\Views\\MainWindow.axaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-06T18:44:51.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MainWindow.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\MainWindow.axaml.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\MainWindow.axaml.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\MainWindow.axaml.cs",
+              "RelativeToolTip": "AdministratorPanel.UI\\Views\\MainWindow.axaml.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAA2wCkAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T19:33:53.501Z",
+              "WhenOpened": "2026-05-06T18:50:13.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\App.axaml.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\App.axaml.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\App.axaml.cs*",
+              "RelativeToolTip": "AdministratorPanel.UI\\App.axaml.cs*",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwCYAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T18:53:42.687Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "SessionInfoDto.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\Models\\SessionInfoDto.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogDiagnostics\\Models\\SessionInfoDto.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\Models\\SessionInfoDto.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.LogDiagnostics\\Models\\SessionInfoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:37:37.757Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LogDiagnosticsView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\LogDiagnosticsView.axaml.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\LogDiagnosticsView.axaml.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\LogDiagnosticsView.axaml.cs",
+              "RelativeToolTip": "AdministratorPanel.UI\\Views\\LogDiagnosticsView.axaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:50:48.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ILogAnalysisService.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\Abstractions\\ILogAnalysisService.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogDiagnostics\\Abstractions\\ILogAnalysisService.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\Abstractions\\ILogAnalysisService.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.LogDiagnostics\\Abstractions\\ILogAnalysisService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:37:18.285Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AnalysisResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\Models\\AnalysisResultDto.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogDiagnostics\\Models\\AnalysisResultDto.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\Models\\AnalysisResultDto.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.LogDiagnostics\\Models\\AnalysisResultDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:37:50.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "LogAnalysisService.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\Services\\LogAnalysisService.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogDiagnostics\\Services\\LogAnalysisService.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\Services\\LogAnalysisService.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.LogDiagnostics\\Services\\LogAnalysisService.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAowCgAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:42:14.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\App.axaml",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\App.axaml",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\App.axaml",
+              "RelativeToolTip": "AdministratorPanel.UI\\App.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-09T19:50:35.064Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LogSessionItemViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\LogDiagnostics\\LogSessionItemViewModel.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\LogDiagnostics\\LogSessionItemViewModel.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\LogDiagnostics\\LogSessionItemViewModel.cs",
+              "RelativeToolTip": "AdministratorPanel.UI\\ViewModels\\LogDiagnostics\\LogSessionItemViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T20:01:43.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "LogDiagnosticsModule.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\Modules\\LogDiagnosticsModule.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogDiagnostics\\Modules\\LogDiagnosticsModule.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\Modules\\LogDiagnosticsModule.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.LogDiagnostics\\Modules\\LogDiagnosticsModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:36:25.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "LogMatchDto.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\Models\\LogMatchDto.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogDiagnostics\\Models\\LogMatchDto.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\Models\\LogMatchDto.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.LogDiagnostics\\Models\\LogMatchDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:38:18.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ServiceCollectionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "RelativeToolTip": "AdministratorPanel.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA7wCgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T19:19:36.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ModuleBootstrapper.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Services\\ModuleBootstrapper.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\Services\\ModuleBootstrapper.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Services\\ModuleBootstrapper.cs",
+              "RelativeToolTip": "AdministratorPanel.Infrastructure\\Services\\ModuleBootstrapper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:38:55.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "LogCollectorModule.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\LogCollector\\Modules\\LogCollectorModule.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\LogCollector\\Modules\\LogCollectorModule.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\LogCollector\\Modules\\LogCollectorModule.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.LogCollector\\LogCollector\\Modules\\LogCollectorModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:36:00.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IToolRegistry.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Application\\Abstractions\\IToolRegistry.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Application\\Abstractions\\IToolRegistry.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Application\\Abstractions\\IToolRegistry.cs",
+              "RelativeToolTip": "AdministratorPanel.Application\\Abstractions\\IToolRegistry.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAuwBgAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:35:59.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IToolModule.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Core\\Abstractions\\IToolModule.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Core\\Abstractions\\IToolModule.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Core\\Abstractions\\IToolModule.cs",
+              "RelativeToolTip": "AdministratorPanel.Core\\Abstractions\\IToolModule.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAuwAsAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:35:57.949Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "LogCollectionGroupType.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\LogCollector\\Enums\\LogCollectionGroupType.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\LogCollector\\Enums\\LogCollectionGroupType.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\LogCollector\\Enums\\LogCollectionGroupType.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.LogCollector\\LogCollector\\Enums\\LogCollectionGroupType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:16:31.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SshServerShutdownService.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Infrastructure\\ServerManagament\\Services\\SshServerShutdownService.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\ServerManagament\\Services\\SshServerShutdownService.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Infrastructure\\ServerManagament\\Services\\SshServerShutdownService.cs",
+              "RelativeToolTip": "AdministratorPanel.Infrastructure\\ServerManagament\\Services\\SshServerShutdownService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAcwCsAAACQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:25:40.793Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SshNetLogScriptRunner.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Infrastructure\\LogCollector\\Services\\SshNetLogScriptRunner.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\LogCollector\\Services\\SshNetLogScriptRunner.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Infrastructure\\LogCollector\\Services\\SshNetLogScriptRunner.cs",
+              "RelativeToolTip": "AdministratorPanel.Infrastructure\\LogCollector\\Services\\SshNetLogScriptRunner.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAAAUwEUAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T18:22:02.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "LogCollectorView.axaml",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
+              "RelativeToolTip": "AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-05-06T18:44:26.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ServerManagementModule.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Modules\\ServerManagementModule.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Modules\\ServerManagementModule.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Modules\\ServerManagementModule.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Modules\\ServerManagementModule.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T18:48:43.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "LogCollectorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\LogCollector\\LogCollectorViewModel.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\LogCollector\\LogCollectorViewModel.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\LogCollector\\LogCollectorViewModel.cs",
+              "RelativeToolTip": "AdministratorPanel.UI\\ViewModels\\LogCollector\\LogCollectorViewModel.cs",
+              "ViewState": "AgIAAMYAAAAAAAAAAAAUwOoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:19:46.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "DefaultServerGroups.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\LogCollector\\Data\\DefaultServerGroups.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.LogCollector\\LogCollector\\Data\\DefaultServerGroups.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\LogCollector\\Data\\DefaultServerGroups.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.LogCollector\\LogCollector\\Data\\DefaultServerGroups.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-09T19:17:01.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SshServerComposeService.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Infrastructure\\ServerManagament\\Services\\SshServerComposeService.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\ServerManagament\\Services\\SshServerComposeService.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Infrastructure\\ServerManagament\\Services\\SshServerComposeService.cs",
+              "RelativeToolTip": "AdministratorPanel.Infrastructure\\ServerManagament\\Services\\SshServerComposeService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAowBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T19:19:07.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
               "Title": "IShutdownRuleProvider.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Abstractions\\IShutdownRuleProvider.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Abstractions\\IShutdownRuleProvider.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Abstractions\\IShutdownRuleProvider.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Abstractions\\IShutdownRuleProvider.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Abstractions\\IShutdownRuleProvider.cs",
               "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Abstractions\\IShutdownRuleProvider.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -175,24 +568,37 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ServiceCollectionExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "RelativeToolTip": "AdministratorPanel.Infrastructure\\Extensions\\ServiceCollectionExtensions.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBUAAAA9AAAAAAAAAA==",
+              "DocumentIndex": 31,
+              "Title": "DefaultShutdownRuleProvider.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Services\\DefaultShutdownRuleProvider.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Services\\DefaultShutdownRuleProvider.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Services\\DefaultShutdownRuleProvider.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Services\\DefaultShutdownRuleProvider.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwCMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T19:19:36.394Z",
+              "WhenOpened": "2026-05-06T19:33:53.501Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 29,
+              "Title": "IServerShutdownService.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerShutdownService.cs",
+              "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerShutdownService.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerShutdownService.cs",
+              "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerShutdownService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-06T19:34:42.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "ShutdownGroupRuleDto.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Models\\ShutdownPlans\\ShutdownGroupRuleDto.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Models\\ShutdownPlans\\ShutdownGroupRuleDto.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Models\\ShutdownPlans\\ShutdownGroupRuleDto.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Models\\ShutdownPlans\\ShutdownGroupRuleDto.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Models\\ShutdownPlans\\ShutdownGroupRuleDto.cs",
               "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Models\\ShutdownPlans\\ShutdownGroupRuleDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -201,11 +607,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 30,
               "Title": "ServerManagementView.axaml",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\ServerManagementView.axaml",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\ServerManagementView.axaml",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\ServerManagementView.axaml",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\ServerManagementView.axaml",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\ServerManagementView.axaml",
               "RelativeToolTip": "AdministratorPanel.UI\\Views\\ServerManagementView.axaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-05-06T18:45:00.798Z",
@@ -213,11 +619,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 35,
               "Title": "ServerManagementView.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\ServerManagementView.axaml.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\ServerManagementView.axaml.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\ServerManagementView.axaml.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\ServerManagementView.axaml.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Views\\ServerManagementView.axaml.cs",
               "RelativeToolTip": "AdministratorPanel.UI\\Views\\ServerManagementView.axaml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -226,11 +632,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 37,
               "Title": "ServerOperationStatus.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Models\\Operations\\ServerOperationStatus.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Models\\Operations\\ServerOperationStatus.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Models\\Operations\\ServerOperationStatus.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Models\\Operations\\ServerOperationStatus.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Models\\Operations\\ServerOperationStatus.cs",
               "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Models\\Operations\\ServerOperationStatus.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -239,11 +645,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 34,
               "Title": "ServerManagementViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\ServerManagement\\ServerManagementViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\ServerManagement\\ServerManagementViewModel.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\ServerManagement\\ServerManagementViewModel.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\ServerManagement\\ServerManagementViewModel.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\ServerManagement\\ServerManagementViewModel.cs",
               "RelativeToolTip": "AdministratorPanel.UI\\ViewModels\\ServerManagement\\ServerManagementViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAmwBIAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -252,24 +658,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 39,
               "Title": "ExcelShutdownPlanImportService.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Services\\ExcelShutdownPlanImportService.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Services\\ExcelShutdownPlanImportService.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Services\\ExcelShutdownPlanImportService.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Services\\ExcelShutdownPlanImportService.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Services\\ExcelShutdownPlanImportService.cs",
               "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Services\\ExcelShutdownPlanImportService.cs",
-              "ViewState": "AgIAAJcAAAAAAAAAAAAUwJsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJcAAAAAAAAAAAA0wJsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T18:57:16.723Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 38,
               "Title": "IServerComposeService.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerComposeService.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerComposeService.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerComposeService.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerComposeService.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerComposeService.cs",
               "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Abstractions\\IServerComposeService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -278,11 +684,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 36,
               "Title": "ServerOperationResultDto.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Models\\Operations\\ServerOperationResultDto.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Models\\Operations\\ServerOperationResultDto.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Models\\Operations\\ServerOperationResultDto.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Models\\Operations\\ServerOperationResultDto.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Models\\Operations\\ServerOperationResultDto.cs",
               "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Models\\Operations\\ServerOperationResultDto.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -291,37 +697,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SshServerComposeService.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\ServerManagament\\Services\\SshServerComposeService.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.Infrastructure\\ServerManagament\\Services\\SshServerComposeService.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Infrastructure\\ServerManagament\\Services\\SshServerComposeService.cs",
-              "RelativeToolTip": "AdministratorPanel.Infrastructure\\ServerManagament\\Services\\SshServerComposeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAOEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T19:19:07.454Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "App.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\App.axaml.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.UI\\App.axaml.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\App.axaml.cs",
-              "RelativeToolTip": "AdministratorPanel.UI\\App.axaml.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDUAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:53:42.687Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 40,
               "Title": "FileDialogService.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Services\\FileDialogService.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Services\\FileDialogService.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Services\\FileDialogService.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Services\\FileDialogService.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Services\\FileDialogService.cs",
               "RelativeToolTip": "AdministratorPanel.UI\\Services\\FileDialogService.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAqwCYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -330,91 +710,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 41,
               "Title": "IFileDialogService.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Services\\IFileDialogService.cs",
+              "DocumentMoniker": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Services\\IFileDialogService.cs",
               "RelativeDocumentMoniker": "AdministratorPanel.UI\\Services\\IFileDialogService.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Services\\IFileDialogService.cs",
+              "ToolTip": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.UI\\Services\\IFileDialogService.cs",
               "RelativeToolTip": "AdministratorPanel.UI\\Services\\IFileDialogService.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-06T18:52:28.435Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "MainWindow.axaml.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\MainWindow.axaml.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\MainWindow.axaml.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\MainWindow.axaml.cs",
-              "RelativeToolTip": "AdministratorPanel.UI\\Views\\MainWindow.axaml.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAUwCMAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:50:13.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ToolType.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\Enums\\ToolType.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.Core\\Enums\\ToolType.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Core\\Enums\\ToolType.cs",
-              "RelativeToolTip": "AdministratorPanel.Core\\Enums\\ToolType.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:48:25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "ServerManagementModule.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Modules\\ServerManagementModule.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.Modules.ServerManagement\\Modules\\ServerManagementModule.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\Modules\\ServerManagementModule.cs",
-              "RelativeToolTip": "AdministratorPanel.Modules.ServerManagement\\Modules\\ServerManagementModule.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:48:43.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "MainWindowViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeDocumentMoniker": "AdministratorPanel.UI\\ViewModels\\MainWindowViewModel.cs",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\ViewModels\\MainWindowViewModel.cs",
-              "RelativeToolTip": "AdministratorPanel.UI\\ViewModels\\MainWindowViewModel.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAiwCkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-06T18:46:50.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "MainWindow.axaml",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\MainWindow.axaml",
-              "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\MainWindow.axaml",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\MainWindow.axaml",
-              "RelativeToolTip": "AdministratorPanel.UI\\Views\\MainWindow.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-06T18:44:51.123Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LogCollectorView.axaml",
-              "DocumentMoniker": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
-              "RelativeDocumentMoniker": "AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
-              "ToolTip": "C:\\Users\\skw\\source\\repos\\AdministratorPanel\\AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
-              "RelativeToolTip": "AdministratorPanel.UI\\Views\\LogCollectorView.axaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2026-05-06T18:44:26.085Z",
               "EditorCaption": ""
             }
           ]
