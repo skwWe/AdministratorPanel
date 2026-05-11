@@ -1,0 +1,16 @@
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\bin\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.deps.json
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\bin\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.dll
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\bin\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.pdb
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\bin\Debug\net8.0\AdministratorPanel.Core.dll
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\bin\Debug\net8.0\AdministratorPanel.Core.pdb
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\obj\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.csproj.AssemblyReference.cache
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\obj\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\obj\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.AssemblyInfoInputs.cache
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\obj\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.AssemblyInfo.cs
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\obj\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.csproj.CoreCompileInputs.cache
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\obj\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.sourcelink.json
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\obj\Debug\net8.0\Administ.B0C6ABB2.Up2Date
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\obj\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.dll
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\obj\Debug\net8.0\refint\AdministratorPanel.Modules.ServerMonitoring.dll
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\obj\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.pdb
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\obj\Debug\net8.0\ref\AdministratorPanel.Modules.ServerMonitoring.dll

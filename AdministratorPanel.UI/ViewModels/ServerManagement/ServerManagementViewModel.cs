@@ -1,4 +1,5 @@
-﻿using AdministratorPanel.Modules.ServerManagement.Abstractions;
+﻿using AdministratorPanel.Infrastructure.Security;
+using AdministratorPanel.Modules.ServerManagement.Abstractions;
 using AdministratorPanel.Modules.ServerManagement.Models.Operations;
 using AdministratorPanel.UI.Services;
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -16,6 +17,7 @@ namespace AdministratorPanel.UI.ViewModels.ServerManagement
         private readonly IFileDialogService _fileDialogService;
         private readonly IServerComposeService _serverComposeService;
         private readonly IServerShutdownService _serverShutdownService;
+        private readonly ISshSessionService _session;
         private readonly IShutdownRuleProvider _shutdownRuleProvider;
 
         [ObservableProperty]
@@ -56,13 +58,15 @@ namespace AdministratorPanel.UI.ViewModels.ServerManagement
             IFileDialogService fileDialogService,
             IServerComposeService serverComposeService,
             IServerShutdownService serverShutdownService,
-            IShutdownRuleProvider shutdownRuleProvider)
+            IShutdownRuleProvider shutdownRuleProvider,
+            ISshSessionService session)
         {
             _shutdownPlanImportService = shutdownPlanImportService;
             _fileDialogService = fileDialogService;
             _serverComposeService = serverComposeService;
             _serverShutdownService = serverShutdownService;
             _shutdownRuleProvider = shutdownRuleProvider;
+            _session = session;
 
             ShutdownGroups = new ObservableCollection<ShutdownPlanGroupItemViewModel>();
             ShutdownServers = new ObservableCollection<ShutdownPlanServerItemViewModel>();
@@ -200,8 +204,8 @@ namespace AdministratorPanel.UI.ViewModels.ServerManagement
                 var result = await _serverComposeService.RestartServicesAsync(
                     ServerName,
                     IpAddress,
-                    SshUserName,
-                    Password);
+                    _session.UserName,
+                    _session.Password);
 
                 ApplyOperationResult(result);
             }
@@ -236,8 +240,8 @@ namespace AdministratorPanel.UI.ViewModels.ServerManagement
                     SelectedShutdownServer.GroupName,
                     ServerName,
                     IpAddress,
-                    SshUserName,
-                    Password,
+                    _session.UserName,
+                    _session.Password,
                     rule);
 
                 ApplyOperationResult(result);
@@ -263,13 +267,13 @@ namespace AdministratorPanel.UI.ViewModels.ServerManagement
                 return false;
             }
 
-            if (string.IsNullOrWhiteSpace(SshUserName))
+            if (string.IsNullOrWhiteSpace(_session.UserName))
             {
                 StatusMessage = "Укажи SSH-пользователя.";
                 return false;
             }
 
-            if (string.IsNullOrWhiteSpace(Password))
+            if (string.IsNullOrWhiteSpace(_session.Password))
             {
                 StatusMessage = "Укажи пароль.";
                 return false;

@@ -1,0 +1,229 @@
+﻿<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="using:AdministratorPanel.UI.ViewModels.ServerMonitoring"
+             x:Class="AdministratorPanel.UI.Views.ServerMonitoring.ServerMonitoringView"
+             x:DataType="vm:ServerMonitoringViewModel">
+    <UserControl.Styles>
+        <Style Selector="UserControl">
+            <Setter Property="Background" Value="#F5F7FB"/>
+        </Style>
+        <Style Selector="Border.card">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="CornerRadius" Value="14"/>
+            <Setter Property="Padding" Value="20"/>
+            <Setter Property="BorderBrush" Value="#E5E7EB"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+        <Style Selector="TextBlock.h1">
+            <Setter Property="FontSize" Value="22"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#111827"/>
+        </Style>
+        <Style Selector="TextBlock.h2">
+            <Setter Property="FontSize" Value="16"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#111827"/>
+        </Style>
+        <Style Selector="TextBlock.muted">
+            <Setter Property="Foreground" Value="#6B7280"/>
+            <Setter Property="FontSize" Value="13"/>
+        </Style>
+        <Style Selector="Border.statCard">
+            <Setter Property="Background" Value="#F8FAFC"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding" Value="16"/>
+            <Setter Property="BorderBrush" Value="#E2E8F0"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="MinWidth" Value="140"/>
+        </Style>
+        <Style Selector="Border.statCard TextBlock">
+            <Setter Property="Foreground" Value="#111827"/>
+        </Style>
+        <Style Selector="ListBox.groupList">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+        </Style>
+        <Style Selector="ListBox.groupList ListBoxItem">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="0"/>
+            <Setter Property="Margin" Value="0,0,0,8"/>
+        </Style>
+        <Style Selector="ListBox.groupList ListBoxItem:pointerover /template/ ContentPresenter">
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+        <Style Selector="ListBox.groupList ListBoxItem:selected /template/ ContentPresenter">
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+        <Style Selector="ListBox.groupList ListBoxItem:selected">
+            <Setter Property="Background" Value="Transparent"/>
+        </Style>
+        <!-- Строки таблицы – без подсветки -->
+        <Style Selector="Border.serverRow">
+            <Setter Property="Padding" Value="8,6"/>
+            <Setter Property="BorderBrush" Value="#F3F4F6"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+            <Setter Property="Background" Value="White"/>
+        </Style>
+        <!-- Заголовок таблицы -->
+        <Style Selector="Border.serverHeader">
+            <Setter Property="Background" Value="#F9FAFB"/>
+            <Setter Property="Padding" Value="8,8"/>
+            <Setter Property="BorderBrush" Value="#E5E7EB"/>
+            <Setter Property="BorderThickness" Value="0,0,0,1"/>
+        </Style>
+        <Style Selector="Border.serverHeader TextBlock">
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="#374151"/>
+        </Style>
+        <Style Selector="Button.actionButton">
+            <Setter Property="Background" Value="Transparent"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Padding" Value="6"/>
+            <Setter Property="Foreground" Value="#111827"/>
+        </Style>
+    </UserControl.Styles>
+
+    <Grid Margin="20" ColumnDefinitions="280,20,*" RowDefinitions="Auto,12,Auto,12,*">
+        <!-- Заголовок -->
+        <Border Grid.Row="0" Grid.ColumnSpan="3" Classes="card">
+            <Grid ColumnDefinitions="*,Auto">
+                <StackPanel Spacing="4">
+                    <TextBlock Classes="h1" Text="Мониторинг серверов"/>
+                    <StackPanel Orientation="Horizontal" Spacing="16">
+                        <TextBlock Text="{Binding LastRefreshInfo}" Classes="muted"/>
+                        <TextBlock Text="● Активно" Foreground="#16A34A" FontWeight="SemiBold"
+                                   IsVisible="{Binding IsRealtimeEnabled}"/>
+                        <TextBlock Text="● Пауза" Foreground="#DC2626" FontWeight="SemiBold"
+                                   IsVisible="{Binding !IsRealtimeEnabled}"/>
+                    </StackPanel>
+                </StackPanel>
+                <Button Grid.Column="1" Content="Обновить" Command="{Binding RefreshCommand}"
+                        Classes="primary" VerticalAlignment="Center"/>
+            </Grid>
+        </Border>
+
+        <!-- Статистика -->
+        <WrapPanel Grid.Row="2" Grid.ColumnSpan="3">
+            <Border Classes="statCard" Margin="0,0,10,10">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="{Binding TotalServers}" FontSize="28" FontWeight="Bold"
+                               HorizontalAlignment="Center"/>
+                    <TextBlock Text="Всего серверов" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+            <Border Classes="statCard" Margin="0,0,10,10">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="{Binding OnlineServers}" FontSize="28" FontWeight="Bold"
+                               Foreground="#16A34A" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Онлайн" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+            <Border Classes="statCard" Margin="0,0,10,10">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="{Binding OfflineServers}" FontSize="28" FontWeight="Bold"
+                               Foreground="#DC2626" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Оффлайн" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+            <Border Classes="statCard" Margin="0,0,10,10">
+                <StackPanel Spacing="4">
+                    <TextBlock Text="{Binding CriticalServers}" FontSize="28" FontWeight="Bold"
+                               Foreground="#EA580C" HorizontalAlignment="Center"/>
+                    <TextBlock Text="Критических" HorizontalAlignment="Center"/>
+                </StackPanel>
+            </Border>
+        </WrapPanel>
+
+        <!-- Левая панель: группы -->
+        <Border Grid.Row="4" Grid.Column="0" Classes="card" Padding="14">
+            <StackPanel Spacing="8">
+                <TextBlock Classes="h2" Text="Группы серверов"/>
+                <ScrollViewer Height="500">
+                    <ListBox Classes="groupList" ItemsSource="{Binding Groups}"
+                             SelectedItem="{Binding SelectedGroup}">
+                        <ListBox.ItemTemplate>
+                            <DataTemplate x:DataType="vm:ServerMonitoringGroupViewModel">
+                                <Border Classes="card" Padding="12" Margin="0,0,0,4">
+                                    <Grid ColumnDefinitions="*,Auto">
+                                        <TextBlock Text="{Binding GroupName}" FontWeight="SemiBold"
+                                                   VerticalAlignment="Center" Foreground="#111827"/>
+                                        <Border Grid.Column="1" Background="#E5E7EB" CornerRadius="999"
+                                                Padding="8,4">
+                                            <TextBlock Text="{Binding Servers.Count, StringFormat='Серверов: {0}'}"
+                                                       FontSize="12" Foreground="#374151"/>
+                                        </Border>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+                </ScrollViewer>
+            </StackPanel>
+        </Border>
+
+        <!-- Правая панель: таблица серверов -->
+        <Border Grid.Row="4" Grid.Column="2" Classes="card" Padding="0">
+            <Grid RowDefinitions="Auto,Auto,*">
+                <!-- Заголовок группы -->
+                <Border Background="#F9FAFB" Padding="14" CornerRadius="14,14,0,0" BorderBrush="#E5E7EB"
+                        BorderThickness="0,0,0,1">
+                    <TextBlock Classes="h2"
+                               Text="{Binding SelectedGroup.GroupName, StringFormat='Серверы группы: {0}'}" />
+                </Border>
+                <!-- Заголовки столбцов -->
+                <Border Grid.Row="1" Classes="serverHeader">
+                    <Grid ColumnDefinitions="2*,2*,1.5*,0.8*,0.8*,0.8*,1.2*,1*,Auto">
+                        <TextBlock Text="Имя сервера" Margin="4,0" />
+                        <TextBlock Grid.Column="1" Text="IP-адрес" Margin="4,0" />
+                        <TextBlock Grid.Column="2" Text="Статус" Margin="4,0" />
+                        <TextBlock Grid.Column="3" Text="CPU" Margin="4,0" />
+                        <TextBlock Grid.Column="4" Text="RAM" Margin="4,0" />
+                        <TextBlock Grid.Column="5" Text="Disk" Margin="4,0" />
+                        <TextBlock Grid.Column="6" Text="Uptime" Margin="4,0" />
+                        <TextBlock Grid.Column="7" Text="Контейнеры" Margin="4,0" />
+                        <TextBlock Grid.Column="8" Text="Действия" Margin="4,0" />
+                    </Grid>
+                </Border>
+                <!-- Строки данных -->
+                <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
+                    <ItemsControl ItemsSource="{Binding VisibleServers}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate x:DataType="vm:ServerMonitoringItemViewModel">
+                                <Border Classes="serverRow">
+                                    <Grid ColumnDefinitions="2*,2*,1.5*,0.8*,0.8*,0.8*,1.2*,1*,Auto">
+                                        <TextBlock Text="{Binding ServerName}" VerticalAlignment="Center"
+                                                   FontWeight="SemiBold" Margin="4,0" Foreground="#111827"/>
+                                        <TextBlock Grid.Column="1" Text="{Binding IpAddress}"
+                                                   VerticalAlignment="Center" Margin="4,0" Foreground="#4B5563"/>
+                                        <StackPanel Grid.Column="2" Orientation="Horizontal"
+                                                    VerticalAlignment="Center" Spacing="4">
+                                            <Ellipse Width="8" Height="8" Fill="{Binding StatusColor}"/>
+                                            <TextBlock Text="{Binding Status}" FontWeight="SemiBold"
+                                                       Foreground="{Binding StatusColor}"/>
+                                        </StackPanel>
+                                        <TextBlock Grid.Column="3" Text="{Binding CpuUsage}"
+                                                   VerticalAlignment="Center" Margin="4,0" Foreground="#111827"/>
+                                        <TextBlock Grid.Column="4" Text="{Binding MemoryUsage}"
+                                                   VerticalAlignment="Center" Margin="4,0" Foreground="#111827"/>
+                                        <TextBlock Grid.Column="5" Text="{Binding DiskUsage}"
+                                                   VerticalAlignment="Center" Margin="4,0" Foreground="#111827"/>
+                                        <TextBlock Grid.Column="6" Text="{Binding Uptime}"
+                                                   VerticalAlignment="Center" Margin="4,0" Foreground="#111827"/>
+                                        <StackPanel Grid.Column="7" Orientation="Horizontal"
+                                                    VerticalAlignment="Center" Spacing="4">
+                                            <TextBlock Text="{Binding RunningContainers}" Foreground="#111827"/>
+                                            <TextBlock Text="конт." Foreground="#6B7280"/>
+                                        </StackPanel>
+                                        <Button Grid.Column="8" Content="🟢" Classes="actionButton"
+                                                ToolTip.Tip="Открыть детали (заглушка)"/>
+                                    </Grid>
+                                </Border>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </ScrollViewer>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

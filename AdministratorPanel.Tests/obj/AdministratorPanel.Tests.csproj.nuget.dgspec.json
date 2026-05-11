@@ -175,11 +175,11 @@
               "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj": {
                 "projectPath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogCollector\\AdministratorPanel.Modules.LogCollector.csproj"
               },
-              "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj": {
-                "projectPath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj"
-              },
               "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj": {
                 "projectPath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj"
+              },
+              "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerMonitoring\\AdministratorPanel.Modules.ServerMonitoring.csproj": {
+                "projectPath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerMonitoring\\AdministratorPanel.Modules.ServerMonitoring.csproj"
               }
             }
           }
@@ -311,75 +311,6 @@
         }
       }
     },
-    "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj",
-        "projectName": "AdministratorPanel.Modules.LogDiagnostics",
-        "projectPath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\AdministratorPanel.Modules.LogDiagnostics.csproj",
-        "packagesPath": "C:\\Users\\skw\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.LogDiagnostics\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\skw\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj": {
-                "projectPath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
-        },
-        "SdkAnalysisLevel": "9.0.300"
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerManagement\\AdministratorPanel.Modules.ServerManagement.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -434,6 +365,81 @@
               "target": "Package",
               "version": "[0.105.0, )"
             },
+            "SSH.NET": {
+              "target": "Package",
+              "version": "[2025.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerMonitoring\\AdministratorPanel.Modules.ServerMonitoring.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerMonitoring\\AdministratorPanel.Modules.ServerMonitoring.csproj",
+        "projectName": "AdministratorPanel.Modules.ServerMonitoring",
+        "projectPath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerMonitoring\\AdministratorPanel.Modules.ServerMonitoring.csproj",
+        "packagesPath": "C:\\Users\\skw\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Modules.ServerMonitoring\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\skw\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj": {
+                "projectPath": "C:\\Users\\skw\\Desktop\\1\\AdministratorPanel\\AdministratorPanel.Core\\AdministratorPanel.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
             "SSH.NET": {
               "target": "Package",
               "version": "[2025.1.0, )"

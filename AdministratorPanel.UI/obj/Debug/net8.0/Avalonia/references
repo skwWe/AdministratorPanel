@@ -2,8 +2,8 @@ C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Application\obj\Deb
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Core\obj\Debug\net8.0\ref\AdministratorPanel.Core.dll
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\obj\Debug\net8.0\ref\AdministratorPanel.Infrastructure.dll
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogCollector\obj\Debug\net8.0\ref\AdministratorPanel.Modules.LogCollector.dll
-C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.LogDiagnostics\obj\Debug\net8.0\ref\AdministratorPanel.Modules.LogDiagnostics.dll
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerManagement\obj\Debug\net8.0\ref\AdministratorPanel.Modules.ServerManagement.dll
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Modules.ServerMonitoring\obj\Debug\net8.0\ref\AdministratorPanel.Modules.ServerMonitoring.dll
 C:\Users\skw\.nuget\packages\avalonia\11.3.12\ref\net8.0\Avalonia.Base.dll
 C:\Users\skw\.nuget\packages\avalonia.controls.colorpicker\11.3.12\lib\net8.0\Avalonia.Controls.ColorPicker.dll
 C:\Users\skw\.nuget\packages\avalonia.controls.datagrid\11.3.12\lib\net8.0\Avalonia.Controls.DataGrid.dll

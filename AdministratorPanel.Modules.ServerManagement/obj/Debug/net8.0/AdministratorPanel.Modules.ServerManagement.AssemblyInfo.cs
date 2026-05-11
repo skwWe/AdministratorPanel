@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AdministratorPanel.Modules.ServerManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1f160959fdb7bb16aa91af06bb99e460093be729")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d27c38f2e26cabcfd19fc1f03388c6ebc299e383")]
 [assembly: System.Reflection.AssemblyProductAttribute("AdministratorPanel.Modules.ServerManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AdministratorPanel.Modules.ServerManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

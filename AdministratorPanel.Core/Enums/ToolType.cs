@@ -10,6 +10,7 @@ namespace AdministratorPanel.Core.Enums
     {
         Unknown = 0,
         LogCollector = 1,
-        ServerManagement = 2
+        ServerManagement = 2,
+        ServerMonitoring = 3
     }
 }

@@ -1,3 +1,0 @@
-nn-lsed-web08
-Вт мая  5 09:52:48 MSK 2026
-uid=1013(Kuznetsov.SS) gid=1015(Kuznetsov.SS) группы=1015(Kuznetsov.SS),24(cdrom),25(floppy),29(audio),30(dip),44(video),46(plugdev),109(netdev),124(docker),333(astra-console),1001(astra-admin)

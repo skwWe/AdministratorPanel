@@ -49,10 +49,12 @@ C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\bin\
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Core.dll
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Modules.LogCollector.dll
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.dll
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.dll
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Core.pdb
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Application.pdb
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Modules.ServerManagement.pdb
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Modules.LogCollector.pdb
+C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Modules.ServerMonitoring.pdb
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\obj\Debug\net8.0\AdministratorPanel.Infrastructure.csproj.AssemblyReference.cache
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\obj\Debug\net8.0\AdministratorPanel.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\obj\Debug\net8.0\AdministratorPanel.Infrastructure.AssemblyInfoInputs.cache
@@ -64,5 +66,3 @@ C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\obj\
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\obj\Debug\net8.0\refint\AdministratorPanel.Infrastructure.dll
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\obj\Debug\net8.0\AdministratorPanel.Infrastructure.pdb
 C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\obj\Debug\net8.0\ref\AdministratorPanel.Infrastructure.dll
-C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.dll
-C:\Users\skw\Desktop\1\AdministratorPanel\AdministratorPanel.Infrastructure\bin\Debug\net8.0\AdministratorPanel.Modules.LogDiagnostics.pdb

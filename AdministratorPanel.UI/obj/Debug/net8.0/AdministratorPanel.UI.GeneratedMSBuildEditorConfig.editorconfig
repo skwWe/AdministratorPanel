@@ -27,11 +27,14 @@ build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 [C:/Users/skw/Desktop/1/AdministratorPanel/AdministratorPanel.UI/Views/LogCollectorView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/skw/Desktop/1/AdministratorPanel/AdministratorPanel.UI/Views/LogDiagnosticsView.axaml]
+[C:/Users/skw/Desktop/1/AdministratorPanel/AdministratorPanel.UI/Views/LoginView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/skw/Desktop/1/AdministratorPanel/AdministratorPanel.UI/Views/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
 [C:/Users/skw/Desktop/1/AdministratorPanel/AdministratorPanel.UI/Views/ServerManagementView.axaml]
+build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
+
+[C:/Users/skw/Desktop/1/AdministratorPanel/AdministratorPanel.UI/Views/ServerMonitoringView.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

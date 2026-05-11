@@ -1,0 +1,60 @@
+﻿<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:AdministratorPanel.UI.ViewModels.Auth"
+        x:Class="AdministratorPanel.UI.Views.Auth.LoginView"
+        x:DataType="vm:LoginViewModel"
+        Width="460"
+        Height="320"
+        WindowStartupLocation="CenterScreen"
+        Title="AdministratorPanel Login">
+
+    <Window.Styles>
+
+        <Style Selector="Border.card">
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="CornerRadius" Value="18"/>
+            <Setter Property="Padding" Value="24"/>
+        </Style>
+
+        <Style Selector="Button.primary">
+            <Setter Property="Background" Value="#2563EB"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="12,10"/>
+            <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+
+    </Window.Styles>
+
+    <Grid Background="#F3F4F6">
+
+        <Border Classes="card"
+                Width="360"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+
+            <StackPanel Spacing="14">
+
+                <TextBlock Text="AdministratorPanel"
+                           FontSize="28"
+                           FontWeight="Bold"/>
+
+                <TextBlock Text="SSH авторизация"
+                           Foreground="#6B7280"/>
+
+                <TextBox Text="{Binding UserName}"
+                         Watermark="SSH пользователь"/>
+
+                <TextBox Text="{Binding Password}"
+                         PasswordChar="*"
+                         Watermark="Пароль"/>
+
+                <Button Classes="primary"
+                        Content="Войти"
+                        Command="{Binding LoginCommand}"/>
+
+                <TextBlock Text="{Binding ErrorMessage}"
+                           Foreground="Red"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

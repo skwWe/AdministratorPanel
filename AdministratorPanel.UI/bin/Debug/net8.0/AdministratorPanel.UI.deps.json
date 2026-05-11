@@ -12,7 +12,6 @@
           "AdministratorPanel.Core": "1.0.0",
           "AdministratorPanel.Infrastructure": "1.0.0",
           "AdministratorPanel.Modules.LogCollector": "1.0.0",
-          "AdministratorPanel.Modules.LogDiagnostics": "1.0.0",
           "AdministratorPanel.Modules.ServerManagement": "1.0.0",
           "Avalonia": "11.3.12",
           "Avalonia.Controls.DataGrid": "11.3.12",
@@ -621,8 +620,8 @@
           "AdministratorPanel.Application": "1.0.0",
           "AdministratorPanel.Core": "1.0.0",
           "AdministratorPanel.Modules.LogCollector": "1.0.0",
-          "AdministratorPanel.Modules.LogDiagnostics": "1.0.0",
           "AdministratorPanel.Modules.ServerManagement": "1.0.0",
+          "AdministratorPanel.Modules.ServerMonitoring": "1.0.0",
           "ClosedXML": "0.105.0",
           "Microsoft.Extensions.DependencyInjection": "10.0.5",
           "SSH.NET": "2025.1.0"
@@ -647,17 +646,6 @@
           }
         }
       },
-      "AdministratorPanel.Modules.LogDiagnostics/1.0.0": {
-        "dependencies": {
-          "AdministratorPanel.Core": "1.0.0"
-        },
-        "runtime": {
-          "AdministratorPanel.Modules.LogDiagnostics.dll": {
-            "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.0.0.0"
-          }
-        }
-      },
       "AdministratorPanel.Modules.ServerManagement/1.0.0": {
         "dependencies": {
           "AdministratorPanel.Core": "1.0.0",
@@ -666,6 +654,18 @@
         },
         "runtime": {
           "AdministratorPanel.Modules.ServerManagement.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AdministratorPanel.Modules.ServerMonitoring/1.0.0": {
+        "dependencies": {
+          "AdministratorPanel.Core": "1.0.0",
+          "SSH.NET": "2025.1.0"
+        },
+        "runtime": {
+          "AdministratorPanel.Modules.ServerMonitoring.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
@@ -1000,12 +1000,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "AdministratorPanel.Modules.LogDiagnostics/1.0.0": {
+    "AdministratorPanel.Modules.ServerManagement/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "AdministratorPanel.Modules.ServerManagement/1.0.0": {
+    "AdministratorPanel.Modules.ServerMonitoring/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
